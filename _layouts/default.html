@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<html lang="en">
+
+
+<head>
+    {% include header.html %}
+</head>
+
+<body>
+    {% include analytics.html %}
+    <header>
+        <nav>
+            {% include menu.html %}
+        </nav>
+    </header>
+
+<div id="hero"></div> 
+
+    <div id="wrapper">
+    <!-- Start wrapper -->
+{{ content }}
+
+        <!-- End wrapper -->
+    </div>
+    {% include footer.html %}
+
+</body>
+</html>
