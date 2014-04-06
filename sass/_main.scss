@@ -1,0 +1,267 @@
+
+
+/* ******************************* Header Tags *******************************/
+h1,h2,h3,h4,h5,h6 {
+	font-family:'proxima-nova-bold',helvetica,arial,sans-serif;
+	margin-bottom:.5em;
+	font-weight:400;
+}
+
+h1 {
+	font-size:1.8em;
+	line-height:1;
+	letter-spacing:-.02em;
+	margin-bottom:.2em;
+}
+
+h2 {
+	font-size:1.5em;
+	margin-bottom:10px;
+	line-height:1em;
+}
+
+h3 {
+	line-height:1.2;
+	margin-bottom:.4em;
+	font-size:1.3em;
+}
+
+h4 {
+	font-size:1em;
+	margin-bottom:0;
+}
+
+h5 {
+	font-size:.8em;
+	margin:0;
+	text-transform:uppercase;
+}
+
+h6 {
+	font-size:.5em;
+	line-height:1;
+	margin:0;
+	text-transform:uppercase;
+}
+
+h1 a,h2 a,h3 a {
+	display:block;
+	color:#000;
+}
+
+h1 a:hover,h2 a:hover,h3 a:hover {
+	color:#e51837;
+}
+
+/* ******************************* The Rest *******************************/
+#wrapper {
+	width:100%;
+	max-width:960px;
+	height:auto;
+	margin:0 auto;
+	padding:20px;
+	background:#FFF;
+}
+
+header {
+	background: #333;
+	height:80px;
+	width:100%;
+	z-index: 999;
+}
+
+section {
+	padding: 2em 0;
+}
+
+article {
+	padding: 1em 0;
+}
+
+
+#logo {
+	width:100%;
+	max-width:290px;
+	height:45px;
+	background:transparent url(/img/logo.png) no-repeat 0 50%;
+}
+
+#icons-social {
+	float: right;
+	margin-right: 1em;
+}
+
+#icons-social li{
+	list-style: none;
+	display: inline-block;
+	float: left;
+	font-size: 150%;
+	padding-left: 15px;
+}
+
+
+
+/* ******************************* Demo Only *******************************/
+
+#fooBar ul{
+	max-width: 950px;
+	margin: 0 auto;
+	text-align: left;
+}
+
+
+#fooBar{
+	width: 100%;
+	height: 60px;
+	color: #FFF;
+	text-align: center;
+	background: #CCCCCC;
+	margin: 0 auto;
+	clear: both;
+	margin-bottom: 1em;
+	z-index: 998;
+
+   @include border-top-radius(5px);
+   @include border-bottom-radius(5px);
+   @include box-shadow(0 3px 6px 0 rgba(0, 0, 0, 0.3));
+}
+
+
+
+#fooBar li {
+	padding: 1.2em 1em;
+	list-style: none;
+	text-transform: uppercase;
+	color: #333;
+	display: inline-block;
+}
+
+#hero {
+	width: 100%;
+}
+#hero {
+	color: #ece3d2;
+	height: 461px;
+}
+
+/* ******************************* Left Flyout Menu *******************************/
+#pageslide {
+    /* These styles MUST be included. Do not change. */
+    display: none;
+    position: absolute;
+    position: fixed;
+    top: 0;
+    height: 100%;
+    z-index: 999999;
+
+    /* Specify the width of your pageslide here */
+    width: 260px;
+    padding: 0 20px;
+
+    /* These styles are optional, and describe how the pageslide will look */
+    background-color: #333;
+    color: #FFF;
+    -webkit-box-shadow: inset 0 0 5px 5px #222;
+    -moz-box-shadow: inset 0 0 5px 5px #222;
+    box-shadow: inset 0 0 5px 5px #222;
+}
+
+#content {
+	width:100%;
+	max-width: 960px;
+	padding:10px;
+	margin:0 auto;
+}
+
+ul#nav {
+	padding-left:0;
+	list-style:none;
+	font-size: 85%;
+}
+
+ul#nav:after {
+	content:"\0020";
+	display:block;
+	height:0;
+	clear:both;
+	visibility:hidden;
+}
+
+#content ul#nav li {
+	float:left;
+	text-align:center;
+
+}
+
+#content ul#nav a {
+	display:block;
+	background:transparent;
+	color:#FFF;
+	font-weight:700;
+	padding:10px;
+	border-right:1px solid rgba(255,255,255,.2);
+	text-transform: uppercase;
+}
+
+#content ul#nav a:hover {
+	opacity:.7;
+}
+
+.open {
+	color: #FFF;
+	font-family: 'FontAwesome';
+
+	display:none;
+	float:right;
+	width:44px;
+	height:44px;
+	margin-right:10px;
+	background:url(/img/menu.png) center center no-repeat #333;
+	text-indent:-999999px;
+	border:0;
+}
+
+.open:after {
+	content:"\f0c9";
+}
+
+
+#phone {
+	visibility: hidden;
+		margin-top: 0px;
+}
+
+
+/* Fluid Box */
+.fluidbox {
+    outline: none;
+}
+#fluidbox-overlay {
+    cursor: pointer;
+    cursor: -webkit-zoom-out;
+    cursor: -moz-zoom-out;
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 500;
+}
+.fluidbox-wrap {
+    background-position: center center;
+    background-size: cover;
+    margin: 0 auto;
+    position: relative;
+    z-index: 400;
+    transition: all .25s ease-in-out;
+}
+    .fluidbox-opened .fluidbox-wrap {
+        z-index: 600;
+    }
+.fluidbox-ghost {
+    background-size: cover;
+    background-position: center center;
+    position: absolute;
+    transition: all .25s ease-in-out;
+}
