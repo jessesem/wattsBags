@@ -1,32 +1,82 @@
-<div class="clearfix">
-	<ul id="icons-social">
-		<li class="fa fa-facebook"></li>
-		<li class="fa fa-google-plus"></li>
-		<li class="fa fa-linkedin"></li>
-		<li class="fa fa-pinterest"></li>
-		<li class="fa fa-twitter"></li>
-		<li class="fa fa-youtube"></li>
-		<li class="fa fa-vimeo-square"></li>
-	</ul>
-</div>
 
+<footer>
+    <section class="center">
+    <div class="one column stackable ui grid">
+        <div class="three wide column">
+            <strong>What we do</strong>
+            <ul>
+                <li>Whitewater Rafting</li>
+                <li>Scenic floats</li>
+                <li>Specials &amp; Packages</li>
+                <li>Group Rafting Trips</li>
+                <li>Ask Betty FAQ</li>
+                <li>Community Involvement</li>
+            </ul>
+        </div>
+        <div class="three wide column">
+            <strong>Who we are</strong>
+            <ul>
+            <li>About Mad River</li>
+            <li>Our Location</li>
+            <li>Our Staff</li>
+            <li>Employment</li>
+            <li>Guide School</li>
+            <li>Rescue Certification</li>
+        </ul>
+        </div>
+        <div class="five wide column">
+            <strong>What we're about</strong>
+            <ul>
+            <li>River Education</li>
+            <li>Green Initiative</li>
+            <li>Wyoming Rafting History</li>
+            <li>River Runners Museum</li>
+            <li>Hollywood &amp; Mad River</li>
+            <li>Photo Gallery</li>
+        </ul>
+        </div>
+        <div id="address" class="five wide column">
+            <img src="{{ site.baseurl }}/img/logo.png">
+            <p>1255 South US Highway 89<br />
+            Jackson Hole, Wyoming 83001</p>
+
+            <ul id="icons-social">
+                <a href="http://www.facebook.com/MadRiverBoatTrips"><li class="fa fa-facebook"></li></a>
+                <a href="http://plus.google.com/101206691150669267523/posts"><li class="fa fa-google-plus"></li></a>
+                <a href="http://www.linkedin.com/company/mad-river-boat-trips"><li class="fa fa-linkedin"></li></a>
+                <a href="http://www.pinterest.com/madriverjh/"><li class="fa fa-pinterest"></li></a>
+                <a href="http://twitter.com/madriverjh"><li class="fa fa-twitter"></li></a>
+
+            </ul>
+
+        </div>
+</section>
+</footer>
 
 <!-- Javascript -->
-<script type="text/javascript" async src="/js/fluidbox.min.js"></script>
-<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/3.0.4/jquery.imagesloaded.min.js"></script>
-<script type="text/javascript" async src="/js/semantic.min.js"></script>
-<script type="text/javascript" src="/js/pageslide.min.js"></script>
+<script type="text/javascript" async src="{{ site.baseurl }}/js/semantic.min.js"></script>
+<script type="text/javascript" src="{{ site.baseurl }}/js/pageslide.min.js"></script>
 <script type="text/javascript">$(".open").pageslide();</script>
-<script type="text/javascript" src="/js/autofix.min.js"></script>
-<script type="text/javascript" src="/js/backstretch.min.js"></script>
-<script>
+<script type="text/javascript" src="{{ site.baseurl }}/js/autofix.min.js"></script>
+<script type="text/javascript" src="{{ site.baseurl }}/js/backstretch.min.js"></script>
+<script type="text/javascript" src="{{ site.baseurl }}/js/lazyLoad.min.js"></script>
+<script type="text/javascript">
+  $(function() {
+     $("img.lazy").lazyload({
+         effect : "fadeIn"
+     });
+
+  });
 //Backstretch
-    $("#hero").backstretch("http://placehold.it/1600X461");
+     $("#hero").backstretch([
+      "{{ site.baseurl }}/img/hero/saltflats.jpg",
+      "{{ site.baseurl }}/img/hero/airport.jpg"
+  ], {duration: 5000, fade: 750});
+
+
 // AutoFix
     $('header').fixTo('body');
-    $('#fooBar').fixTo('#wrapper', {mind: 'header'
-    });
-    
+
     $(window).scroll(function() {
         $('#phone').each(function(){
         var imagePos = $(this).offset().top;
@@ -38,10 +88,37 @@
         });
 });
 
-</script>
-
-<script>
-$(function () {
-    $(".fluidbox a").fluidbox();
+//Shrink Header
+$(function(){
+ var shrinkHeader = (350);
+  $(window).scroll(function() {
+    var scroll = getCurrentScroll();
+      if ( scroll >= shrinkHeader ) {
+           $('header').addClass('shrink');
+        }
+        else {
+            $('header').removeClass('shrink');
+        }
+  });
+function getCurrentScroll() {
+    return window.pageYOffset;
+    }
 });
+
+//Smooth scroll
+$(function() {
+  $('a[href*=#]:not([href=#])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html,body').animate({
+          scrollTop: target.offset().top
+        }, 1000);
+        return false;
+      }
+    }
+  });
+});
+
 </script>

@@ -1,6 +1,6 @@
 /* ******************************* Fonts *******************************/
-@include font-face(SheepSans, '/fonts/sheep sans');
-@include font-face(SheepSansBold, '/fonts/sheepsansbold', bold);
+@include font-face(sheepsans, 'fonts/sheepsans');
+@include font-face(sheepsansbold, 'fonts/sheepsansbold');
 
 /* ******************************* Font Awesome *******************************/
 

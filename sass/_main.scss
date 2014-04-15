@@ -1,8 +1,12 @@
-
+body {
+    background: $light;
+    color: $dark;
+    font:normal 100%/1.4 "Open Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
 
 /* ******************************* Header Tags *******************************/
 h1,h2,h3,h4,h5,h6 {
-	font-family:'proxima-nova-bold',helvetica,arial,sans-serif;
+	font-family:'sheepsansbold',helvetica,arial,sans-serif;
 	margin-bottom:.5em;
 	font-weight:400;
 }
@@ -54,36 +58,79 @@ h1 a:hover,h2 a:hover,h3 a:hover {
 }
 
 /* ******************************* The Rest *******************************/
-#wrapper {
-	width:100%;
-	max-width:960px;
-	height:auto;
-	margin:0 auto;
-	padding:20px;
-	background:#FFF;
-}
 
 header {
-	background: #333;
-	height:80px;
-	width:100%;
-	z-index: 999;
+    width: 100%;
+    background: $dark;
+    z-index: 999;
+    height: 100px;
+    overflow: hidden;
+    text-align:center;
+    @include transition();
+
+}
+header.shrink {
+    height: 70px;
+    background: $dark;
+    border-bottom: 1px solid rgba(0,0,0,.2);
+     @include transition();
+}
+footer {
+    color: #FFF;
+    background: $dark url(../img/bg-footer.jpg) center top repeat-x;
+    font-size: 85%;
+    line-height: 25px;
+
+    li {
+        list-style: none;
+    }
+
+    ul {
+        padding-left:0;
+        margin: 0;
+    }
+
+    a {
+        color: $primary;
+    }
+
+    a:hover {
+        color: $secondary;
+    }
 }
 
+#address {
+    text-align: right;
+
+    p {
+        text-align: right;
+        font-size: 80%;
+        }
+}
+
+
 section {
-	padding: 2em 0;
+    padding: 2em;
+}
+
+section.center {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
 article {
-	padding: 1em 0;
+    padding: 1em 0;
 }
 
 
 #logo {
-	width:100%;
-	max-width:290px;
-	height:45px;
-	background:transparent url(/img/logo.png) no-repeat 0 50%;
+    width:100%;
+    max-width: em(250px);
+    height: auto;
+    padding: 0 0 0 10px;
+    float: left;
+     @include transition();
 }
 
 #icons-social {
@@ -100,49 +147,68 @@ article {
 }
 
 
-
-/* ******************************* Demo Only *******************************/
-
-#fooBar ul{
-	max-width: 950px;
-	margin: 0 auto;
-	text-align: left;
-}
-
-
-#fooBar{
-	width: 100%;
-	height: 60px;
-	color: #FFF;
-	text-align: center;
-	background: #CCCCCC;
-	margin: 0 auto;
-	clear: both;
-	margin-bottom: 1em;
-	z-index: 998;
-
-   @include border-top-radius(5px);
-   @include border-bottom-radius(5px);
-   @include box-shadow(0 3px 6px 0 rgba(0, 0, 0, 0.3));
-}
-
-
-
-#fooBar li {
-	padding: 1.2em 1em;
-	list-style: none;
-	text-transform: uppercase;
-	color: #333;
-	display: inline-block;
-}
-
-#hero {
-	width: 100%;
-}
 #hero {
 	color: #ece3d2;
 	height: 461px;
 }
+
+/* ******************************* Slabs *******************************/
+
+#slab-intro {
+    background: $medium;
+}
+
+
+#slab-case-study {
+    background: $light;
+}
+
+#slab-services {
+    background: $light;
+    @media only screen and (max-width: $med) {
+        display: none;
+    }
+    h2 {
+        text-align: center;
+        padding: 0 0 1em 0;
+    }
+}
+
+a.learnMoreButton {
+    font-weight: bold;
+    text-align: center;
+    font-size: 16px;
+    text-transform: uppercase;
+    background: $primary;
+    border: 1px solid #FFF;
+    color: #FFF;
+    min-width: 143px;
+    text-decoration: none;
+    padding: 15px 10px;
+}
+
+
+div.button,
+.ui.orange.button {
+    border: 5px solid $dark;
+    padding: 15px 40px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin: 0 auto;
+    letter-spacing: 1px;
+    display: block;
+    width: 100%;
+    text-align: center;
+    background: $highlight;
+    color: $light;
+}
+
+.ui.orange.button {
+    background: $highlight;
+    float: right;
+    width: 25%;
+}
+
 
 /* ******************************* Left Flyout Menu *******************************/
 #pageslide {
@@ -169,7 +235,6 @@ article {
 #content {
 	width:100%;
 	max-width: 960px;
-	padding:10px;
 	margin:0 auto;
 }
 
@@ -177,6 +242,7 @@ ul#nav {
 	padding-left:0;
 	list-style:none;
 	font-size: 85%;
+    float: right;
 }
 
 ul#nav:after {
@@ -190,7 +256,6 @@ ul#nav:after {
 #content ul#nav li {
 	float:left;
 	text-align:center;
-
 }
 
 #content ul#nav a {
@@ -199,7 +264,6 @@ ul#nav:after {
 	color:#FFF;
 	font-weight:700;
 	padding:10px;
-	border-right:1px solid rgba(255,255,255,.2);
 	text-transform: uppercase;
 }
 
@@ -208,60 +272,18 @@ ul#nav:after {
 }
 
 .open {
-	color: #FFF;
-	font-family: 'FontAwesome';
-
-	display:none;
-	float:right;
-	width:44px;
-	height:44px;
-	margin-right:10px;
-	background:url(/img/menu.png) center center no-repeat #333;
-	text-indent:-999999px;
-	border:0;
+    color: #000;
+    font-family: 'FontAwesome';
+    display:none;
+    float:right;
+    width:44px;
+    height:44px;
+    margin:10px;
+    background: $primary url(../img/menu.png) center center no-repeat;
+    text-indent:-999999px;
+    border:0;
 }
 
 .open:after {
 	content:"\f0c9";
-}
-
-
-#phone {
-	visibility: hidden;
-		margin-top: 0px;
-}
-
-
-/* Fluid Box */
-.fluidbox {
-    outline: none;
-}
-#fluidbox-overlay {
-    cursor: pointer;
-    cursor: -webkit-zoom-out;
-    cursor: -moz-zoom-out;
-    display: none;
-    position: fixed;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    z-index: 500;
-}
-.fluidbox-wrap {
-    background-position: center center;
-    background-size: cover;
-    margin: 0 auto;
-    position: relative;
-    z-index: 400;
-    transition: all .25s ease-in-out;
-}
-    .fluidbox-opened .fluidbox-wrap {
-        z-index: 600;
-    }
-.fluidbox-ghost {
-    background-size: cover;
-    background-position: center center;
-    position: absolute;
-    transition: all .25s ease-in-out;
 }
