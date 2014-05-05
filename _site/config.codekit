@@ -118,6 +118,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_site\/img\/hero\/steph.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 115958,
+		"inputAbbreviatedPath": "\/_site\/img\/hero\/steph.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/hero\/steph.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_site\/img\/logo.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -488,6 +499,17 @@
 		"initialSize": 144696,
 		"inputAbbreviatedPath": "\/img\/hero\/saltflats.jpg",
 		"outputAbbreviatedPath": "\/img\/hero\/saltflats.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/hero\/steph.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 115958,
+		"inputAbbreviatedPath": "\/img\/hero\/steph.jpg",
+		"outputAbbreviatedPath": "\/img\/hero\/steph.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

@@ -43,11 +43,13 @@ a:hover {
   width: 100%;
   display: block;
   list-style: none;
+
 }
 
 .nav-collapse li {
   width: 100%;
   display: block;
+  height: 50px;
 }
 
 .js .nav-collapse {
@@ -233,6 +235,8 @@ a:hover {
   width: 60px;
   height: 55px;
   float: right;
+  background: $primary;
+  margin: 5px;
 }
 
 .nav-toggle:before {
