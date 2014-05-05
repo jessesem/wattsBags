@@ -10,6 +10,7 @@ h1,h2,h3,h4,h5,h6 {
             text-transform: uppercase;
 	margin-bottom:.5em;
 	font-weight:700;
+            text-align: left;
             -webkit-margin-before: 0;
             -webkit-margin-after: 0;
             -webkit-margin-start: 0;
@@ -17,7 +18,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 h1 {
-	font-size:1.8em;
+	font-size:1.6em;
 	line-height:1;
 	letter-spacing:-.02em;
 	margin-bottom:.2em;
@@ -69,10 +70,13 @@ header {
     background: $dark;
     height: 100px;
     text-align:center;
-    padding: 1em 0;
     position: fixed;
     z-index: 3;
     @include transition();
+
+    section.center {
+        padding: 1em;
+    }
 
 }
 header.shrink {
@@ -81,6 +85,10 @@ header.shrink {
     border-bottom: 1px solid rgba(0,0,0,.2);
     padding: 0;
      @include transition();
+
+     section.center {
+        padding: 0;
+     }
 }
 footer {
     color: #FFF;
@@ -164,6 +172,11 @@ article {
 	height: 100%;
             max-height: 550px;
             padding-top: 100px;
+        li {
+                list-style: none;
+                display: block;
+            }
+
               @media only screen and (max-width: $med) {
                 height: auto;
                 max-height: none;
@@ -240,6 +253,21 @@ a.learnMoreButton {
     min-width: 143px;
     text-decoration: none;
     padding: 13px;
+}
+
+/* semantic overrides */
+.ui.dimmer {
+  background-color:  rgba(115, 189, 80, 0.95);
+}
+
+.ui.modal > .content p,
+.portfolio-list li {
+line-height: 22px;
+font-size: 16px;
+}
+
+.ui.grid > .column, .ui.grid > .row > .column {
+  text-align: center;
 }
 
 
