@@ -3,36 +3,34 @@
     <section class="center">
     <div class="one column stackable ui grid">
         <div class="three wide column">
-            <strong>What we do</strong>
+            <strong>Our Services</strong>
             <ul>
-                <li>Whitewater Rafting</li>
-                <li>Scenic floats</li>
-                <li>Specials &amp; Packages</li>
-                <li>Group Rafting Trips</li>
-                <li>Ask Betty FAQ</li>
-                <li>Community Involvement</li>
+                <li>Custom Bags</li>
+                <li>Embroidery</li>
+                <li>Materials We Use</li>
+                 <li>Our Story</li>
+                 <li>Popular Products</li>
             </ul>
         </div>
         <div class="three wide column">
             <strong>Who we are</strong>
             <ul>
-            <li>About Mad River</li>
-            <li>Our Location</li>
+            <li>About Us</li>
+            <li>Testimonials</li>
             <li>Our Staff</li>
             <li>Employment</li>
-            <li>Guide School</li>
+            <li>Contact Us</li>
             <li>Rescue Certification</li>
         </ul>
         </div>
         <div class="five wide column">
-            <strong>What we're about</strong>
+            <strong>Shop our Store</strong>
             <ul>
-            <li>River Education</li>
-            <li>Green Initiative</li>
-            <li>Wyoming Rafting History</li>
-            <li>River Runners Museum</li>
-            <li>Hollywood &amp; Mad River</li>
-            <li>Photo Gallery</li>
+            <li>Start shopping</li>
+            <li>Link</li>
+            <li>Link</li>
+            <li>LInk</li>
+            <li>Link</li>
         </ul>
         </div>
         <div id="address" class="five wide column">
@@ -55,11 +53,13 @@
 
 <!-- Javascript -->
 <script type="text/javascript" async src="{{ site.baseurl }}js/semantic.min.js"></script>
-<script type="text/javascript" src="{{ site.baseurl }}js/pageslide.min.js"></script>
-<script type="text/javascript">$(".open").pageslide();</script>
 <script type="text/javascript" src="{{ site.baseurl }}js/autofix.min.js"></script>
 <script type="text/javascript" src="{{ site.baseurl }}js/backstretch.min.js"></script>
+<script type="text/javascript" src="{{ site.baseurl }}js/fitvid.js"></script>
 <script type="text/javascript" src="{{ site.baseurl }}js/lazyLoad.min.js"></script>
+<script type="text/javascript" src="{{ site.baseurl }}js/fastclick.js"></script>
+<script type="text/javascript" src="{{ site.baseurl }}js/scroll.js"></script>
+<script type="text/javascript" src="{{ site.baseurl }}js/fixed-responsive-nav.js"></script>
 <script type="text/javascript">
   $(function() {
      $("img.lazy").lazyload({
@@ -68,25 +68,11 @@
 
   });
 //Backstretch
-     $("#hero").backstretch([
-      "{{ site.baseurl }}img/hero/saltflats.jpg",
-      "{{ site.baseurl }}img/hero/airport.jpg"
-  ], {duration: 5000, fade: 750});
+  //    $("#hero").backstretch([
+  //     "{{ site.baseurl }}img/hero/saltflats.jpg",
+  //     "{{ site.baseurl }}img/hero/airport.jpg"
+  // ], {duration: 5000, fade: 750});
 
-
-// AutoFix
-    $('header').fixTo('body');
-
-    $(window).scroll(function() {
-        $('#phone').each(function(){
-        var imagePos = $(this).offset().top;
-
-        var topOfWindow = $(window).scrollTop();
-            if (imagePos < topOfWindow+400) {
-                $(this).addClass("slideLeft");
-            }
-        });
-});
 
 //Shrink Header
 $(function(){
@@ -105,20 +91,6 @@ function getCurrentScroll() {
     }
 });
 
-//Smooth scroll
-$(function() {
-  $('a[href*=#]:not([href=#])').click(function() {
-    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-      var target = $(this.hash);
-      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-      if (target.length) {
-        $('html,body').animate({
-          scrollTop: target.offset().top
-        }, 1000);
-        return false;
-      }
-    }
-  });
-});
+
 
 </script>

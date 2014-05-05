@@ -2,11 +2,14 @@
 /* ******************************* Variables *******************************/
 $primary: #c61421;
 $secondary: #e3f2d7;
-$light: #ebe9e4;
+$light: #fff;
 $medium: #242a31;
-$dark: #1c1d1e;
+$dark: #0b1118;
 $text: #333333;
 $highlight: #FFCC00;
+
+$protoA: #EFEFEF;
+$protoB: whitesmoke;
 
 /* ******************************* Breakpoints *******************************/
 $xs: 200px;
@@ -34,12 +37,10 @@ $xxl: 1200px;
 @mixin text-shadow($x: 1px, $y: 1px, $blur: 10px, $color: rgba(0,0,0,.5)){
   text-shadow: $x $y $blur $color
 }
-@mixin opacity($opacity: 0.5) {
-  filter:         alpha(opacity=($opacity * 100));
-  -ms-filter:     "progid:DXImageTransform.Microsoft.Alpha(Opacity=" + ($opacity * 100) + ")";
-  -moz-opacity:   $opacity;
-  -khtml-opacity: $opacity;
-  opacity:        $opacity;
+@mixin opacity($opacity) {
+  opacity: $opacity;
+  $opacity-ie: $opacity * 100;
+  filter: alpha(opacity=$opacity-ie); //IE8
 }
 @mixin transition {
     -webkit-transition: height 0.3s;
@@ -79,7 +80,7 @@ iframe,embed,object {
 }
 
 strong {
-    font:normal 400 100%/1.5 'sheepsansbold',arial,sans-serif;
+    font-weight: 700;
 }
 
 table {
@@ -137,12 +138,12 @@ html,html a {
 }
 
 a {
-    color:#3287d3;
+    color: $primary;
     text-decoration:none;
 }
 
 a:hover,a:focus {
-    color:#50A846;
+    color:#3287d3;
     text-decoration:underline;
     cursor:pointer;
     -webkit-transition:all .2s ease-in-out;

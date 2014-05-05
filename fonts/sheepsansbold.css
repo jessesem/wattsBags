@@ -1,8 +1,0 @@
-@font-face {
-    font-family: 'SheepSansBold';
-    src: url('sheepsansbold.eot');
-    src: url('sheepsansbold.eot') format('embedded-opentype'),
-         url('sheepsansbold.woff') format('woff'),
-         url('sheepsansbold.ttf') format('truetype'),
-         url('sheepsansbold.svg#SheepSansBold') format('svg');
-}

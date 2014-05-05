@@ -1,14 +1,19 @@
 body {
     background: $light;
     color: $dark;
-    font:normal 100%/1.4 "Open Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font:normal 100%/1.4  "proxima-nova", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 }
 
 /* ******************************* Header Tags *******************************/
 h1,h2,h3,h4,h5,h6 {
-	font-family:'sheepsansbold',helvetica,arial,sans-serif;
+	font-family:  "proxima-nova", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+            text-transform: uppercase;
 	margin-bottom:.5em;
-	font-weight:400;
+	font-weight:700;
+            -webkit-margin-before: 0;
+            -webkit-margin-after: 0;
+            -webkit-margin-start: 0;
+            -webkit-margin-end: 0;
 }
 
 h1 {
@@ -19,7 +24,7 @@ h1 {
 }
 
 h2 {
-	font-size:1.5em;
+	font-size:1.1em;
 	margin-bottom:10px;
 	line-height:1em;
 }
@@ -62,10 +67,11 @@ h1 a:hover,h2 a:hover,h3 a:hover {
 header {
     width: 100%;
     background: $dark;
-    z-index: 999;
     height: 100px;
-    overflow: hidden;
     text-align:center;
+    padding: 1em 0;
+    position: fixed;
+    z-index: 3;
     @include transition();
 
 }
@@ -73,11 +79,12 @@ header.shrink {
     height: 70px;
     background: $dark;
     border-bottom: 1px solid rgba(0,0,0,.2);
+    padding: 0;
      @include transition();
 }
 footer {
     color: #FFF;
-    background: $dark url(../img/bg-footer.jpg) center top repeat-x;
+    background: $dark;
     font-size: 85%;
     line-height: 25px;
 
@@ -118,6 +125,12 @@ section.center {
     margin: 0 auto;
 }
 
+a.readMore {
+    font-size: 80%;
+    text-transform: uppercase;
+    padding-left: em(5px);
+}
+
 article {
     padding: 1em 0;
 }
@@ -147,43 +160,86 @@ article {
 
 
 #hero {
-	color: #ece3d2;
-	height: 461px;
+        background: #CCCCCC;
+	height: 100%;
+            max-height: 550px;
+            padding-top: 100px;
+              @media only screen and (max-width: $med) {
+                height: auto;
+                max-height: none;
+              }
+
+    a.learnMoreButton {
+        display: block;
+    }
+
+    video {
+        background-size: cover;
+        background: url(/video/thumbnail.jpg) no-repeat;
+        border: 10px solid #FFF;
+        height: auto;
+        transform: translateX(-50%) translateY(-50%);
+        width: 100%;
+    }
 }
 
 /* ******************************* Slabs *******************************/
 
-#slab-intro {
+.slab {
+    height: 100%;
+    min-height: 300px;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+}
+
+#slab-hero {
     background: $medium;
 }
 
 
-#slab-case-study {
+#slab-story {
     background: $light;
 }
 
-#slab-services {
-    background: $light;
-    @media only screen and (max-width: $med) {
-        display: none;
+#slab-high {
+    background: $protoA;
+}
+
+#slab-med {
+   background: $protoB;
+}
+
+#slab-low {
+   background: $protoA;
+}
+
+#slab-testimonials {
+background: $protoB;
+
+    li {
+        list-style: none;
+        display: inline-block;
+        padding: 0 25px;
     }
-    h2 {
-        text-align: center;
-        padding: 0 0 1em 0;
+
+    img {
+        width: 100%;
+        height: auto;
+        max-width: em(120px);
     }
 }
+
 
 a.learnMoreButton {
     font-weight: bold;
     text-align: center;
-    font-size: 16px;
+    font-size: 80%;
     text-transform: uppercase;
     background: $primary;
     border: 1px solid #FFF;
     color: #FFF;
     min-width: 143px;
     text-decoration: none;
-    padding: 15px 10px;
+    padding: 13px;
 }
 
 
@@ -206,83 +262,4 @@ div.button,
     background: $highlight;
     float: right;
     width: 25%;
-}
-
-
-/* ******************************* Left Flyout Menu *******************************/
-#pageslide {
-    /* These styles MUST be included. Do not change. */
-    display: none;
-    position: absolute;
-    position: fixed;
-    top: 0;
-    height: 100%;
-    z-index: 999999;
-
-    /* Specify the width of your pageslide here */
-    width: 260px;
-    padding: 0 20px;
-
-    /* These styles are optional, and describe how the pageslide will look */
-    background-color: #333;
-    color: #FFF;
-    -webkit-box-shadow: inset 0 0 5px 5px #222;
-    -moz-box-shadow: inset 0 0 5px 5px #222;
-    box-shadow: inset 0 0 5px 5px #222;
-}
-
-#content {
-	width:100%;
-	max-width: 960px;
-	margin:0 auto;
-}
-
-ul#nav {
-	padding-left:0;
-	list-style:none;
-	font-size: 85%;
-    float: right;
-}
-
-ul#nav:after {
-	content:"\0020";
-	display:block;
-	height:0;
-	clear:both;
-	visibility:hidden;
-}
-
-#content ul#nav li {
-	float:left;
-	text-align:center;
-}
-
-#content ul#nav a {
-	display:block;
-	background:transparent;
-	color:#FFF;
-	font-weight:700;
-	padding:10px;
-	text-transform: uppercase;
-}
-
-#content ul#nav a:hover {
-	opacity:.7;
-}
-
-.open {
-    color: #000;
-    font-family: 'FontAwesome';
-    display:none;
-    float:right;
-    width:44px;
-    height:44px;
-    margin:10px;
-    background: $primary url(../img/menu.png) center center no-repeat;
-    text-indent:-999999px;
-    border:0;
-}
-
-.open:after {
-	content:"\f0c9";
 }
