@@ -1,4 +1,4 @@
-$base-font-size: 15px;
+$base-font-size: 14px;
 
 html {
     font-size: $base-font-size;
@@ -217,7 +217,7 @@ small {
 
 .right {
     float:right;
-    margin:0 0 2em 2em;
+    clear: both;
 }
 
 .left {

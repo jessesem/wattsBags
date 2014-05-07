@@ -75,7 +75,7 @@ header {
     @include transition();
 
     section.center {
-        padding: 1em;
+        padding: 1em 0;
     }
 
 }
@@ -156,7 +156,7 @@ article {
     width:100%;
     max-width: em(250px);
     height: auto;
-    padding: 0 0 0 10px;
+    padding: 0 ;
     float: left;
      @include transition();
 }
@@ -218,6 +218,51 @@ article {
         transform: translateX(-50%) translateY(-50%);
         width: 100%;
     }
+}
+
+
+
+.category-row {
+    background: #F5F5F5;
+    border: 1px solid rgba(0,0,0,.2);
+    width: 100%;
+    padding: em(10px) em(10px);
+
+     h1,h2 {
+        font: normal 700 100%/1.5 "proximanova-regular-bold", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+     }
+
+     h1 {
+        font-size: 120%;
+     }
+
+     ul {
+        margin: 0;
+        padding: 0;
+     }
+     li {
+        list-style: none;
+        display: block;
+
+     }
+
+     p {
+        line-height: 20px;
+        font-size: 90%;
+     }
+
+     img {
+              @media only screen and (max-width: $med) {
+                display: none;
+              }
+     }
+
+}
+
+
+#menu-piggyback {
+    padding: 1em 0;
+    margin: 1em 0;
 }
 
 /* ******************************* Slabs *******************************/
@@ -288,7 +333,6 @@ background: $protoB;
 a.learnMoreButton {
     font-weight: bold;
     text-align: center;
-    font-size: 80%;
     text-transform: uppercase;
     background: $primary;
     border: 1px solid #FFF;
@@ -296,6 +340,7 @@ a.learnMoreButton {
     min-width: 143px;
     text-decoration: none;
     padding: 13px;
+    display: block;
 }
 
 /* semantic overrides */
@@ -308,11 +353,6 @@ a.learnMoreButton {
 line-height: 22px;
 font-size: 16px;
 }
-
-.ui.grid > .column, .ui.grid > .row > .column {
-  text-align: center;
-}
-
 
 div.button,
 .ui.orange.button {
