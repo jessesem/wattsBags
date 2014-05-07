@@ -19109,7 +19109,6 @@ header {
   background: #0b1118;
   height: 100px;
   text-align: center;
-  position: fixed;
   z-index: 3;
   -webkit-transition: height 0.3s;
   -moz-transition: height 0.3s;
@@ -19138,48 +19137,54 @@ footer {
   font-size: 85%;
   line-height: 25px; }
   /* line 99, ../sass/_main.scss */
+  footer #logo {
+    float: right;
+    padding: 0; }
+  /* line 105, ../sass/_main.scss */
   footer li {
     list-style: none; }
-  /* line 103, ../sass/_main.scss */
+  /* line 109, ../sass/_main.scss */
   footer ul {
     padding-left: 0;
     margin: 0; }
-  /* line 108, ../sass/_main.scss */
+  /* line 114, ../sass/_main.scss */
   footer a {
     color: #c61421; }
-  /* line 112, ../sass/_main.scss */
+  /* line 118, ../sass/_main.scss */
   footer a:hover {
     color: #e3f2d7; }
 
-/* line 117, ../sass/_main.scss */
+/* line 123, ../sass/_main.scss */
 #address {
   text-align: right; }
-  /* line 120, ../sass/_main.scss */
+  /* line 126, ../sass/_main.scss */
   #address p {
-    text-align: right;
-    font-size: 80%; }
+    clear: both;
+    font-size: 80%;
+    padding: 0 15px 10px 0;
+    text-align: right; }
 
-/* line 126, ../sass/_main.scss */
+/* line 134, ../sass/_main.scss */
 section {
   padding: 2em; }
 
-/* line 130, ../sass/_main.scss */
+/* line 138, ../sass/_main.scss */
 section.center {
   width: 100%;
   max-width: 1000px;
   margin: 0 auto; }
 
-/* line 136, ../sass/_main.scss */
+/* line 144, ../sass/_main.scss */
 a.readMore {
   font-size: 80%;
   text-transform: uppercase;
   display: block; }
 
-/* line 142, ../sass/_main.scss */
+/* line 150, ../sass/_main.scss */
 article {
   padding: 1em 0; }
 
-/* line 147, ../sass/_main.scss */
+/* line 155, ../sass/_main.scss */
 #logo {
   width: 100%;
   max-width: 16.66667em;
@@ -19190,12 +19195,12 @@ article {
   -moz-transition: height 0.3s;
   transition: height 0.3s; }
 
-/* line 156, ../sass/_main.scss */
+/* line 164, ../sass/_main.scss */
 #icons-social {
   float: right;
   margin-right: 1em; }
 
-/* line 161, ../sass/_main.scss */
+/* line 169, ../sass/_main.scss */
 #icons-social li {
   list-style: none;
   display: inline-block;
@@ -19203,37 +19208,37 @@ article {
   font-size: 150%;
   padding-left: 15px; }
 
-/* line 170, ../sass/_main.scss */
+/* line 178, ../sass/_main.scss */
 #hero {
   background: #CCCCCC;
   height: 100%;
   max-height: 550px;
   padding-top: 100px; }
-  /* line 176, ../sass/_main.scss */
+  /* line 184, ../sass/_main.scss */
   #hero h1, #hero h2 {
     text-align: justify;
     font-size: 190%; }
-  /* line 181, ../sass/_main.scss */
+  /* line 189, ../sass/_main.scss */
   #hero h2 {
     font-size: 150%; }
-  /* line 185, ../sass/_main.scss */
+  /* line 193, ../sass/_main.scss */
   #hero section.center {
     padding: 3em 0;
     height: 461px; }
-  /* line 190, ../sass/_main.scss */
+  /* line 198, ../sass/_main.scss */
   #hero li {
     list-style: none;
     display: block;
     text-align: left; }
   @media only screen and (max-width: 769px) {
-    /* line 170, ../sass/_main.scss */
+    /* line 178, ../sass/_main.scss */
     #hero {
       height: auto;
       max-height: none; } }
-  /* line 201, ../sass/_main.scss */
+  /* line 209, ../sass/_main.scss */
   #hero a.learnMoreButton {
     display: block; }
-  /* line 205, ../sass/_main.scss */
+  /* line 213, ../sass/_main.scss */
   #hero video {
     background-size: cover;
     background: url(/video/thumbnail.jpg) no-repeat;
@@ -19243,21 +19248,21 @@ article {
     width: 100%; }
 
 /* ******************************* Slabs *******************************/
-/* line 217, ../sass/_main.scss */
+/* line 225, ../sass/_main.scss */
 .slab {
   height: 100%;
   min-height: 300px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1); }
 
-/* line 223, ../sass/_main.scss */
+/* line 231, ../sass/_main.scss */
 #slab-quote {
   background: #0b1118;
   color: white;
   padding: 2em 0; }
-  /* line 228, ../sass/_main.scss */
+  /* line 236, ../sass/_main.scss */
   #slab-quote h5, #slab-quote p {
     text-align: center; }
-  /* line 232, ../sass/_main.scss */
+  /* line 240, ../sass/_main.scss */
   #slab-quote h5 {
     font-family: "ff-tisa-web-pro", Georgia, Times, serif;
     text-transform: none;
@@ -19266,41 +19271,41 @@ article {
     font-style: italic;
     margin-bottom: .5em; }
 
-/* line 242, ../sass/_main.scss */
+/* line 250, ../sass/_main.scss */
 #slab-hero {
   background: #242a31; }
 
-/* line 247, ../sass/_main.scss */
+/* line 255, ../sass/_main.scss */
 #slab-story {
   background: white; }
 
-/* line 251, ../sass/_main.scss */
+/* line 259, ../sass/_main.scss */
 #slab-high {
   background: #efefef; }
 
-/* line 255, ../sass/_main.scss */
+/* line 263, ../sass/_main.scss */
 #slab-med {
   background: whitesmoke; }
 
-/* line 259, ../sass/_main.scss */
+/* line 267, ../sass/_main.scss */
 #slab-low {
   background: #efefef; }
 
-/* line 263, ../sass/_main.scss */
+/* line 271, ../sass/_main.scss */
 #slab-testimonials {
   background: whitesmoke; }
-  /* line 266, ../sass/_main.scss */
+  /* line 274, ../sass/_main.scss */
   #slab-testimonials li {
     list-style: none;
     display: inline-block;
     padding: 0 25px; }
-  /* line 272, ../sass/_main.scss */
+  /* line 280, ../sass/_main.scss */
   #slab-testimonials img {
     width: 100%;
     height: auto;
     max-width: 8em; }
 
-/* line 280, ../sass/_main.scss */
+/* line 288, ../sass/_main.scss */
 a.learnMoreButton {
   font-weight: bold;
   text-align: center;
@@ -19314,21 +19319,21 @@ a.learnMoreButton {
   padding: 13px; }
 
 /* semantic overrides */
-/* line 294, ../sass/_main.scss */
+/* line 302, ../sass/_main.scss */
 .ui.dimmer {
   background-color: rgba(115, 189, 80, 0.95); }
 
-/* line 298, ../sass/_main.scss */
+/* line 306, ../sass/_main.scss */
 .ui.modal > .content p,
 .portfolio-list li {
   line-height: 22px;
   font-size: 16px; }
 
-/* line 304, ../sass/_main.scss */
+/* line 312, ../sass/_main.scss */
 .ui.grid > .column, .ui.grid > .row > .column {
   text-align: center; }
 
-/* line 309, ../sass/_main.scss */
+/* line 317, ../sass/_main.scss */
 div.button,
 .ui.orange.button {
   border: 5px solid #0b1118;
@@ -19343,7 +19348,7 @@ div.button,
   background: #ffcc00;
   color: white; }
 
-/* line 324, ../sass/_main.scss */
+/* line 332, ../sass/_main.scss */
 .ui.orange.button {
   background: #ffcc00;
   float: right;

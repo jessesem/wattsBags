@@ -2,36 +2,7 @@
 layout: default
 ---
 
-<div id="hero">
-    <section id="" class="center">
-        <div id="trip-row" class="ui grid stackable">
-            <div class="six wide column">
-                <h1>We build high quality custom bags that last</h1>
-                <h2>What can we build for you?</h2>
-                <ul>
-                    <li>Quick Turnaround</li>
-                    <li>Custom Embroidery</li>
-                    <li>No Order Minimum</li>
-                    <li>In House Design</li>
-                </ul>
-                <p><a href="" class="learnMoreButton">Learn More</a></p>
-
-            </div>
-
-            <div class="ten wide column">
-
-                <div id="wattsVideo">
-                    <!--  controls  autoplay="autoplay" -->
-                    <video poster="/video/thumbnail.jpg" controls loop id="bgvid">
-                        <source src="/video/watts.webm" type='video/webm;codecs="vp8, vorbis"' />
-                        <source src="/video/watts.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"' />
-                    </video>
-                </div>
-            </div>
-
-        </div>
-    </section>
-</div>
+  {% include hero.html %}
 
 
 
@@ -114,18 +85,4 @@ layout: default
 
 
 
-<div id="slab-testimonials" class="slab">
-    <section class="center">
-        <div class="ui grid stackable one column">
-            <div class="column">
-                <h2>A few of our amazing clients</h2>
-                <ul>
-                    <li><img class="lazy visible content image" data-original="{{ site.baseurl }}/img/logos/temp/miami.png"></li>
-                    <li><img class="lazy visible content image" data-original="{{ site.baseurl }}/img/logos/temp/boston.png"></li>
-                    <li><img class="lazy visible content image" data-original="{{ site.baseurl }}/img/logos/temp/gatorade.png"></li>
-                    <li><img class="lazy visible content image" data-original="{{ site.baseurl }}/img/logos/temp/spurs.png"></li>
-                    <li><img class="lazy visible content image" data-original="{{ site.baseurl }}/img/logos/temp/byu.png"></li>
-            </ul>
-            </div>
-    </section>
-</div>
+  {% include testimonial.html %}
