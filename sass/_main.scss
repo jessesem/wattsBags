@@ -179,7 +179,6 @@ article {
             background: #CCCCCC;
 	 height: 100%;
             max-height: 550px;
-            padding-top: 100px;
 
             h1, h2 {
                 text-align: justify;
@@ -263,6 +262,37 @@ article {
 #menu-piggyback {
     padding: 1em 0;
     margin: 1em 0;
+}
+
+
+/* ******************************* Resposnive Image Gallery Layout*******************************/
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.container ul {
+  list-style-type: none;
+  padding: 0;
+  overflow-x: scroll;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+}
+
+@media screen and (min-width: 800px) {
+  .container ul {
+    white-space: normal;
+  }
+}
+
+.container ul li {
+  display: inline-block;
+}
+
+.container ul li a {
+  display: inline-block;
 }
 
 /* ******************************* Slabs *******************************/
