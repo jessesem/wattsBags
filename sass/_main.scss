@@ -181,8 +181,8 @@ article {
             max-height: 550px;
 
             h1, h2 {
-                text-align: justify;
-                font-size: 190%;
+                text-align: left;
+                font-size: 180%;
             }
 
             h2 {
@@ -223,9 +223,10 @@ article {
 
 .category-row {
     background: #F5F5F5;
-    border: 1px solid rgba(0,0,0,.2);
     width: 100%;
-    padding: em(10px) em(10px);
+    padding: 20px 10px;
+    min-height: em(190px);
+    margin-bottom: em(30px);
 
      h1,h2 {
         font: normal 700 100%/1.5 "proximanova-regular-bold", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
@@ -265,10 +266,10 @@ article {
 }
 
 
-/* ******************************* Resposnive Image Gallery Layout*******************************/
+/* ******************************* Responsive Image Gallery Layout*******************************/
 
 .container {
-  max-width: 1140px;
+  max-width: 960px;
   margin: 0 auto;
   text-align: center;
 }
@@ -345,6 +346,7 @@ article {
 
 #slab-testimonials {
 background: $protoB;
+min-height: 200px;
 
     li {
         list-style: none;
@@ -355,7 +357,7 @@ background: $protoB;
     img {
         width: 100%;
         height: auto;
-        max-width: em(120px);
+        max-width: em(130px);
     }
 }
 
