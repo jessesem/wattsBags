@@ -8948,7 +8948,7 @@ a:hover, a:focus {
 /* line 165, ../sass/_basics.scss */
 p, ol {
   margin: 0 0 1em;
-  text-align: justify;
+  text-align: left;
   line-height: 22px; }
 
 /* line 171, ../sass/_basics.scss */
@@ -9055,7 +9055,7 @@ section {
 
 /* line 1, ../sass/_main.scss */
 body {
-  background: white;
+  background: #FFF;
   color: #31302b;
   font: normal 100%/1.4  "proxima-nova", "Helvetica Neue", "Helvetica", "Arial", sans-serif; }
 
@@ -9303,123 +9303,123 @@ article {
   padding: 1em 0;
   margin: 1em 0; }
   /* line 274, ../sass/_main.scss */
+  #menu-piggyback .tab-pane {
+    background: whitesmoke;
+    padding: 0.6875em; }
+  /* line 279, ../sass/_main.scss */
   #menu-piggyback .tab-pane, #menu-piggyback li {
     font-size: 90%; }
 
-/* line 281, ../sass/_main.scss */
+/* line 286, ../sass/_main.scss */
 #menu-products {
   background: #31302b;
   height: 2.5em;
   text-align: center; }
-  /* line 286, ../sass/_main.scss */
+  /* line 291, ../sass/_main.scss */
   #menu-products section.center {
     padding: 0; }
-  /* line 290, ../sass/_main.scss */
+  /* line 295, ../sass/_main.scss */
   #menu-products li {
     display: inline-block;
     list-style: none;
     padding: 0.625em; }
-    /* line 296, ../sass/_main.scss */
+    /* line 301, ../sass/_main.scss */
     #menu-products li a {
       color: #FFF;
       font-size: 90%;
       text-transform: uppercase;
       font-weight: 600; }
 
-/* line 305, ../sass/_main.scss */
+/* line 310, ../sass/_main.scss */
 #menu-products.home {
   height: .5em; }
 
 /* ******************************* TB Responsive Menu Overrides *******************************/
-/* line 310, ../sass/_main.scss */
+/* line 315, ../sass/_main.scss */
 .navbar-default {
   background-color: transparent;
   border-color: transparent;
   padding-top: 20px; }
 
-/* line 317, ../sass/_main.scss */
+/* line 322, ../sass/_main.scss */
 .navbar-default .navbar-toggle {
   border-color: transparent; }
 
-/* line 320, ../sass/_main.scss */
+/* line 325, ../sass/_main.scss */
 .navbar-brand {
   padding: 0 0 0 0.625em; }
 
-/* line 324, ../sass/_main.scss */
+/* line 329, ../sass/_main.scss */
 .navbar-default .navbar-nav > li > a {
   color: #fff;
   text-transform: uppercase;
   font-weight: 600; }
 
-/* line 330, ../sass/_main.scss */
+/* line 335, ../sass/_main.scss */
 .navbar-toggle .icon-bar {
   width: 28px;
   height: 4px; }
 
-/* line 335, ../sass/_main.scss */
+/* line 340, ../sass/_main.scss */
 .navbar-default .navbar-toggle, .navbar-default .navbar-toggle,
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
   background-color: #31302b; }
-  /* line 339, ../sass/_main.scss */
+  /* line 344, ../sass/_main.scss */
   .navbar-default .navbar-toggle .icon-bar, .navbar-default .navbar-toggle .icon-bar,
   .navbar-default .navbar-nav > li > a:hover .icon-bar, .navbar-default .navbar-nav > li > a:focus .icon-bar {
     background-color: #FFF; }
 
-/* line 344, ../sass/_main.scss */
+/* line 349, ../sass/_main.scss */
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
   background-color: #FFF; }
-  /* line 347, ../sass/_main.scss */
+  /* line 352, ../sass/_main.scss */
   .navbar-default .navbar-toggle:hover .icon-bar, .navbar-default .navbar-toggle:focus .icon-bar {
     background-color: #31302b; }
 
-/* line 352, ../sass/_main.scss */
+/* line 357, ../sass/_main.scss */
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
   color: #FFF; }
 
 /* *******************************  Tabs *******************************/
-/* line 358, ../sass/_main.scss */
-.tab-content {
-  padding: 10px; }
-
-/* line 362, ../sass/_main.scss */
+/* line 364, ../sass/_main.scss */
 .nav-tabs {
   margin-top: 1em; }
 
 /* *******************************  Carousel *******************************/
-/* line 370, ../sass/_main.scss */
+/* line 372, ../sass/_main.scss */
 .item {
   background: white;
   text-align: center;
   height: 300px !important; }
 
-/* line 376, ../sass/_main.scss */
+/* line 378, ../sass/_main.scss */
 .carousel.carousel-fade .item {
   opacity: 0;
   filter: alpha(opacity=0);
   /* ie fix */ }
 
-/* line 381, ../sass/_main.scss */
+/* line 383, ../sass/_main.scss */
 .carousel.carousel-fade .active.item {
   opacity: 1;
   filter: alpha(opacity=100);
   /* ie fix */ }
 
 /* ******************************* Slabs *******************************/
-/* line 387, ../sass/_main.scss */
+/* line 389, ../sass/_main.scss */
 .slab {
   height: 100%;
   min-height: 300px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1); }
 
-/* line 393, ../sass/_main.scss */
+/* line 395, ../sass/_main.scss */
 #slab-quote {
   background: #31302b;
-  color: white;
+  color: whitesmoke;
   padding: 2em 0; }
-  /* line 398, ../sass/_main.scss */
+  /* line 400, ../sass/_main.scss */
   #slab-quote h5, #slab-quote p {
     text-align: center; }
-  /* line 402, ../sass/_main.scss */
+  /* line 404, ../sass/_main.scss */
   #slab-quote h5 {
     font-family: "ff-tisa-web-pro", Georgia, Times, serif;
     text-transform: none;
@@ -9428,42 +9428,42 @@ article {
     font-style: italic;
     margin-bottom: .5em; }
 
-/* line 412, ../sass/_main.scss */
+/* line 414, ../sass/_main.scss */
 #slab-hero {
   background: #7b756b; }
 
-/* line 417, ../sass/_main.scss */
+/* line 419, ../sass/_main.scss */
 #slab-story {
-  background: white; }
+  background: #FFF; }
 
-/* line 421, ../sass/_main.scss */
+/* line 423, ../sass/_main.scss */
 #slab-high {
   background: #f7f3eb; }
 
-/* line 425, ../sass/_main.scss */
+/* line 427, ../sass/_main.scss */
 #slab-med {
   background: #f0efe9; }
 
-/* line 429, ../sass/_main.scss */
+/* line 431, ../sass/_main.scss */
 #slab-low {
   background: #f7f3eb; }
 
-/* line 433, ../sass/_main.scss */
+/* line 435, ../sass/_main.scss */
 #slab-testimonials {
   background: #f0efe9;
   min-height: 200px; }
-  /* line 437, ../sass/_main.scss */
+  /* line 439, ../sass/_main.scss */
   #slab-testimonials li {
     list-style: none;
     display: inline-block;
-    padding: 0 25px; }
-  /* line 443, ../sass/_main.scss */
+    padding: 0 20px; }
+  /* line 445, ../sass/_main.scss */
   #slab-testimonials img {
     width: 100%;
     height: auto;
     max-width: 8.125em; }
 
-/* line 451, ../sass/_main.scss */
+/* line 453, ../sass/_main.scss */
 a.learnMoreButton {
   font-weight: bold;
   text-align: center;
@@ -9477,17 +9477,17 @@ a.learnMoreButton {
   display: block; }
 
 /* semantic overrides */
-/* line 465, ../sass/_main.scss */
+/* line 467, ../sass/_main.scss */
 .ui.dimmer {
   background-color: rgba(115, 189, 80, 0.95); }
 
-/* line 469, ../sass/_main.scss */
+/* line 471, ../sass/_main.scss */
 .ui.modal > .content p,
 .portfolio-list li {
   line-height: 22px;
   font-size: 16px; }
 
-/* line 475, ../sass/_main.scss */
+/* line 477, ../sass/_main.scss */
 div.button,
 .ui.orange.button {
   border: 5px solid #31302b;
@@ -9500,9 +9500,9 @@ div.button,
   width: 100%;
   text-align: center;
   background: #ffcc00;
-  color: white; }
+  color: whitesmoke; }
 
-/* line 490, ../sass/_main.scss */
+/* line 492, ../sass/_main.scss */
 .ui.orange.button {
   background: #ffcc00;
   float: right;

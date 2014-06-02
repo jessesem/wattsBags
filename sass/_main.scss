@@ -1,5 +1,5 @@
 body {
-    background: $light;
+    background: #FFF;
     color: $dark;
     font:normal 100%/1.4  "proxima-nova", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 }
@@ -271,6 +271,11 @@ article {
     padding: 1em 0;
     margin: 1em 0;
 
+    .tab-pane {
+        background: $light;
+        padding: em(11px);
+    }
+
     .tab-pane, li {
         font-size: 90%;
     }
@@ -355,9 +360,6 @@ article {
 
 /* *******************************  Tabs *******************************/
 
-.tab-content {
-    padding: 10px;
-}
 
 .nav-tabs {
     margin-top: 1em;
@@ -415,7 +417,7 @@ article {
 
 
 #slab-story {
-    background: $light;
+    background: #FFF;
 }
 
 #slab-high {
@@ -437,7 +439,7 @@ min-height: 200px;
     li {
         list-style: none;
         display: inline-block;
-        padding: 0 25px;
+        padding: 0 20px;
     }
 
     img {
