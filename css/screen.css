@@ -8839,7 +8839,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 /* line 3, ../sass/_basics.scss */
 html {
-  font-size: 16px; }
+  font-size: 15px; }
 
 /* ******************************* Variables *******************************/
 /* ******************************* Breakpoints *******************************/
@@ -8949,7 +8949,7 @@ a:hover, a:focus {
 p, ol {
   margin: 0 0 1em;
   text-align: left;
-  line-height: 22px; }
+  line-height: 24px; }
 
 /* line 171, ../sass/_basics.scss */
 ol li {
@@ -9149,7 +9149,7 @@ header.shrink {
     padding: 0; }
   /* line 94, ../sass/_main.scss */
   header.shrink .navbar-default {
-    padding-top: 0.3125em; }
+    padding-top: 0.33333em; }
 
 /* line 99, ../sass/_main.scss */
 footer {
@@ -9208,7 +9208,7 @@ article {
 /* line 161, ../sass/_main.scss */
 #logo {
   width: 100%;
-  max-width: 10.625em;
+  max-width: 11.33333em;
   height: auto;
   padding: 0;
   float: left;
@@ -9272,8 +9272,8 @@ article {
   background: #F5F5F5;
   width: 100%;
   padding: 20px 10px;
-  min-height: 12.5em;
-  margin-bottom: 1.875em;
+  min-height: 13.33333em;
+  margin-bottom: 2em;
   font-size: 90%; }
   /* line 238, ../sass/_main.scss */
   .category-row h1, .category-row h2 {
@@ -9305,7 +9305,7 @@ article {
   /* line 274, ../sass/_main.scss */
   #menu-piggyback .tab-pane {
     background: whitesmoke;
-    padding: 0.6875em; }
+    padding: 0.73333em; }
   /* line 279, ../sass/_main.scss */
   #menu-piggyback .tab-pane, #menu-piggyback li {
     font-size: 90%; }
@@ -9313,7 +9313,7 @@ article {
 /* line 286, ../sass/_main.scss */
 #menu-products {
   background: #31302b;
-  height: 2.5em;
+  height: 2.66667em;
   text-align: center; }
   /* line 291, ../sass/_main.scss */
   #menu-products section.center {
@@ -9322,7 +9322,7 @@ article {
   #menu-products li {
     display: inline-block;
     list-style: none;
-    padding: 0.625em; }
+    padding: 0.66667em; }
     /* line 301, ../sass/_main.scss */
     #menu-products li a {
       color: #FFF;
@@ -9330,108 +9330,108 @@ article {
       text-transform: uppercase;
       font-weight: 600; }
 
-/* line 310, ../sass/_main.scss */
+/* line 311, ../sass/_main.scss */
 #menu-products.home {
   height: .5em; }
 
 /* ******************************* TB Responsive Menu Overrides *******************************/
-/* line 315, ../sass/_main.scss */
+/* line 316, ../sass/_main.scss */
 .navbar-default {
   background-color: transparent;
   border-color: transparent;
   padding-top: 20px; }
 
-/* line 322, ../sass/_main.scss */
+/* line 323, ../sass/_main.scss */
 .navbar-default .navbar-toggle {
   border-color: transparent; }
 
-/* line 325, ../sass/_main.scss */
+/* line 326, ../sass/_main.scss */
 .navbar-brand {
-  padding: 0 0 0 0.625em; }
+  padding: 0 0 0 0.66667em; }
 
-/* line 329, ../sass/_main.scss */
+/* line 330, ../sass/_main.scss */
 .navbar-default .navbar-nav > li > a {
   color: #fff;
   text-transform: uppercase;
   font-weight: 600; }
   @media only screen and (max-width: 769px) {
-    /* line 329, ../sass/_main.scss */
+    /* line 330, ../sass/_main.scss */
     .navbar-default .navbar-nav > li > a {
       text-align: right; } }
 
-/* line 338, ../sass/_main.scss */
+/* line 339, ../sass/_main.scss */
 .navbar-toggle .icon-bar {
   width: 28px;
   height: 4px; }
 
-/* line 343, ../sass/_main.scss */
+/* line 344, ../sass/_main.scss */
 .navbar-default .navbar-toggle, .navbar-default .navbar-toggle,
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
   background-color: #31302b; }
-  /* line 347, ../sass/_main.scss */
+  /* line 348, ../sass/_main.scss */
   .navbar-default .navbar-toggle .icon-bar, .navbar-default .navbar-toggle .icon-bar,
   .navbar-default .navbar-nav > li > a:hover .icon-bar, .navbar-default .navbar-nav > li > a:focus .icon-bar {
     background-color: #FFF; }
 
-/* line 352, ../sass/_main.scss */
+/* line 353, ../sass/_main.scss */
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
   background-color: #FFF; }
-  /* line 355, ../sass/_main.scss */
+  /* line 356, ../sass/_main.scss */
   .navbar-default .navbar-toggle:hover .icon-bar, .navbar-default .navbar-toggle:focus .icon-bar {
     background-color: #31302b; }
 
-/* line 360, ../sass/_main.scss */
+/* line 361, ../sass/_main.scss */
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
   color: #FFF; }
 
-/* line 365, ../sass/_main.scss */
+/* line 366, ../sass/_main.scss */
 .navbar-default .navbar-collapse {
   background-color: tranparent; }
   @media only screen and (max-width: 769px) {
-    /* line 365, ../sass/_main.scss */
+    /* line 366, ../sass/_main.scss */
     .navbar-default .navbar-collapse {
       background-color: #31302b; } }
 
 /* *******************************  Tabs *******************************/
-/* line 376, ../sass/_main.scss */
+/* line 377, ../sass/_main.scss */
 .nav-tabs {
   margin-top: 1em; }
 
 /* *******************************  Carousel *******************************/
-/* line 384, ../sass/_main.scss */
+/* line 385, ../sass/_main.scss */
 .item {
   background: white;
   text-align: center;
   height: 300px !important; }
 
-/* line 390, ../sass/_main.scss */
+/* line 391, ../sass/_main.scss */
 .carousel.carousel-fade .item {
   opacity: 0;
   filter: alpha(opacity=0);
   /* ie fix */ }
 
-/* line 395, ../sass/_main.scss */
+/* line 396, ../sass/_main.scss */
 .carousel.carousel-fade .active.item {
   opacity: 1;
   filter: alpha(opacity=100);
   /* ie fix */ }
 
 /* ******************************* Slabs *******************************/
-/* line 401, ../sass/_main.scss */
+/* line 402, ../sass/_main.scss */
 .slab {
   height: 100%;
   min-height: 300px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1); }
 
-/* line 407, ../sass/_main.scss */
+/* line 408, ../sass/_main.scss */
 #slab-quote {
   background: #31302b;
   color: whitesmoke;
   padding: 2em 0; }
-  /* line 412, ../sass/_main.scss */
+  /* line 413, ../sass/_main.scss */
   #slab-quote h5, #slab-quote p {
     text-align: center; }
-  /* line 416, ../sass/_main.scss */
+  /* line 417, ../sass/_main.scss */
   #slab-quote h5 {
     font-family: "ff-tisa-web-pro", Georgia, Times, serif;
     text-transform: none;
@@ -9440,42 +9440,42 @@ article {
     font-style: italic;
     margin-bottom: .5em; }
 
-/* line 426, ../sass/_main.scss */
+/* line 427, ../sass/_main.scss */
 #slab-hero {
   background: #7b756b; }
 
-/* line 431, ../sass/_main.scss */
+/* line 432, ../sass/_main.scss */
 #slab-story {
   background: #FFF; }
 
-/* line 435, ../sass/_main.scss */
+/* line 436, ../sass/_main.scss */
 #slab-high {
   background: #f7f3eb; }
 
-/* line 439, ../sass/_main.scss */
+/* line 440, ../sass/_main.scss */
 #slab-med {
   background: #f0efe9; }
 
-/* line 443, ../sass/_main.scss */
+/* line 444, ../sass/_main.scss */
 #slab-low {
   background: #f7f3eb; }
 
-/* line 447, ../sass/_main.scss */
+/* line 448, ../sass/_main.scss */
 #slab-testimonials {
   background: #f0efe9;
   min-height: 200px; }
-  /* line 451, ../sass/_main.scss */
+  /* line 452, ../sass/_main.scss */
   #slab-testimonials li {
     list-style: none;
     display: inline-block;
     padding: 0 20px; }
-  /* line 457, ../sass/_main.scss */
+  /* line 458, ../sass/_main.scss */
   #slab-testimonials img {
     width: 100%;
     height: auto;
-    max-width: 8.125em; }
+    max-width: 8.66667em; }
 
-/* line 465, ../sass/_main.scss */
+/* line 466, ../sass/_main.scss */
 a.learnMoreButton {
   font-weight: bold;
   text-align: center;
@@ -9489,17 +9489,17 @@ a.learnMoreButton {
   display: block; }
 
 /* semantic overrides */
-/* line 479, ../sass/_main.scss */
+/* line 480, ../sass/_main.scss */
 .ui.dimmer {
   background-color: rgba(115, 189, 80, 0.95); }
 
-/* line 483, ../sass/_main.scss */
+/* line 484, ../sass/_main.scss */
 .ui.modal > .content p,
 .portfolio-list li {
   line-height: 22px;
   font-size: 16px; }
 
-/* line 489, ../sass/_main.scss */
+/* line 490, ../sass/_main.scss */
 div.button,
 .ui.orange.button {
   border: 5px solid #31302b;
@@ -9514,7 +9514,7 @@ div.button,
   background: #ffcc00;
   color: whitesmoke; }
 
-/* line 504, ../sass/_main.scss */
+/* line 505, ../sass/_main.scss */
 .ui.orange.button {
   background: #ffcc00;
   float: right;
