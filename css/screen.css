@@ -9272,220 +9272,154 @@ article {
   background: #F5F5F5;
   width: 100%;
   padding: 20px 10px;
-  min-height: 11.875em;
-  margin-bottom: 1.875em; }
-  /* line 237, ../sass/_main.scss */
+  min-height: 12.5em;
+  margin-bottom: 1.875em;
+  font-size: 90%; }
+  /* line 238, ../sass/_main.scss */
   .category-row h1, .category-row h2 {
     font: normal 700 100%/1.5 "proximanova-regular-bold", "Helvetica Neue", "Helvetica", "Arial", sans-serif; }
-  /* line 241, ../sass/_main.scss */
+  /* line 242, ../sass/_main.scss */
   .category-row h1 {
     font-size: 120%; }
-  /* line 245, ../sass/_main.scss */
+  /* line 246, ../sass/_main.scss */
   .category-row ul {
     margin: 0;
     padding: 0; }
-  /* line 249, ../sass/_main.scss */
+  /* line 250, ../sass/_main.scss */
   .category-row li {
     list-style: none;
     display: block; }
-  /* line 255, ../sass/_main.scss */
+  /* line 256, ../sass/_main.scss */
   .category-row p {
     line-height: 20px;
     font-size: 90%; }
   @media only screen and (max-width: 769px) {
-    /* line 260, ../sass/_main.scss */
+    /* line 261, ../sass/_main.scss */
     .category-row img {
       display: none; } }
 
-/* line 269, ../sass/_main.scss */
+/* line 270, ../sass/_main.scss */
 #menu-piggyback {
   padding: 1em 0;
   margin: 1em 0; }
-  /* line 273, ../sass/_main.scss */
+  /* line 274, ../sass/_main.scss */
   #menu-piggyback .tab-pane, #menu-piggyback li {
     font-size: 90%; }
 
-/* line 280, ../sass/_main.scss */
+/* line 281, ../sass/_main.scss */
 #menu-products {
   background: #31302b;
   height: 2.5em;
   text-align: center; }
-  /* line 285, ../sass/_main.scss */
+  /* line 286, ../sass/_main.scss */
   #menu-products section.center {
     padding: 0; }
-  /* line 289, ../sass/_main.scss */
+  /* line 290, ../sass/_main.scss */
   #menu-products li {
     display: inline-block;
     list-style: none;
-    padding: 0.625em 0.9375em; }
-    /* line 295, ../sass/_main.scss */
+    padding: 0.625em; }
+    /* line 296, ../sass/_main.scss */
     #menu-products li a {
       color: #FFF;
       font-size: 90%;
       text-transform: uppercase;
       font-weight: 600; }
 
-/* line 304, ../sass/_main.scss */
+/* line 305, ../sass/_main.scss */
 #menu-products.home {
   height: .5em; }
 
 /* ******************************* TB Responsive Menu Overrides *******************************/
-/* line 309, ../sass/_main.scss */
+/* line 310, ../sass/_main.scss */
 .navbar-default {
   background-color: transparent;
   border-color: transparent;
   padding-top: 20px; }
 
-/* line 316, ../sass/_main.scss */
+/* line 317, ../sass/_main.scss */
 .navbar-default .navbar-toggle {
   border-color: transparent; }
 
-/* line 319, ../sass/_main.scss */
+/* line 320, ../sass/_main.scss */
 .navbar-brand {
   padding: 0 0 0 0.625em; }
 
-/* line 323, ../sass/_main.scss */
+/* line 324, ../sass/_main.scss */
 .navbar-default .navbar-nav > li > a {
   color: #fff;
   text-transform: uppercase;
   font-weight: 600; }
 
-/* line 329, ../sass/_main.scss */
+/* line 330, ../sass/_main.scss */
 .navbar-toggle .icon-bar {
   width: 28px;
   height: 4px; }
 
-/* line 334, ../sass/_main.scss */
+/* line 335, ../sass/_main.scss */
 .navbar-default .navbar-toggle, .navbar-default .navbar-toggle,
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
   background-color: #31302b; }
-  /* line 338, ../sass/_main.scss */
+  /* line 339, ../sass/_main.scss */
   .navbar-default .navbar-toggle .icon-bar, .navbar-default .navbar-toggle .icon-bar,
   .navbar-default .navbar-nav > li > a:hover .icon-bar, .navbar-default .navbar-nav > li > a:focus .icon-bar {
     background-color: #FFF; }
 
-/* line 343, ../sass/_main.scss */
+/* line 344, ../sass/_main.scss */
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
   background-color: #FFF; }
-  /* line 346, ../sass/_main.scss */
+  /* line 347, ../sass/_main.scss */
   .navbar-default .navbar-toggle:hover .icon-bar, .navbar-default .navbar-toggle:focus .icon-bar {
     background-color: #31302b; }
 
-/* line 351, ../sass/_main.scss */
+/* line 352, ../sass/_main.scss */
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
   color: #FFF; }
 
 /* *******************************  Tabs *******************************/
-/* line 357, ../sass/_main.scss */
+/* line 358, ../sass/_main.scss */
 .tab-content {
   padding: 10px; }
 
-/* line 361, ../sass/_main.scss */
+/* line 362, ../sass/_main.scss */
 .nav-tabs {
   margin-top: 1em; }
 
 /* *******************************  Carousel *******************************/
-/* BOOTSTRAP 3.x GLOBAL STYLES
--------------------------------------------------- */
-/* line 372, ../sass/_main.scss */
-.overlay {
-  color: #fff;
-  position: absolute;
-  z-index: 12;
-  top: 50%;
-  left: 0;
-  width: 100%;
-  text-align: center; }
+/* line 370, ../sass/_main.scss */
+.item {
+  background: white;
+  text-align: center;
+  height: 300px !important; }
 
-/* CUSTOMIZE THE CAROUSEL
--------------------------------------------------- */
-/* Carousel base class */
-/* line 387, ../sass/_main.scss */
-.carousel {
-  margin-bottom: 60px; }
+/* line 376, ../sass/_main.scss */
+.carousel.carousel-fade .item {
+  opacity: 0;
+  filter: alpha(opacity=0);
+  /* ie fix */ }
 
-/* Since positioning the image, we need to help out the caption */
-/* line 391, ../sass/_main.scss */
-.carousel-caption {
-  z-index: 1; }
-
-/* Declare heights because of positioning of img element */
-/* line 396, ../sass/_main.scss */
-.carousel .item {
-  height: 400px;
-  background-color: #555; }
-
-/* line 400, ../sass/_main.scss */
-.carousel img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  min-height: 400px; }
-
-/* RESPONSIVE CSS
--------------------------------------------------- */
-@media (min-width: 768px) {
-  /* Navbar positioning foo */
-  /* line 418, ../sass/_main.scss */
-  .navbar-wrapper {
-    margin-top: 20px;
-    margin-bottom: -90px;
-    /* Negative margin to pull up carousel. 90px is roughly margins and height of navbar. */ }
-
-  /* The navbar becomes detached from the top, so we round the corners */
-  /* line 423, ../sass/_main.scss */
-  .navbar-wrapper .navbar {
-    border-radius: 4px; }
-
-  /* Bump up size of carousel content */
-  /* line 428, ../sass/_main.scss */
-  .carousel-caption p {
-    margin-bottom: 20px;
-    font-size: 21px;
-    line-height: 1.4; } }
-/* ******************************* Responsive Image Gallery Layout*******************************/
-/* line 437, ../sass/_main.scss */
-.responsiveGallery {
-  max-width: 960px;
-  margin: 0 auto;
-  text-align: center; }
-
-/* line 443, ../sass/_main.scss */
-.responsiveGallery ul {
-  list-style-type: none;
-  padding: 0;
-  overflow-x: scroll;
-  white-space: nowrap;
-  -webkit-overflow-scrolling: touch; }
-
-@media screen and (min-width: 800px) {
-  /* line 452, ../sass/_main.scss */
-  .responsiveGallery ul {
-    white-space: normal; } }
-/* line 457, ../sass/_main.scss */
-.responsiveGallery ul li {
-  display: inline-block; }
-
-/* line 461, ../sass/_main.scss */
-.responsiveGallery ul li a {
-  display: inline-block; }
+/* line 381, ../sass/_main.scss */
+.carousel.carousel-fade .active.item {
+  opacity: 1;
+  filter: alpha(opacity=100);
+  /* ie fix */ }
 
 /* ******************************* Slabs *******************************/
-/* line 467, ../sass/_main.scss */
+/* line 387, ../sass/_main.scss */
 .slab {
   height: 100%;
   min-height: 300px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1); }
 
-/* line 473, ../sass/_main.scss */
+/* line 393, ../sass/_main.scss */
 #slab-quote {
   background: #31302b;
   color: white;
   padding: 2em 0; }
-  /* line 478, ../sass/_main.scss */
+  /* line 398, ../sass/_main.scss */
   #slab-quote h5, #slab-quote p {
     text-align: center; }
-  /* line 482, ../sass/_main.scss */
+  /* line 402, ../sass/_main.scss */
   #slab-quote h5 {
     font-family: "ff-tisa-web-pro", Georgia, Times, serif;
     text-transform: none;
@@ -9494,42 +9428,42 @@ article {
     font-style: italic;
     margin-bottom: .5em; }
 
-/* line 492, ../sass/_main.scss */
+/* line 412, ../sass/_main.scss */
 #slab-hero {
   background: #7b756b; }
 
-/* line 497, ../sass/_main.scss */
+/* line 417, ../sass/_main.scss */
 #slab-story {
   background: white; }
 
-/* line 501, ../sass/_main.scss */
+/* line 421, ../sass/_main.scss */
 #slab-high {
   background: #f7f3eb; }
 
-/* line 505, ../sass/_main.scss */
+/* line 425, ../sass/_main.scss */
 #slab-med {
   background: #f0efe9; }
 
-/* line 509, ../sass/_main.scss */
+/* line 429, ../sass/_main.scss */
 #slab-low {
   background: #f7f3eb; }
 
-/* line 513, ../sass/_main.scss */
+/* line 433, ../sass/_main.scss */
 #slab-testimonials {
   background: #f0efe9;
   min-height: 200px; }
-  /* line 517, ../sass/_main.scss */
+  /* line 437, ../sass/_main.scss */
   #slab-testimonials li {
     list-style: none;
     display: inline-block;
     padding: 0 25px; }
-  /* line 523, ../sass/_main.scss */
+  /* line 443, ../sass/_main.scss */
   #slab-testimonials img {
     width: 100%;
     height: auto;
     max-width: 8.125em; }
 
-/* line 531, ../sass/_main.scss */
+/* line 451, ../sass/_main.scss */
 a.learnMoreButton {
   font-weight: bold;
   text-align: center;
@@ -9543,17 +9477,17 @@ a.learnMoreButton {
   display: block; }
 
 /* semantic overrides */
-/* line 545, ../sass/_main.scss */
+/* line 465, ../sass/_main.scss */
 .ui.dimmer {
   background-color: rgba(115, 189, 80, 0.95); }
 
-/* line 549, ../sass/_main.scss */
+/* line 469, ../sass/_main.scss */
 .ui.modal > .content p,
 .portfolio-list li {
   line-height: 22px;
   font-size: 16px; }
 
-/* line 555, ../sass/_main.scss */
+/* line 475, ../sass/_main.scss */
 div.button,
 .ui.orange.button {
   border: 5px solid #31302b;
@@ -9568,7 +9502,7 @@ div.button,
   background: #ffcc00;
   color: white; }
 
-/* line 570, ../sass/_main.scss */
+/* line 490, ../sass/_main.scss */
 .ui.orange.button {
   background: #ffcc00;
   float: right;
