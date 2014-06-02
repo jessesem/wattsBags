@@ -17,12 +17,12 @@
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
 <script type="text/javascript" src="js/modernizer.min.js"></script>
 <script type="text/javascript" src="js/selectivizr-min.js"></script>
-<script type="text/javascript" src="js/respond.min.js"></script>
-<script type="text/javascript" src="js/responsive-nav.js"></script>
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
 
-<!--[if lt IE 9]>
-	<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-<![endif]-->
 <!-- Typekit -->
 <script type="text/javascript" src="//use.typekit.net/bsx5zca.js"></script>
 <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
@@ -42,21 +42,36 @@
 
     <header>
             <section class="center">
-<a href="/"><img src="img/logo.svg" id="logo" onerror="img/logo.png" class="animated fadeInUp"></a>
-<!--       <nav class="nav-collapse">
-         <ul id="nav">
+    <!-- Fixed navbar -->
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="/"><img src="img/logo.svg" id="logo" onerror="img/logo.png" class="animated fadeInUp"></a>
+        </a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="">Home</a></li>
+            <li><a href="">Services</a></li>
+            <li><a href="">Testimonials</a></li>
+            <li><a href="product.html">Products</a></li>
+            <li><a href="">Contact</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
 
-          <li class="active"><a href="#home" data-scroll>Home</a></li>
-          <li><a href="" data-scroll>Services</a></li>
-          <li><a href="" data-scroll>Testimonials</a></li>
-          <li><a href="" data-scroll>Products</a></li>
-          <li><a href="" data-scroll>Contact</a></li>
-        </ul>
-      </nav> -->
 </section>
     </header>
 
-        <section class="center">
+        <div class="wrapper-sub">
+<section class="center">
             <div class="row">
             <div class="col-sm-8">
             <h3>Our most popular bag in five sizes!</h3>
@@ -80,8 +95,23 @@
                 <div id="menu-piggyback">
                 <h4>Long boxes or equipment?</h4>
                 <h5>Carry it all with our piggy back options!</h5>
-                <a href="">CPS/Scout Pro</a> | <a href="">Attain Delivery</a> | <a href="">Large Rapido</a> | <a href="">Small Piggyback</a>
-            </div>
+                    <ul id="piggyback" class="nav nav-tabs">
+                      <li class="active"><a href="scout">CPS/Scout Pro</a></li>
+                      <li><a href="#attain">Attain Delivery</a></li>
+                      <li><a href="#rapido">Large Rapido</a></li>
+                      <li><a href="#large">Small Rapido Piggyback</a></li>
+                    </ul>
+
+                    <!-- Tab panes -->
+                    <div class="tab-content">
+                      <div class="tab-pane active" id="scout">CPS/Scout Pro Info...</div>
+                      <div class="tab-pane" id="attain">Attain Delivery Info...</div>
+                      <div class="tab-pane" id="rapido">Large Rapido Info...</div>
+                      <div class="tab-pane" id="large">Small Rapido Info...</div>
+                    </div>
+
+
+              </div>
 
             </div>
 
@@ -92,10 +122,41 @@
             </div>
 
         </div>
+<div class="container fill">
+<div id="myCarousel" class="carousel slide">
+  <div class="carousel-inner">
+    <div class="active item">
+      <div class="fill" style="background-image:url('//placehold.it/1024x700/449955/FFF');">
+        <div class="container">
 
+        </div>
+      </div>
+    </div>
+    <div class="item">
+      <div class="fill" style="background-image:url('//placehold.it/1024x700');">
+        <div class="container">
 
+        </div>
+      </div>
+    </div>
+    <div class="item">
+      <div class="fill" style="background-image:url('//placehold.it/1024x700/CC1111/FFF');">
+        <div class="container">
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="pull-center">
+  <a class="carousel-control left" href="#myCarousel" data-slide="prev">‹</a>
+  <a class="carousel-control right" href="#myCarousel" data-slide="next">›</a>
+  </div>
+</div>
+</div>
 
 </section>
+
+
 
 
 <section class="center">
@@ -131,77 +192,108 @@
                 </div>
             </div>
 </div>
-        <!-- End Product -->
 
-                        <!-- Product -->
-                        <div class="category-row">
-                <div class="col-sm-2">
-                        <img class="lazy" data-original="http://placehold.it/175X175" border="0" alt="" />
-                </div>
+<!-- End Product -->
 
-                <div class="col-sm-6">
-                        <h1>Professional Sales Bag A</h1>
-                        <h2>Sub Header</h2>
-                        <ul>
-                            <li>Loaded Dimensions : <span class="right">17" Deep x 15.5" Wide x 36" Long</span></li>
-                            <li>Internal Dimensions : <span class="right">17" Deep x 15.5" Wide x 36" Long</span></li>
-                            <li>Minimum Vehicle Space Needed : <span class="right">17" Deep x 15.5" Wide x 36" Long</span></li>
-                            <li>Rigid Weight: <span class="right">17.7 lbs Lightened Weight: 14.7 lbs</span></li>
-                        </ul>
-                        <a href="">Learn more about bag features</a>
-                </div>
+    <!-- Product -->
+    <div class="category-row">
+        <div class="col-sm-2">
+                <img class="lazy" data-original="http://placehold.it/175X175" border="0" alt="" />
+        </div>
 
-                <div class="col-sm-4">
+        <div class="col-sm-6">
+                <h1>Professional Sales Bag A</h1>
+                <h2>Sub Header</h2>
+                <ul>
+                    <li>Loaded Dimensions : <span class="right">17" Deep x 15.5" Wide x 36" Long</span></li>
+                    <li>Internal Dimensions : <span class="right">17" Deep x 15.5" Wide x 36" Long</span></li>
+                    <li>Minimum Vehicle Space Needed : <span class="right">17" Deep x 15.5" Wide x 36" Long</span></li>
+                    <li>Rigid Weight: <span class="right">17.7 lbs Lightened Weight: 14.7 lbs</span></li>
+                </ul>
+                <a href="">Learn more about bag features</a>
+        </div>
 
-                        <ul>
-                            <li>Available Colors : <span class="right">Color blocks here</span></li>
-                            <li>Watts Wheel System: <span class="right">Yes</span></li>
-                            <li>Internal Divider Options: <span class="right">Yes</span></li>
-                            <li>Custom Embroidery: <span class="right">Yes</span></li>
-                            <li class="price">Price: <span class="right">$355</span></li>
-                        </ul>
-                        <p><a href="" class="learnMoreButton">Order Bag</a></p>
-                </div>
-            </div>
-</div>
-        <!-- End Product -->
-                <!-- Product -->
-                <div class="category-row">
-                <div class="col-sm-2">
-                        <img class="lazy" data-original="http://placehold.it/175X175" border="0" alt="" />
-                </div>
+        <div class="col-sm-4">
 
-                <div class="col-sm-6">
-                        <h1>Professional Sales Bag A</h1>
-                        <h2>Sub Header</h2>
-                        <ul>
-                            <li>Loaded Dimensions : <span class="right">17" Deep x 15.5" Wide x 36" Long</span></li>
-                            <li>Internal Dimensions : <span class="right">17" Deep x 15.5" Wide x 36" Long</span></li>
-                            <li>Minimum Vehicle Space Needed : <span class="right">17" Deep x 15.5" Wide x 36" Long</span></li>
-                            <li>Rigid Weight: <span class="right">17.7 lbs Lightened Weight: 14.7 lbs</span></li>
-                        </ul>
-                        <a href="">Learn more about bag features</a>
-                </div>
+                <ul>
+                    <li>Available Colors : <span class="right">Color blocks here</span></li>
+                    <li>Watts Wheel System: <span class="right">Yes</span></li>
+                    <li>Internal Divider Options: <span class="right">Yes</span></li>
+                    <li>Custom Embroidery: <span class="right">Yes</span></li>
+                    <li class="price">Price: <span class="right">$355</span></li>
+                </ul>
+                <p><a href="" class="learnMoreButton">Order Bag</a></p>
+        </div>
+    </div>
+ <!-- End Product -->
+     <!-- Product -->
+    <div class="category-row">
+        <div class="col-sm-2">
+                <img class="lazy" data-original="http://placehold.it/175X175" border="0" alt="" />
+        </div>
 
-                <div class="col-sm-4">
+        <div class="col-sm-6">
+                <h1>Professional Sales Bag A</h1>
+                <h2>Sub Header</h2>
+                <ul>
+                    <li>Loaded Dimensions : <span class="right">17" Deep x 15.5" Wide x 36" Long</span></li>
+                    <li>Internal Dimensions : <span class="right">17" Deep x 15.5" Wide x 36" Long</span></li>
+                    <li>Minimum Vehicle Space Needed : <span class="right">17" Deep x 15.5" Wide x 36" Long</span></li>
+                    <li>Rigid Weight: <span class="right">17.7 lbs Lightened Weight: 14.7 lbs</span></li>
+                </ul>
+                <a href="">Learn more about bag features</a>
+        </div>
 
-                        <ul>
-                            <li>Available Colors : <span class="right">Color blocks here</span></li>
-                            <li>Watts Wheel System: <span class="right">Yes</span></li>
-                            <li>Internal Divider Options: <span class="right">Yes</span></li>
-                            <li>Custom Embroidery: <span class="right">Yes</span></li>
-                            <li class="price">Price: <span class="right">$355</span></li>
-                        </ul>
-                        <p><a href="" class="learnMoreButton">Order Bag</a></p>
-                </div>
-            </div>
-</div>
-        <!-- End Product -->
+        <div class="col-sm-4">
+
+                <ul>
+                    <li>Available Colors : <span class="right">Color blocks here</span></li>
+                    <li>Watts Wheel System: <span class="right">Yes</span></li>
+                    <li>Internal Divider Options: <span class="right">Yes</span></li>
+                    <li>Custom Embroidery: <span class="right">Yes</span></li>
+                    <li class="price">Price: <span class="right">$355</span></li>
+                </ul>
+                <p><a href="" class="learnMoreButton">Order Bag</a></p>
+        </div>
+    </div>
+ <!-- End Product -->
+     <!-- Product -->
+    <div class="category-row">
+        <div class="col-sm-2">
+                <img class="lazy" data-original="http://placehold.it/175X175" border="0" alt="" />
+        </div>
+
+        <div class="col-sm-6">
+                <h1>Professional Sales Bag A</h1>
+                <h2>Sub Header</h2>
+                <ul>
+                    <li>Loaded Dimensions : <span class="right">17" Deep x 15.5" Wide x 36" Long</span></li>
+                    <li>Internal Dimensions : <span class="right">17" Deep x 15.5" Wide x 36" Long</span></li>
+                    <li>Minimum Vehicle Space Needed : <span class="right">17" Deep x 15.5" Wide x 36" Long</span></li>
+                    <li>Rigid Weight: <span class="right">17.7 lbs Lightened Weight: 14.7 lbs</span></li>
+                </ul>
+                <a href="">Learn more about bag features</a>
+        </div>
+
+        <div class="col-sm-4">
+
+                <ul>
+                    <li>Available Colors : <span class="right">Color blocks here</span></li>
+                    <li>Watts Wheel System: <span class="right">Yes</span></li>
+                    <li>Internal Divider Options: <span class="right">Yes</span></li>
+                    <li>Custom Embroidery: <span class="right">Yes</span></li>
+                    <li class="price">Price: <span class="right">$355</span></li>
+                </ul>
+                <p><a href="" class="learnMoreButton">Order Bag</a></p>
+        </div>
+    </div>
+ <!-- End Product -->
     </div>
 </section>
+</div>
 <div id="slab-testimonials" class="slab">
     <section class="center">
-            <div class="container">
+            <div class="responsiveGallery">
                 <h2>A few of our amazing clients</h2>
                 <ul>
                     <li><img class="lazy visible content image" data-original="/img/logos/temp/miami.png"></li>
@@ -281,25 +373,26 @@
 </footer>
 
 <!-- Javascript -->
-<script type="text/javascript" async src="js/bootstrap.js"></script>
-<script type="text/javascript" src="js/autofix.min.js"></script>
-<script type="text/javascript" src="js/backstretch.min.js"></script>
-<script type="text/javascript" src="js/fitvid.js"></script>
-<script type="text/javascript" src="js/lazyLoad.min.js"></script>
-<script type="text/javascript" src="js/fastclick.js"></script>
-<script type="text/javascript" src="js/scroll.js"></script>
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="/js/backstretch.min.js"></script>
+<script type="text/javascript" src="/js/fitvid.js"></script>
+<script type="text/javascript" src="/js/lazyLoad.min.js"></script>
 <script type="text/javascript">
+  $('.carousel').carousel();
+
   $(function() {
      $("img.lazy").lazyload({
          effect : "fadeIn"
      });
 
   });
+
+
 //Backstretch
- // $("#hero").backstretch([
-  //     "img/hero/saltflats.jpg",
-  //     "img/hero/airport.jpg"
-  // ], {duration: 5000, fade: 750});
+  $("#hero").backstretch([
+       "img/hero/steph.jpg",
+       "img/hero/machine.jpg"
+   ], {duration: 5000, fade: 750});
 
 
 //Shrink Header
@@ -318,10 +411,12 @@ function getCurrentScroll() {
     return window.pageYOffset;
     }
 });
-
-
-
+$('#piggyback a').click(function (e) {
+  e.preventDefault()
+  $(this).tab('show')
+})
 </script>
+
 
 </body>
 </html>

@@ -67,11 +67,12 @@ h1 a:hover,h2 a:hover,h3 a:hover {
 
 header {
     width: 100%;
-    background: $dark;
+    background: $primary;
     height: 100px;
     text-align:center;
-    // position: fixed;
-    z-index: 3;
+    position: fixed;
+    z-index: 1040;
+    padding: 35px 0;
     @include transition();
 
     section.center {
@@ -81,7 +82,7 @@ header {
 }
 header.shrink {
     height: 72px;
-    background: $dark;
+    background: $primary;
     border-bottom: 1px solid rgba(0,0,0,.2);
     padding: 0;
      @include transition();
@@ -89,6 +90,11 @@ header.shrink {
      section.center {
         padding: 0;
      }
+
+     .navbar-default  {
+        padding-top: em(5px);
+    }
+
 }
 footer {
     color: #FFF;
@@ -141,6 +147,10 @@ section.center {
     margin: 0 auto;
 }
 
+.wrapper-sub {
+    padding-top: 7em;
+}
+
 a.readMore {
     font-size: 80%;
     text-transform: uppercase;
@@ -154,7 +164,7 @@ article {
 
 #logo {
     width:100%;
-    max-width: em(250px);
+    max-width: em(170px);
     height: auto;
     padding: 0 ;
     float: left;
@@ -176,7 +186,7 @@ article {
 
 
 #hero {
-            background: #CCCCCC;
+    background: $medium;
 	 height: 100%;
             max-height: 550px;
 
@@ -265,16 +275,63 @@ article {
     margin: 1em 0;
 }
 
+/* ******************************* TB Responsive Menu Overrides *******************************/
+.navbar-default
+{
+    background-color: transparent;
+    border-color: transparent;
+    padding-top: 20px;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+}
+.navbar-brand {
+    padding: 0 0 0 em(10px);
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.navbar-toggle .icon-bar {
+    width: 28px;
+    height: 4px;
+}
+
+.navbar-default .navbar-toggle, .navbar-default .navbar-toggle,
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    background-color: $dark;
+
+    .icon-bar {
+        background-color: #FFF;
+    }
+}
+
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+    background-color: #FFF;
+
+    .icon-bar {
+        background-color: $dark;
+    }
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: #FFF;
+}
+
 
 /* ******************************* Responsive Image Gallery Layout*******************************/
 
-.container {
+.responsiveGallery {
   max-width: 960px;
   margin: 0 auto;
   text-align: center;
 }
 
-.container ul {
+.responsiveGallery ul {
   list-style-type: none;
   padding: 0;
   overflow-x: scroll;
@@ -283,16 +340,16 @@ article {
 }
 
 @media screen and (min-width: 800px) {
-  .container ul {
+  .responsiveGallery ul {
     white-space: normal;
   }
 }
 
-.container ul li {
+.responsiveGallery ul li {
   display: inline-block;
 }
 
-.container ul li a {
+.responsiveGallery ul li a {
   display: inline-block;
 }
 

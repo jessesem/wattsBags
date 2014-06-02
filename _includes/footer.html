@@ -65,25 +65,26 @@
 </footer>
 
 <!-- Javascript -->
-<script type="text/javascript" async src="{{ site.baseurl }}js/bootstrap.js"></script>
-<script type="text/javascript" src="{{ site.baseurl }}js/autofix.min.js"></script>
-<script type="text/javascript" src="{{ site.baseurl }}js/backstretch.min.js"></script>
-<script type="text/javascript" src="{{ site.baseurl }}js/fitvid.js"></script>
-<script type="text/javascript" src="{{ site.baseurl }}js/lazyLoad.min.js"></script>
-<script type="text/javascript" src="{{ site.baseurl }}js/fastclick.js"></script>
-<script type="text/javascript" src="{{ site.baseurl }}js/scroll.js"></script>
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="{{ site.baseurl }}/js/backstretch.min.js"></script>
+<script type="text/javascript" src="{{ site.baseurl }}/js/fitvid.js"></script>
+<script type="text/javascript" src="{{ site.baseurl }}/js/lazyLoad.min.js"></script>
 <script type="text/javascript">
+  $('.carousel').carousel();
+
   $(function() {
      $("img.lazy").lazyload({
          effect : "fadeIn"
      });
 
   });
+
+
 //Backstretch
- // $("#hero").backstretch([
-  //     "{{ site.baseurl }}img/hero/saltflats.jpg",
-  //     "{{ site.baseurl }}img/hero/airport.jpg"
-  // ], {duration: 5000, fade: 750});
+  $("#hero").backstretch([
+       "{{ site.baseurl }}img/hero/steph.jpg",
+       "{{ site.baseurl }}img/hero/machine.jpg"
+   ], {duration: 5000, fade: 750});
 
 
 //Shrink Header
@@ -102,7 +103,8 @@ function getCurrentScroll() {
     return window.pageYOffset;
     }
 });
-
-
-
+$('#piggyback a').click(function (e) {
+  e.preventDefault()
+  $(this).tab('show')
+})
 </script>

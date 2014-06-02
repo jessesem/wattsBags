@@ -10,16 +10,16 @@ html {
 }
 
 /* ******************************* Variables *******************************/
-$primary: #c61421;
-$secondary: #e3f2d7;
+$primary: #E82B0F;
+$secondary: #D6351F;
 $light: #fff;
-$medium: #242a31;
-$dark: #0b1118;
+$medium: #7B756B;
+$dark: #31302B;
 $text: #333333;
 $highlight: #FFCC00;
 
-$protoA: #EFEFEF;
-$protoB: whitesmoke;
+$protoA: #F7F3EB;
+$protoB: #F0EFE9;
 
 /* ******************************* Breakpoints *******************************/
 $xs: 200px;
@@ -65,6 +65,8 @@ $xxl: 1200px;
     -webkit-box-sizing:border-box;
     box-sizing:border-box;
 }
+
+html,body{height:100%;}
 
 html,body,div,object,iframe,fieldset {
     margin:0;

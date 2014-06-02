@@ -17,12 +17,12 @@
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
 <script type="text/javascript" src="js/modernizer.min.js"></script>
 <script type="text/javascript" src="js/selectivizr-min.js"></script>
-<script type="text/javascript" src="js/respond.min.js"></script>
-<script type="text/javascript" src="js/responsive-nav.js"></script>
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
 
-<!--[if lt IE 9]>
-	<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-<![endif]-->
 <!-- Typekit -->
 <script type="text/javascript" src="//use.typekit.net/bsx5zca.js"></script>
 <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
@@ -42,24 +42,38 @@
 
     <header>
             <section class="center">
-<a href="/"><img src="img/logo.svg" id="logo" onerror="img/logo.png" class="animated fadeInUp"></a>
-<!--       <nav class="nav-collapse">
-         <ul id="nav">
+    <!-- Fixed navbar -->
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="/"><img src="img/logo.svg" id="logo" onerror="img/logo.png" class="animated fadeInUp"></a>
+        </a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="">Home</a></li>
+            <li><a href="">Services</a></li>
+            <li><a href="">Testimonials</a></li>
+            <li><a href="product.html">Products</a></li>
+            <li><a href="">Contact</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
 
-          <li class="active"><a href="#home" data-scroll>Home</a></li>
-          <li><a href="" data-scroll>Services</a></li>
-          <li><a href="" data-scroll>Testimonials</a></li>
-          <li><a href="" data-scroll>Products</a></li>
-          <li><a href="" data-scroll>Contact</a></li>
-        </ul>
-      </nav> -->
 </section>
     </header>
 
         <div id="hero">
     <section id="" class="center">
 
-        <div class="row">
+<!--         <div class="row">
             <div class="col-md-4">
                 <h1>We build high quality custom bags that last</h1>
                 <h2>What can we build for you?</h2>
@@ -74,28 +88,33 @@
             </div>
             <div class="col-md-8">
                 <div id="wattsVideo">
-                    <!--  controls  autoplay="autoplay" -->
                     <video poster="/video/thumbnail.jpg" controls loop id="bgvid">
                         <source src="/video/watts.webm" type='video/webm;codecs="vp8, vorbis"' />
                         <source src="/video/watts.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"' />
                     </video>
                 </div>
             </div>
-        </div>
+        </div> -->
     </section>
 </div>
 
 <div id="slab-story" class="slab">
     <section class="center">
-        <h4>Building custom bags since 82'</h4>
-        <h3>Professional Bags for Professional People</h3>
 
         <div class="row">
-            <div class="col-sm-6">
-                <p>Our founder, Alice Avis, is a 3rd generation seamstress. In 1982, she started Watts Baggs as a way to provide for her growing family. Alice's talents, creativity, and ability to design custom bags made her products superior to what was available in the market. Alice had a vision of building a company that could provide not only for her family but others in the community. She always tried to employ mothers that needed help to support their own families. Today, Watts Baggs is still a privately owned family business that follows Alice's original vision.</p>
+            <div class="col-sm-5">
+                        <h4>Building custom bags since 82'</h4>
+        <h3>Professional Bags for Professional People</h3>
+                <p>Our founder, Alice Avis, is a 3rd generation seamstress. In 1982, she started Watts Baggs as a way to provide for her growing family. Alice's talents, creativity, and ability to design custom bags made her products superior to what was available in the market. Alice had a vision of building a company that could provide not only for her family but others in the community. She always tried to employ mothers that needed help to support their own families. Today, Watts Baggs is still a privately owned family business that follows Alice's original vision. <a href="">Read More...</a></p>
             </div>
-            <div class="col-sm-6">
-                <p>From the beginning, Watts Baggs has built high quality products to our customers' specifications and needs. Our ability to build custom bags has made us unique from other bag companies. This is why we can work with Fortune 500 companies down to small businesses, including work with international businesses, professional sports teams, and universities. Watts Baggs can be defined as having "Big Business Ability with Small Business Customer Service". No job is too big or small, and we can work with any deadline or budget.<a href="" class="readMore">Read More</a>
+            <div class="col-sm-7">
+                <div id="wattsVideo">
+                    <!--  controls  autoplay="autoplay" -->
+                    <video poster="/video/thumbnail.jpg" controls loop id="bgvid">
+                        <source src="/video/watts.webm" type='video/webm;codecs="vp8, vorbis"' />
+                        <source src="/video/watts.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"' />
+                    </video>
+                </div>
                 </p>
             </div>
         </div>
@@ -170,7 +189,7 @@
 
 <div id="slab-testimonials" class="slab">
     <section class="center">
-            <div class="container">
+            <div class="responsiveGallery">
                 <h2>A few of our amazing clients</h2>
                 <ul>
                     <li><img class="lazy visible content image" data-original="/img/logos/temp/miami.png"></li>
@@ -250,25 +269,26 @@
 </footer>
 
 <!-- Javascript -->
-<script type="text/javascript" async src="js/bootstrap.js"></script>
-<script type="text/javascript" src="js/autofix.min.js"></script>
-<script type="text/javascript" src="js/backstretch.min.js"></script>
-<script type="text/javascript" src="js/fitvid.js"></script>
-<script type="text/javascript" src="js/lazyLoad.min.js"></script>
-<script type="text/javascript" src="js/fastclick.js"></script>
-<script type="text/javascript" src="js/scroll.js"></script>
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="/js/backstretch.min.js"></script>
+<script type="text/javascript" src="/js/fitvid.js"></script>
+<script type="text/javascript" src="/js/lazyLoad.min.js"></script>
 <script type="text/javascript">
+  $('.carousel').carousel();
+
   $(function() {
      $("img.lazy").lazyload({
          effect : "fadeIn"
      });
 
   });
+
+
 //Backstretch
- // $("#hero").backstretch([
-  //     "img/hero/saltflats.jpg",
-  //     "img/hero/airport.jpg"
-  // ], {duration: 5000, fade: 750});
+  $("#hero").backstretch([
+       "img/hero/steph.jpg",
+       "img/hero/machine.jpg"
+   ], {duration: 5000, fade: 750});
 
 
 //Shrink Header
@@ -287,10 +307,12 @@ function getCurrentScroll() {
     return window.pageYOffset;
     }
 });
-
-
-
+$('#piggyback a').click(function (e) {
+  e.preventDefault()
+  $(this).tab('show')
+})
 </script>
+
 
 </body>
 </html>
