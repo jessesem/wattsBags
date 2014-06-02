@@ -330,6 +330,9 @@ article {
     color: #fff;
     text-transform: uppercase;
     font-weight: 600;
+    @media only screen and (max-width: $med) {
+            text-align: right;
+        }
 }
 
 .navbar-toggle .icon-bar {
@@ -358,6 +361,15 @@ article {
     color: #FFF;
 }
 
+
+.navbar-default .navbar-collapse {
+    background-color: tranparent;
+
+        @media only screen and (max-width: $med) {
+            background-color: $dark;
+        }
+
+}
 /* *******************************  Tabs *******************************/
 
 
