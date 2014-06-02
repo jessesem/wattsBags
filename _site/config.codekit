@@ -234,6 +234,39 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_site\/img\/hero\/eric4.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 94779,
+		"inputAbbreviatedPath": "\/_site\/img\/hero\/eric4.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/hero\/eric4.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/hero\/hospital.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 72216,
+		"inputAbbreviatedPath": "\/_site\/img\/hero\/hospital.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/hero\/hospital.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/hero\/hospital2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 100059,
+		"inputAbbreviatedPath": "\/_site\/img\/hero\/hospital2.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/hero\/hospital2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_site\/img\/hero\/jana.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -278,6 +311,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_site\/img\/hero\/sew.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 77896,
+		"inputAbbreviatedPath": "\/_site\/img\/hero\/sew.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/hero\/sew.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/hero\/stacked.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 80016,
+		"inputAbbreviatedPath": "\/_site\/img\/hero\/stacked.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/hero\/stacked.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_site\/img\/hero\/steph.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -285,6 +340,17 @@
 		"initialSize": 115958,
 		"inputAbbreviatedPath": "\/_site\/img\/hero\/steph.jpg",
 		"outputAbbreviatedPath": "\/_site\/img\/hero\/steph.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/hero\/trainers.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 74598,
+		"inputAbbreviatedPath": "\/_site\/img\/hero\/trainers.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/hero\/trainers.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -877,6 +943,39 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/hero\/eric4.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 94779,
+		"inputAbbreviatedPath": "\/img\/hero\/eric4.jpg",
+		"outputAbbreviatedPath": "\/img\/hero\/eric4.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/hero\/hospital.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 72216,
+		"inputAbbreviatedPath": "\/img\/hero\/hospital.jpg",
+		"outputAbbreviatedPath": "\/img\/hero\/hospital.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/hero\/hospital2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 100059,
+		"inputAbbreviatedPath": "\/img\/hero\/hospital2.jpg",
+		"outputAbbreviatedPath": "\/img\/hero\/hospital2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/hero\/jana.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -921,6 +1020,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/hero\/sew.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 77896,
+		"inputAbbreviatedPath": "\/img\/hero\/sew.jpg",
+		"outputAbbreviatedPath": "\/img\/hero\/sew.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/hero\/stacked.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 80016,
+		"inputAbbreviatedPath": "\/img\/hero\/stacked.jpg",
+		"outputAbbreviatedPath": "\/img\/hero\/stacked.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/hero\/steph.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -928,6 +1049,17 @@
 		"initialSize": 115958,
 		"inputAbbreviatedPath": "\/img\/hero\/steph.jpg",
 		"outputAbbreviatedPath": "\/img\/hero\/steph.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/hero\/trainers.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 74598,
+		"inputAbbreviatedPath": "\/img\/hero\/trainers.jpg",
+		"outputAbbreviatedPath": "\/img\/hero\/trainers.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
