@@ -5,9 +5,13 @@ layout: default
     <section id="" class="center">
        <h1>Big hero name</h1>
     </section>
+    <div id="menu-products" class"home">
+    <section class="center">
+        {% include menu-sub.html %}
+    </section>
+</div>
     </div>
-<div class="wrapper-sub">
-{% include menu-sub.html %}
+
 
 
 <section class="center">
@@ -35,12 +39,11 @@ layout: default
 
                 <div class="col-sm-4">
                                 <div id="trip-panel">
-                    <img class="lazy" data-original="http://placehold.it/275X350" border="0" alt="" />
+                    <img class="lazy" data-original="http://placehold.it/300X400" border="0" alt="" />
                 </div>
                 </div>
-        {% include piggybacks.html %}
         </div>
-
+         {% include piggybacks.html %}
 </section>
 
 
@@ -175,7 +178,6 @@ layout: default
         </div>
     </div>
  <!-- End Product -->
-    </div>
 </section>
 </div>
 {% include testimonial.html %}

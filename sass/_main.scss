@@ -269,6 +269,12 @@ article {
 #menu-piggyback {
     padding: 1em 0;
     margin: 1em 0;
+
+    .tab-pane, li {
+        font-size: 90%;
+    }
+
+
 }
 
 #menu-products {
@@ -288,12 +294,16 @@ article {
 
         a {
             color: #FFF;
-            font-size: 110%;
+            font-size: 90%;
             text-transform: uppercase;
             font-weight: 600;
         }
     }
 }
+
+#menu-products.home {
+            height: .5em;
+            }
 
 /* ******************************* TB Responsive Menu Overrides *******************************/
 .navbar-default

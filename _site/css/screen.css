@@ -8839,7 +8839,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 /* line 3, ../sass/_basics.scss */
 html {
-  font-size: 14px; }
+  font-size: 16px; }
 
 /* ******************************* Variables *******************************/
 /* ******************************* Breakpoints *******************************/
@@ -9149,7 +9149,7 @@ header.shrink {
     padding: 0; }
   /* line 94, ../sass/_main.scss */
   header.shrink .navbar-default {
-    padding-top: 0.35714em; }
+    padding-top: 0.3125em; }
 
 /* line 99, ../sass/_main.scss */
 footer {
@@ -9208,7 +9208,7 @@ article {
 /* line 161, ../sass/_main.scss */
 #logo {
   width: 100%;
-  max-width: 12.14286em;
+  max-width: 10.625em;
   height: auto;
   padding: 0;
   float: left;
@@ -9272,8 +9272,8 @@ article {
   background: #F5F5F5;
   width: 100%;
   padding: 20px 10px;
-  min-height: 13.57143em;
-  margin-bottom: 2.14286em; }
+  min-height: 11.875em;
+  margin-bottom: 1.875em; }
   /* line 237, ../sass/_main.scss */
   .category-row h1, .category-row h2 {
     font: normal 700 100%/1.5 "proximanova-regular-bold", "Helvetica Neue", "Helvetica", "Arial", sans-serif; }
@@ -9301,86 +9301,93 @@ article {
 #menu-piggyback {
   padding: 1em 0;
   margin: 1em 0; }
+  /* line 273, ../sass/_main.scss */
+  #menu-piggyback .tab-pane, #menu-piggyback li {
+    font-size: 90%; }
 
-/* line 274, ../sass/_main.scss */
+/* line 280, ../sass/_main.scss */
 #menu-products {
   background: #31302b;
-  height: 2.85714em;
+  height: 2.5em;
   text-align: center; }
-  /* line 279, ../sass/_main.scss */
+  /* line 285, ../sass/_main.scss */
   #menu-products section.center {
     padding: 0; }
-  /* line 283, ../sass/_main.scss */
+  /* line 289, ../sass/_main.scss */
   #menu-products li {
     display: inline-block;
     list-style: none;
-    padding: 0.71429em 1.07143em; }
-    /* line 289, ../sass/_main.scss */
+    padding: 0.625em 0.9375em; }
+    /* line 295, ../sass/_main.scss */
     #menu-products li a {
       color: #FFF;
-      font-size: 110%;
+      font-size: 90%;
       text-transform: uppercase;
       font-weight: 600; }
 
+/* line 304, ../sass/_main.scss */
+#menu-products.home {
+  height: .5em; }
+
 /* ******************************* TB Responsive Menu Overrides *******************************/
-/* line 299, ../sass/_main.scss */
+/* line 309, ../sass/_main.scss */
 .navbar-default {
   background-color: transparent;
   border-color: transparent;
   padding-top: 20px; }
 
-/* line 306, ../sass/_main.scss */
+/* line 316, ../sass/_main.scss */
 .navbar-default .navbar-toggle {
   border-color: transparent; }
 
-/* line 309, ../sass/_main.scss */
+/* line 319, ../sass/_main.scss */
 .navbar-brand {
-  padding: 0 0 0 0.71429em; }
+  padding: 0 0 0 0.625em; }
 
-/* line 313, ../sass/_main.scss */
+/* line 323, ../sass/_main.scss */
 .navbar-default .navbar-nav > li > a {
   color: #fff;
   text-transform: uppercase;
   font-weight: 600; }
 
-/* line 319, ../sass/_main.scss */
+/* line 329, ../sass/_main.scss */
 .navbar-toggle .icon-bar {
   width: 28px;
   height: 4px; }
 
-/* line 324, ../sass/_main.scss */
+/* line 334, ../sass/_main.scss */
 .navbar-default .navbar-toggle, .navbar-default .navbar-toggle,
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
   background-color: #31302b; }
-  /* line 328, ../sass/_main.scss */
+  /* line 338, ../sass/_main.scss */
   .navbar-default .navbar-toggle .icon-bar, .navbar-default .navbar-toggle .icon-bar,
   .navbar-default .navbar-nav > li > a:hover .icon-bar, .navbar-default .navbar-nav > li > a:focus .icon-bar {
     background-color: #FFF; }
 
-/* line 333, ../sass/_main.scss */
+/* line 343, ../sass/_main.scss */
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
   background-color: #FFF; }
-  /* line 336, ../sass/_main.scss */
+  /* line 346, ../sass/_main.scss */
   .navbar-default .navbar-toggle:hover .icon-bar, .navbar-default .navbar-toggle:focus .icon-bar {
     background-color: #31302b; }
 
-/* line 341, ../sass/_main.scss */
+/* line 351, ../sass/_main.scss */
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
   color: #FFF; }
 
 /* *******************************  Tabs *******************************/
-/* line 347, ../sass/_main.scss */
+/* line 357, ../sass/_main.scss */
 .tab-content {
   padding: 10px; }
 
-/* line 351, ../sass/_main.scss */
+/* line 361, ../sass/_main.scss */
 .nav-tabs {
   margin-top: 1em; }
 
 /* *******************************  Carousel *******************************/
 /* BOOTSTRAP 3.x GLOBAL STYLES
 -------------------------------------------------- */
-/* line 362, ../sass/_main.scss */
+/* line 372, ../sass/_main.scss */
 .overlay {
   color: #fff;
   position: absolute;
@@ -9393,22 +9400,22 @@ article {
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
 /* Carousel base class */
-/* line 377, ../sass/_main.scss */
+/* line 387, ../sass/_main.scss */
 .carousel {
   margin-bottom: 60px; }
 
 /* Since positioning the image, we need to help out the caption */
-/* line 381, ../sass/_main.scss */
+/* line 391, ../sass/_main.scss */
 .carousel-caption {
   z-index: 1; }
 
 /* Declare heights because of positioning of img element */
-/* line 386, ../sass/_main.scss */
+/* line 396, ../sass/_main.scss */
 .carousel .item {
   height: 400px;
   background-color: #555; }
 
-/* line 390, ../sass/_main.scss */
+/* line 400, ../sass/_main.scss */
 .carousel img {
   position: absolute;
   top: 0;
@@ -9419,31 +9426,31 @@ article {
 -------------------------------------------------- */
 @media (min-width: 768px) {
   /* Navbar positioning foo */
-  /* line 408, ../sass/_main.scss */
+  /* line 418, ../sass/_main.scss */
   .navbar-wrapper {
     margin-top: 20px;
     margin-bottom: -90px;
     /* Negative margin to pull up carousel. 90px is roughly margins and height of navbar. */ }
 
   /* The navbar becomes detached from the top, so we round the corners */
-  /* line 413, ../sass/_main.scss */
+  /* line 423, ../sass/_main.scss */
   .navbar-wrapper .navbar {
     border-radius: 4px; }
 
   /* Bump up size of carousel content */
-  /* line 418, ../sass/_main.scss */
+  /* line 428, ../sass/_main.scss */
   .carousel-caption p {
     margin-bottom: 20px;
     font-size: 21px;
     line-height: 1.4; } }
 /* ******************************* Responsive Image Gallery Layout*******************************/
-/* line 427, ../sass/_main.scss */
+/* line 437, ../sass/_main.scss */
 .responsiveGallery {
   max-width: 960px;
   margin: 0 auto;
   text-align: center; }
 
-/* line 433, ../sass/_main.scss */
+/* line 443, ../sass/_main.scss */
 .responsiveGallery ul {
   list-style-type: none;
   padding: 0;
@@ -9452,33 +9459,33 @@ article {
   -webkit-overflow-scrolling: touch; }
 
 @media screen and (min-width: 800px) {
-  /* line 442, ../sass/_main.scss */
+  /* line 452, ../sass/_main.scss */
   .responsiveGallery ul {
     white-space: normal; } }
-/* line 447, ../sass/_main.scss */
+/* line 457, ../sass/_main.scss */
 .responsiveGallery ul li {
   display: inline-block; }
 
-/* line 451, ../sass/_main.scss */
+/* line 461, ../sass/_main.scss */
 .responsiveGallery ul li a {
   display: inline-block; }
 
 /* ******************************* Slabs *******************************/
-/* line 457, ../sass/_main.scss */
+/* line 467, ../sass/_main.scss */
 .slab {
   height: 100%;
   min-height: 300px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1); }
 
-/* line 463, ../sass/_main.scss */
+/* line 473, ../sass/_main.scss */
 #slab-quote {
   background: #31302b;
   color: white;
   padding: 2em 0; }
-  /* line 468, ../sass/_main.scss */
+  /* line 478, ../sass/_main.scss */
   #slab-quote h5, #slab-quote p {
     text-align: center; }
-  /* line 472, ../sass/_main.scss */
+  /* line 482, ../sass/_main.scss */
   #slab-quote h5 {
     font-family: "ff-tisa-web-pro", Georgia, Times, serif;
     text-transform: none;
@@ -9487,42 +9494,42 @@ article {
     font-style: italic;
     margin-bottom: .5em; }
 
-/* line 482, ../sass/_main.scss */
+/* line 492, ../sass/_main.scss */
 #slab-hero {
   background: #7b756b; }
 
-/* line 487, ../sass/_main.scss */
+/* line 497, ../sass/_main.scss */
 #slab-story {
   background: white; }
 
-/* line 491, ../sass/_main.scss */
+/* line 501, ../sass/_main.scss */
 #slab-high {
   background: #f7f3eb; }
 
-/* line 495, ../sass/_main.scss */
+/* line 505, ../sass/_main.scss */
 #slab-med {
   background: #f0efe9; }
 
-/* line 499, ../sass/_main.scss */
+/* line 509, ../sass/_main.scss */
 #slab-low {
   background: #f7f3eb; }
 
-/* line 503, ../sass/_main.scss */
+/* line 513, ../sass/_main.scss */
 #slab-testimonials {
   background: #f0efe9;
   min-height: 200px; }
-  /* line 507, ../sass/_main.scss */
+  /* line 517, ../sass/_main.scss */
   #slab-testimonials li {
     list-style: none;
     display: inline-block;
     padding: 0 25px; }
-  /* line 513, ../sass/_main.scss */
+  /* line 523, ../sass/_main.scss */
   #slab-testimonials img {
     width: 100%;
     height: auto;
-    max-width: 9.28571em; }
+    max-width: 8.125em; }
 
-/* line 521, ../sass/_main.scss */
+/* line 531, ../sass/_main.scss */
 a.learnMoreButton {
   font-weight: bold;
   text-align: center;
@@ -9536,17 +9543,17 @@ a.learnMoreButton {
   display: block; }
 
 /* semantic overrides */
-/* line 535, ../sass/_main.scss */
+/* line 545, ../sass/_main.scss */
 .ui.dimmer {
   background-color: rgba(115, 189, 80, 0.95); }
 
-/* line 539, ../sass/_main.scss */
+/* line 549, ../sass/_main.scss */
 .ui.modal > .content p,
 .portfolio-list li {
   line-height: 22px;
   font-size: 16px; }
 
-/* line 545, ../sass/_main.scss */
+/* line 555, ../sass/_main.scss */
 div.button,
 .ui.orange.button {
   border: 5px solid #31302b;
@@ -9561,7 +9568,7 @@ div.button,
   background: #ffcc00;
   color: white; }
 
-/* line 560, ../sass/_main.scss */
+/* line 570, ../sass/_main.scss */
 .ui.orange.button {
   background: #ffcc00;
   float: right;
