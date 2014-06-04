@@ -18,8 +18,11 @@ $dark: #31302B;
 $text: #333333;
 $highlight: #FFCC00;
 
+
 $protoA: #F7F3EB;
 $protoB: #F0EFE9;
+$dark-blue: #303538;
+$light-background: #F3F0EA;
 
 /* ******************************* Breakpoints *******************************/
 $xs: 200px;
@@ -29,6 +32,14 @@ $lg: 960px;
 $xxl: 1200px;
 
 /* ******************************* Mixin *******************************/
+
+@mixin clearfix {
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
 
 @mixin boxshadow($h: 0px, $v: 1px, $b:2px, $brand-color: rgba(0,0,0,.25)){
   -webkit-box-shadow : $h $v $b $brand-color;
