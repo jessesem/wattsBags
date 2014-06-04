@@ -242,7 +242,7 @@ article {
 .hero-product {
     max-height: 450px;
     section.center {
-        max-height: 450px;
+    max-height: 450px;
     }
 }
 
@@ -331,11 +331,16 @@ article {
 
     height: auto;
     color: #FFF;
+    padding: 2% 0;
 
     .col-sm-4 {
             height: auto;
             min-height: 200px;
             padding: 2% 0;
+            }
+
+            h3 {
+               opacity: .7;
             }
 }
 /* ******************************* TB Responsive Menu Overrides *******************************/
