@@ -206,12 +206,14 @@ article {
                 color: #FFF;
                 display: inline-flex;
                 list-style: none;
-                padding: 25px 30px;
+                padding: 15px 20px;
                 text-align: center;
                 text-transform: uppercase;
                 font-family:  "brandon-grotesque", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
                 font-weight: 700;
-                @include text-shadow;
+                background: $dark-blue;
+                width: 100%;
+                max-width: 230px;
             }
 
               @media only screen and (max-width: $med) {
