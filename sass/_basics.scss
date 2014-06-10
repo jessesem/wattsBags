@@ -12,7 +12,7 @@ html {
 /* ******************************* Variables *******************************/
 $primary: #E82B0F;
 $secondary: #D6351F;
-$light: #F5F5F5;
+$light: #F3F0EA;
 $medium: #7B756B;
 $dark: #31302B;
 $text: #333333;
@@ -21,8 +21,9 @@ $highlight: #FFCC00;
 
 $protoA: #F7F3EB;
 $protoB: #F0EFE9;
-$dark-blue: #303538;
+$dark-blue: rgba(23, 31, 33, 0.93);
 $light-background: #F3F0EA;
+$gold: rgba(197, 140, 59, 0.85);
 
 /* ******************************* Breakpoints *******************************/
 $xs: 200px;

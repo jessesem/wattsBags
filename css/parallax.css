@@ -1,0 +1,48 @@
+#scrolly section {
+    min-height: 1000px;
+    position: relative;
+    width: 100% !important;
+    min-width: 1000px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#hummer>div:nth-of-type(1),
+#campground>div:nth-of-type(1),
+#hummer2>div:nth-of-type(1),
+#office>div:nth-of-type(1),
+#grapefruit>div:nth-of-type(1) {
+    margin: 0;
+    height: 1200px;
+    position:absolute;
+    width:100%;
+    top:0;left:0;
+
+}
+
+#hummer>div:nth-of-type(1) {
+    background: url(../img/typicalDay/hummer.jpg) 50% 0 no-repeat fixed;
+    background-size: cover;
+}
+
+
+#campground>div:nth-of-type(1){
+    background: url(../img/typicalDay/campground.jpg) 50% 0 no-repeat fixed;
+    background-size: cover;
+}
+
+#hummer2>div:nth-of-type(1){
+    background: url(../img/typicalDay/hummer2.jpg) 50% 0 no-repeat fixed;
+    background-size: cover;
+}
+
+#office>div:nth-of-type(1){
+    background: url(../img/typicalDay/office.jpg) 50% 0 no-repeat fixed;
+    background-size: cover;
+}
+
+#grapefruit>div:nth-of-type(1){
+    background: url(../img/typicalDay/grapefruit.jpg) 50% 0 no-repeat fixed;
+    background-size: cover;
+}

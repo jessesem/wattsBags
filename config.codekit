@@ -388,6 +388,61 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_site\/img\/logos\/temp\/boston.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6891,
+		"inputAbbreviatedPath": "\/_site\/img\/logos\/temp\/boston.png",
+		"outputAbbreviatedPath": "\/_site\/img\/logos\/temp\/boston.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/logos\/temp\/byu.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 11457,
+		"inputAbbreviatedPath": "\/_site\/img\/logos\/temp\/byu.png",
+		"outputAbbreviatedPath": "\/_site\/img\/logos\/temp\/byu.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/logos\/temp\/gatorade.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 20435,
+		"inputAbbreviatedPath": "\/_site\/img\/logos\/temp\/gatorade.png",
+		"outputAbbreviatedPath": "\/_site\/img\/logos\/temp\/gatorade.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/logos\/temp\/miami.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 17361,
+		"inputAbbreviatedPath": "\/_site\/img\/logos\/temp\/miami.png",
+		"outputAbbreviatedPath": "\/_site\/img\/logos\/temp\/miami.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/logos\/temp\/spurs.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 21983,
+		"inputAbbreviatedPath": "\/_site\/img\/logos\/temp\/spurs.png",
+		"outputAbbreviatedPath": "\/_site\/img\/logos\/temp\/spurs.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_site\/img\/menu.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -855,6 +910,15 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/css\/ie.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/css\/parallax.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/css\/parallax.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -1597,15 +1661,6 @@
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
-		},
-	"\/sass\/_menu.css": {
-		"fileType": 16,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/sass\/_menu.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
 		},
 	"\/sass\/_menu.scss": {
 		"createSourceMap": 0,
