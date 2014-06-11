@@ -74,6 +74,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/_includes\/our-story.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_includes\/our-story.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/_includes\/piggybacks.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -124,6 +133,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/css\/ie.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/_site\/css\/parallax.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/css\/parallax.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -388,57 +406,57 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/_site\/img\/logos\/temp\/boston.png": {
+	"\/_site\/img\/logos\/boston.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 6891,
-		"inputAbbreviatedPath": "\/_site\/img\/logos\/temp\/boston.png",
-		"outputAbbreviatedPath": "\/_site\/img\/logos\/temp\/boston.png",
+		"inputAbbreviatedPath": "\/_site\/img\/logos\/boston.png",
+		"outputAbbreviatedPath": "\/_site\/img\/logos\/boston.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/_site\/img\/logos\/temp\/byu.png": {
+	"\/_site\/img\/logos\/byu.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 11457,
-		"inputAbbreviatedPath": "\/_site\/img\/logos\/temp\/byu.png",
-		"outputAbbreviatedPath": "\/_site\/img\/logos\/temp\/byu.png",
+		"inputAbbreviatedPath": "\/_site\/img\/logos\/byu.png",
+		"outputAbbreviatedPath": "\/_site\/img\/logos\/byu.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/_site\/img\/logos\/temp\/gatorade.png": {
+	"\/_site\/img\/logos\/gatorade.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 20435,
-		"inputAbbreviatedPath": "\/_site\/img\/logos\/temp\/gatorade.png",
-		"outputAbbreviatedPath": "\/_site\/img\/logos\/temp\/gatorade.png",
+		"inputAbbreviatedPath": "\/_site\/img\/logos\/gatorade.png",
+		"outputAbbreviatedPath": "\/_site\/img\/logos\/gatorade.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/_site\/img\/logos\/temp\/miami.png": {
+	"\/_site\/img\/logos\/miami.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 17361,
-		"inputAbbreviatedPath": "\/_site\/img\/logos\/temp\/miami.png",
-		"outputAbbreviatedPath": "\/_site\/img\/logos\/temp\/miami.png",
+		"inputAbbreviatedPath": "\/_site\/img\/logos\/miami.png",
+		"outputAbbreviatedPath": "\/_site\/img\/logos\/miami.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/_site\/img\/logos\/temp\/spurs.png": {
+	"\/_site\/img\/logos\/spurs.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 21983,
-		"inputAbbreviatedPath": "\/_site\/img\/logos\/temp\/spurs.png",
-		"outputAbbreviatedPath": "\/_site\/img\/logos\/temp\/spurs.png",
+		"inputAbbreviatedPath": "\/_site\/img\/logos\/spurs.png",
+		"outputAbbreviatedPath": "\/_site\/img\/logos\/spurs.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -450,6 +468,17 @@
 		"initialSize": 364,
 		"inputAbbreviatedPath": "\/_site\/img\/menu.png",
 		"outputAbbreviatedPath": "\/_site\/img\/menu.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/play.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2136,
+		"inputAbbreviatedPath": "\/_site\/img\/play.png",
+		"outputAbbreviatedPath": "\/_site\/img\/play.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1183,57 +1212,57 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/logos\/temp\/boston.png": {
+	"\/img\/logos\/boston.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 19753,
-		"inputAbbreviatedPath": "\/img\/logos\/temp\/boston.png",
-		"outputAbbreviatedPath": "\/img\/logos\/temp\/boston.png",
+		"inputAbbreviatedPath": "\/img\/logos\/boston.png",
+		"outputAbbreviatedPath": "\/img\/logos\/boston.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/logos\/temp\/byu.png": {
+	"\/img\/logos\/byu.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 20170,
-		"inputAbbreviatedPath": "\/img\/logos\/temp\/byu.png",
-		"outputAbbreviatedPath": "\/img\/logos\/temp\/byu.png",
+		"inputAbbreviatedPath": "\/img\/logos\/byu.png",
+		"outputAbbreviatedPath": "\/img\/logos\/byu.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/logos\/temp\/gatorade.png": {
+	"\/img\/logos\/gatorade.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 25709,
-		"inputAbbreviatedPath": "\/img\/logos\/temp\/gatorade.png",
-		"outputAbbreviatedPath": "\/img\/logos\/temp\/gatorade.png",
+		"inputAbbreviatedPath": "\/img\/logos\/gatorade.png",
+		"outputAbbreviatedPath": "\/img\/logos\/gatorade.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/logos\/temp\/miami.png": {
+	"\/img\/logos\/miami.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 21360,
-		"inputAbbreviatedPath": "\/img\/logos\/temp\/miami.png",
-		"outputAbbreviatedPath": "\/img\/logos\/temp\/miami.png",
+		"inputAbbreviatedPath": "\/img\/logos\/miami.png",
+		"outputAbbreviatedPath": "\/img\/logos\/miami.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/logos\/temp\/spurs.png": {
+	"\/img\/logos\/spurs.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 21514,
-		"inputAbbreviatedPath": "\/img\/logos\/temp\/spurs.png",
-		"outputAbbreviatedPath": "\/img\/logos\/temp\/spurs.png",
+		"inputAbbreviatedPath": "\/img\/logos\/spurs.png",
+		"outputAbbreviatedPath": "\/img\/logos\/spurs.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1245,6 +1274,17 @@
 		"initialSize": 986,
 		"inputAbbreviatedPath": "\/img\/menu.png",
 		"outputAbbreviatedPath": "\/img\/menu.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/play.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2136,
+		"inputAbbreviatedPath": "\/img\/play.png",
+		"outputAbbreviatedPath": "\/img\/play.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -2417,7 +2457,7 @@
 	},
 "projectAttributes": {
 	"bowerAbbreviatedPath": "",
-	"displayValue": "Watts Bags TB",
+	"displayValue": "Watts Bags",
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "globe_orange"
 	},

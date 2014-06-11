@@ -225,6 +225,7 @@ article {
         display: block;
         max-width: em(450px);
         margin: 0 auto;
+        margin-top: 5%;
     }
 
     video {
@@ -444,9 +445,10 @@ article {
     display: block;
 }
 
-.cover.gold {
+.cover.blue-dark {
     color: #fff;
-    background-color: $gold;
+    background-color: $blue-dark;
+    opacity: .8;
 }
 
 .cover.blue {
@@ -489,7 +491,7 @@ article {
 }
 
 #slab-high {
-    background: $gold;
+    background: $protoB;
 }
 
 #slab-med {
@@ -531,34 +533,18 @@ a.learnMoreButton {
     display: block;
 }
 
-/* semantic overrides */
-.ui.dimmer {
-  background-color:  rgba(115, 189, 80, 0.95);
-}
-
-.ui.modal > .content p,
-.portfolio-list li {
-line-height: 22px;
-font-size: 16px;
-}
-
-div.button,
-.ui.orange.button {
-    border: 5px solid $dark-blue;
-    padding: 15px 40px;
-    text-transform: uppercase;
-    font-weight: 700;
-    margin: 0 auto;
-    letter-spacing: 1px;
-    display: block;
-    width: 100%;
+.row.video {
     text-align: center;
-    background: $highlight;
-    color: $light;
-}
+    font-size: 4em;
 
-.ui.orange.button {
-    background: $highlight;
-    float: right;
-    width: 25%;
+    h2 {
+        text-align: center;
+        margin-bottom: .5em;
+    }
+
+    .btn-primary {
+        color: white;
+        background-color: transparent;
+        border-color: transparent;
+    }
 }
