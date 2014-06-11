@@ -4,9 +4,9 @@ layout: default
 
 {% include hero.html %}
 
-{% include clients.html %}
-<div id="slab-med" class="slab">
-    <div class="cover blue-dark">
+
+<div id="slab-about" class="slab">
+    <div class="cover">
     <section class="center">
         <div class="row video">
             <h2>Making Bags since 82'</h2>
@@ -30,37 +30,18 @@ layout: default
                 <p>Placeholder text. A quick description about the title</p>
             </div>
         <div class="row video">
-            <button class="btn btn-primary" data-toggle="modal" data-target=".videoModal">
-
-                <img class="lazy" data-original="/img/play.png" border="0" alt="">
-            </button>
+             <p><a href="" class="learnMoreButton">Learn More</a></p>
         </div
         </div>
     </section>
 </div>
 </div>
 
-<div class="modal fade videoModal" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-          <h4 class="modal-title" id="myModalLabel">Video Heading</h4>
-        </div>
-      <div id="wattsVideo">
-                    <!--  controls  autoplay="autoplay" -->
-                    <video poster="/video/thumbnail.jpg" controls loop id="bgvid">
-                        <source src="/video/watts.webm" type='video/webm;codecs="vp8, vorbis"' />
-                        <source src="/video/watts.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"' />
-                    </video>
-                </div>
-    </div>
-  </div>
-</div>
-
+{% include clients.html %}
+{% include testimonial.html %}
 
 <div id="slab-high" class="slab">
-    <div class="cover blue">
+    <div class="cover">
     <section class="center">
         <div class="row">
             <div class="col-sm-6">
@@ -116,7 +97,7 @@ layout: default
 
 
 
-{% include testimonial.html %}
+
 <div id="slab-story" class="slab">
     <section class="center">
         <div class="row">
@@ -134,3 +115,23 @@ layout: default
 </div>
 
 
+
+<!-- Hidden Video Modal -->
+<div class="modal fade videoModal" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title" id="myModalLabel">Video Heading</h4>
+            </div>
+            <div id="wattsVideo">
+                <!--  controls  autoplay="autoplay" -->
+                <video poster="/video/thumbnail.jpg" controls loop id="bgvid">
+                    <source src="/video/watts.webm" type='video/webm;codecs="vp8, vorbis"' />
+                    <source src="/video/watts.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"' />
+                </video>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Video Modal -->

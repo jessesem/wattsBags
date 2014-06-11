@@ -10,7 +10,7 @@ html {
 }
 
 /* ******************************* Variables *******************************/
-$primary: #E82B0F;
+$primary: #fab030;
 $secondary: #D6351F;
 $light: #F3F0EA;
 $medium: #7B756B;
@@ -19,16 +19,16 @@ $text: #333333;
 $highlight: #FFCC00;
 
 $dark-blue: rgba(23, 31, 33, 0.93);
-$blue-dark: rgba(47, 78, 111, 0.93);
+$blue-dark: #2A323D;
 $blue-med: #98B1C4;
 $blue-light: #C8D7E3;
 
 
-$protoA: #F7F3EB;
-$protoB: #F0EFE9;
+$protoA: #FFF;
+$protoB: #f7f7f7;
 
 $light-background: #F3F0EA;
-
+$dark-background: #272727;
 
 /* ******************************* Breakpoints *******************************/
 $xs: 200px;

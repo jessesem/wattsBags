@@ -67,7 +67,7 @@ h1 a:hover,h2 a:hover,h3 a:hover {
 
 header {
     width: 100%;
-    background: $dark-blue;
+    background: $dark-background;
     height: 100px;
     text-align:center;
     position: fixed;
@@ -198,7 +198,7 @@ article {
             }
 
             section.center {
-                padding: 10% 0 0 0;
+                padding: 15% 0 0 0;
                 height: 850px;
             }
 
@@ -238,9 +238,17 @@ article {
 }
 
 #hero-content {
-    background: $dark-blue;
+    background: rgba(39,39,39, .95);
     padding: 30px 40px;
+    text-align: center;
+
+    .btn-primary {
+        color: white;
+        background-color: transparent;
+        border-color: transparent;
+    }
 }
+
 
 .hero-product {
     max-height: 450px;
@@ -438,23 +446,22 @@ article {
 /* ******************************* Slabs *******************************/
 
 
-.cover {
-    width: 100%;
-    height: 100%;
-    min-height: 300px;
-    display: block;
-}
+// .cover {
+//     width: 100%;
+//     height: 100%;
+//     min-height: 300px;
+//     display: block;
+// }
 
-.cover.blue-dark {
-    color: #fff;
-    background-color: $blue-dark;
-    opacity: .8;
-}
+// .cover.blue-dark {
+//     color: #fff;
+//     background-color: $blue-dark;
+// }
 
-.cover.blue {
-    color: #fff;
-    background-color: $dark-blue;
-}
+// .cover.blue {
+//     color: #fff;
+//     background-color: $dark-blue;
+// }
 
 .slab {
     height: 100%;
@@ -463,8 +470,8 @@ article {
 }
 
 #slab-quote {
-    background: $dark-blue;
-    color: $light;
+    background: $dark-background;
+    color: #FFF;
     padding: 2em 0;
 
     h5, p {
@@ -491,11 +498,17 @@ article {
 }
 
 #slab-high {
-    background: $protoB;
+    background: $protoA;
 }
+
 
 #slab-med {
    background: $protoB;
+}
+
+#slab-about {
+    color: #FFF;
+   background: $dark-background;
 }
 
 #slab-low {
@@ -535,16 +548,19 @@ a.learnMoreButton {
 
 .row.video {
     text-align: center;
-    font-size: 4em;
 
     h2 {
         text-align: center;
         margin-bottom: .5em;
+         font-size: 4em;
     }
 
-    .btn-primary {
-        color: white;
-        background-color: transparent;
-        border-color: transparent;
+    a.learnMoreButton {
+        // max-width: 250px;
     }
+}
+
+
+.navbar-default .navbar-nav > li > a {
+    text-align: center;
 }
