@@ -203,7 +203,7 @@ article {
             }
 
         li {
-                color: $dark-blue;
+                color: #FFF;
                 display: inline-block;
                 list-style: none;
                 padding: 15px 20px;
@@ -211,9 +211,9 @@ article {
                 text-transform: uppercase;
                 font-family:  "brandon-grotesque", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
                 font-weight: 700;
-                background: #FFF;
+                background: $dark-blue;
                 width: 100%;
-                max-width: 215px;
+                max-width: 230px;
             }
 
               @media only screen and (max-width: $med) {

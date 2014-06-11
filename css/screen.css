@@ -9248,7 +9248,7 @@ article {
     height: 850px; }
   /* line 205, ../sass/_main.scss */
   #hero li {
-    color: rgba(23, 31, 33, 0.93);
+    color: #FFF;
     display: inline-block;
     list-style: none;
     padding: 15px 20px;
@@ -9256,9 +9256,9 @@ article {
     text-transform: uppercase;
     font-family: "brandon-grotesque", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
     font-weight: 700;
-    background: #FFF;
+    background: rgba(23, 31, 33, 0.93);
     width: 100%;
-    max-width: 215px; }
+    max-width: 230px; }
   @media only screen and (max-width: 769px) {
     /* line 184, ../sass/_main.scss */
     #hero {
