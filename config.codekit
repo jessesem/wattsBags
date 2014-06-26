@@ -20,15 +20,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/_includes\/demo-carousel.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_includes\/demo-carousel.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/_includes\/footer.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -208,189 +199,57 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/_site\/img\/hero\/airport.jpg": {
+	"\/_site\/img\/hero\/four.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 210195,
-		"inputAbbreviatedPath": "\/_site\/img\/hero\/airport.jpg",
-		"outputAbbreviatedPath": "\/_site\/img\/hero\/airport.jpg",
+		"initialSize": 39536,
+		"inputAbbreviatedPath": "\/_site\/img\/hero\/four.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/hero\/four.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/_site\/img\/hero\/eric.jpg": {
+	"\/_site\/img\/hero\/one.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 118421,
-		"inputAbbreviatedPath": "\/_site\/img\/hero\/eric.jpg",
-		"outputAbbreviatedPath": "\/_site\/img\/hero\/eric.jpg",
+		"initialSize": 56630,
+		"inputAbbreviatedPath": "\/_site\/img\/hero\/one.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/hero\/one.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/_site\/img\/hero\/eric2.jpg": {
+	"\/_site\/img\/hero\/quotes\/cubs.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 146385,
-		"inputAbbreviatedPath": "\/_site\/img\/hero\/eric2.jpg",
-		"outputAbbreviatedPath": "\/_site\/img\/hero\/eric2.jpg",
+		"initialSize": 73396,
+		"inputAbbreviatedPath": "\/_site\/img\/hero\/quotes\/cubs.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/hero\/quotes\/cubs.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/_site\/img\/hero\/eric3.jpg": {
+	"\/_site\/img\/hero\/three.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 133384,
-		"inputAbbreviatedPath": "\/_site\/img\/hero\/eric3.jpg",
-		"outputAbbreviatedPath": "\/_site\/img\/hero\/eric3.jpg",
+		"initialSize": 51573,
+		"inputAbbreviatedPath": "\/_site\/img\/hero\/three.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/hero\/three.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/_site\/img\/hero\/eric4.jpg": {
+	"\/_site\/img\/hero\/two.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 94779,
-		"inputAbbreviatedPath": "\/_site\/img\/hero\/eric4.jpg",
-		"outputAbbreviatedPath": "\/_site\/img\/hero\/eric4.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_site\/img\/hero\/eric5.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 100828,
-		"inputAbbreviatedPath": "\/_site\/img\/hero\/eric5.jpg",
-		"outputAbbreviatedPath": "\/_site\/img\/hero\/eric5.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_site\/img\/hero\/hospital.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 72216,
-		"inputAbbreviatedPath": "\/_site\/img\/hero\/hospital.jpg",
-		"outputAbbreviatedPath": "\/_site\/img\/hero\/hospital.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_site\/img\/hero\/hospital2.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 100059,
-		"inputAbbreviatedPath": "\/_site\/img\/hero\/hospital2.jpg",
-		"outputAbbreviatedPath": "\/_site\/img\/hero\/hospital2.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_site\/img\/hero\/jana.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 407439,
-		"inputAbbreviatedPath": "\/_site\/img\/hero\/jana.jpg",
-		"outputAbbreviatedPath": "\/_site\/img\/hero\/jana.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_site\/img\/hero\/john.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 228814,
-		"inputAbbreviatedPath": "\/_site\/img\/hero\/john.jpg",
-		"outputAbbreviatedPath": "\/_site\/img\/hero\/john.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_site\/img\/hero\/machine.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 90126,
-		"inputAbbreviatedPath": "\/_site\/img\/hero\/machine.jpg",
-		"outputAbbreviatedPath": "\/_site\/img\/hero\/machine.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_site\/img\/hero\/pack.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 102216,
-		"inputAbbreviatedPath": "\/_site\/img\/hero\/pack.jpg",
-		"outputAbbreviatedPath": "\/_site\/img\/hero\/pack.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_site\/img\/hero\/saltflats.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 144696,
-		"inputAbbreviatedPath": "\/_site\/img\/hero\/saltflats.jpg",
-		"outputAbbreviatedPath": "\/_site\/img\/hero\/saltflats.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_site\/img\/hero\/sew.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 77896,
-		"inputAbbreviatedPath": "\/_site\/img\/hero\/sew.jpg",
-		"outputAbbreviatedPath": "\/_site\/img\/hero\/sew.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_site\/img\/hero\/stacked.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 80016,
-		"inputAbbreviatedPath": "\/_site\/img\/hero\/stacked.jpg",
-		"outputAbbreviatedPath": "\/_site\/img\/hero\/stacked.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_site\/img\/hero\/steph.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 115958,
-		"inputAbbreviatedPath": "\/_site\/img\/hero\/steph.jpg",
-		"outputAbbreviatedPath": "\/_site\/img\/hero\/steph.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_site\/img\/hero\/trainers.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 74598,
-		"inputAbbreviatedPath": "\/_site\/img\/hero\/trainers.jpg",
-		"outputAbbreviatedPath": "\/_site\/img\/hero\/trainers.jpg",
+		"initialSize": 67386,
+		"inputAbbreviatedPath": "\/_site\/img\/hero\/two.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/hero\/two.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1014,189 +873,57 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/hero\/airport.jpg": {
+	"\/img\/hero\/four.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 210195,
-		"inputAbbreviatedPath": "\/img\/hero\/airport.jpg",
-		"outputAbbreviatedPath": "\/img\/hero\/airport.jpg",
+		"initialSize": 39536,
+		"inputAbbreviatedPath": "\/img\/hero\/four.jpg",
+		"outputAbbreviatedPath": "\/img\/hero\/four.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/hero\/eric.jpg": {
+	"\/img\/hero\/one.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 366493,
-		"inputAbbreviatedPath": "\/img\/hero\/eric.jpg",
-		"outputAbbreviatedPath": "\/img\/hero\/eric.jpg",
+		"initialSize": 56630,
+		"inputAbbreviatedPath": "\/img\/hero\/one.jpg",
+		"outputAbbreviatedPath": "\/img\/hero\/one.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/hero\/eric2.jpg": {
+	"\/img\/hero\/quotes\/cubs.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 146385,
-		"inputAbbreviatedPath": "\/img\/hero\/eric2.jpg",
-		"outputAbbreviatedPath": "\/img\/hero\/eric2.jpg",
+		"initialSize": 73396,
+		"inputAbbreviatedPath": "\/img\/hero\/quotes\/cubs.jpg",
+		"outputAbbreviatedPath": "\/img\/hero\/quotes\/cubs.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/hero\/eric3.jpg": {
+	"\/img\/hero\/three.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 133384,
-		"inputAbbreviatedPath": "\/img\/hero\/eric3.jpg",
-		"outputAbbreviatedPath": "\/img\/hero\/eric3.jpg",
+		"initialSize": 51573,
+		"inputAbbreviatedPath": "\/img\/hero\/three.jpg",
+		"outputAbbreviatedPath": "\/img\/hero\/three.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/hero\/eric4.jpg": {
+	"\/img\/hero\/two.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 94779,
-		"inputAbbreviatedPath": "\/img\/hero\/eric4.jpg",
-		"outputAbbreviatedPath": "\/img\/hero\/eric4.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/hero\/eric5.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 100828,
-		"inputAbbreviatedPath": "\/img\/hero\/eric5.jpg",
-		"outputAbbreviatedPath": "\/img\/hero\/eric5.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/hero\/hospital.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 72216,
-		"inputAbbreviatedPath": "\/img\/hero\/hospital.jpg",
-		"outputAbbreviatedPath": "\/img\/hero\/hospital.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/hero\/hospital2.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 100059,
-		"inputAbbreviatedPath": "\/img\/hero\/hospital2.jpg",
-		"outputAbbreviatedPath": "\/img\/hero\/hospital2.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/hero\/jana.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 407439,
-		"inputAbbreviatedPath": "\/img\/hero\/jana.jpg",
-		"outputAbbreviatedPath": "\/img\/hero\/jana.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/hero\/john.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 228814,
-		"inputAbbreviatedPath": "\/img\/hero\/john.jpg",
-		"outputAbbreviatedPath": "\/img\/hero\/john.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/hero\/machine.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 90126,
-		"inputAbbreviatedPath": "\/img\/hero\/machine.jpg",
-		"outputAbbreviatedPath": "\/img\/hero\/machine.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/hero\/pack.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 102216,
-		"inputAbbreviatedPath": "\/img\/hero\/pack.jpg",
-		"outputAbbreviatedPath": "\/img\/hero\/pack.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/hero\/saltflats.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 144696,
-		"inputAbbreviatedPath": "\/img\/hero\/saltflats.jpg",
-		"outputAbbreviatedPath": "\/img\/hero\/saltflats.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/hero\/sew.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 77896,
-		"inputAbbreviatedPath": "\/img\/hero\/sew.jpg",
-		"outputAbbreviatedPath": "\/img\/hero\/sew.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/hero\/stacked.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 80016,
-		"inputAbbreviatedPath": "\/img\/hero\/stacked.jpg",
-		"outputAbbreviatedPath": "\/img\/hero\/stacked.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/hero\/steph.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 115958,
-		"inputAbbreviatedPath": "\/img\/hero\/steph.jpg",
-		"outputAbbreviatedPath": "\/img\/hero\/steph.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/hero\/trainers.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 74598,
-		"inputAbbreviatedPath": "\/img\/hero\/trainers.jpg",
-		"outputAbbreviatedPath": "\/img\/hero\/trainers.jpg",
+		"initialSize": 67386,
+		"inputAbbreviatedPath": "\/img\/hero\/two.jpg",
+		"outputAbbreviatedPath": "\/img\/hero\/two.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

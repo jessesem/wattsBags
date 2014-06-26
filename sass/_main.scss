@@ -6,10 +6,10 @@ body {
 
 /* ******************************* Header Tags *******************************/
 h1,h2,h3,h4,h5,h6 {
-	font-family:  "brandon-grotesque", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+	font-family:  "bebas-neue", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
     text-transform: uppercase;
 	margin-bottom:.5em;
-	font-weight:700;
+	font-weight:400;
             text-align: left;
             -webkit-margin-before: 0;
             -webkit-margin-after: 0;
@@ -67,12 +67,11 @@ h1 a:hover,h2 a:hover,h3 a:hover {
 
 header {
     width: 100%;
-    background: $dark-background;
-    height: 100px;
+    background: $blue-dark;
+    height: 105px;
     text-align:center;
     position: fixed;
     z-index: 1040;
-    padding: 35px 0;
     @include transition();
 
     section.center {
@@ -80,26 +79,26 @@ header {
     }
 
 }
-header.shrink {
-    height: 72px;
-    // background: $primary;
-    border-bottom: 1px solid rgba(0,0,0,.2);
-    padding: 0;
-     @include transition();
+// header.shrink {
+//     height: 72px;
+//     // background: $primary;
+//     border-bottom: 1px solid rgba(0,0,0,.2);
+//     padding: 0;
+//      @include transition();
 
-     section.center {
-        padding: 0;
-     }
+//      section.center {
+//         padding: 0;
+//      }
 
-     .navbar-default  {
-        padding-top: em(5px);
-    }
+//      .navbar-default  {
+//         padding-top: em(5px);
+//     }
 
-}
+// }
 footer {
     color: #FFF;
-    background: $dark-blue;
-    font-size: 85%;
+    background: $blue-light;
+    font-size: 100%;
     line-height: 25px;
 
     #logo {
@@ -160,11 +159,13 @@ article {
 
 #logo {
     width:100%;
-    max-width: em(170px);
+    max-width: em(220px);
     height: auto;
     padding: 0 ;
     float: left;
-     @include transition();
+    background: $blue-light;
+    padding: em(27px);
+    @include transition();
 }
 
 #icons-social {
@@ -182,50 +183,35 @@ article {
 
 
 #hero {
-    background: $medium;
+    background: $dark;
 	 height: 100%;
-     max-height: 850px;
+     max-height: em(575px);
+     border-bottom: 15px solid $cta;
 
             h1, h2 {
-                text-align: center;
-                font-size: 450%;
-                color: #FFF;
-                @include text-shadow;
+                line-height: 80px;
+                font-size: em(95px);
+                color: $cta;
+                font-weight: 400;
             }
 
             h2 {
-                font-size: 220%;
+                color: #FFF;
+                font: normal 180%/1  "proxima-nova", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+                text-transform: none;
             }
 
             section.center {
-                padding: 15% 0 0 0;
-                height: 850px;
-            }
+                padding: 12% 0 0 0;
+                height: em(575px);
 
-        li {
-                color: #FFF;
-                display: inline-block;
-                list-style: none;
-                padding: 15px 20px;
-                text-align: center;
-                text-transform: uppercase;
-                font-family:  "brandon-grotesque", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
-                font-weight: 700;
-                background: $dark-blue;
-                width: 100%;
-                max-width: 230px;
             }
-
-              @media only screen and (max-width: $med) {
-                height: auto;
-                max-height: none;
-              }
 
     a.learnMoreButton {
         display: block;
-        max-width: em(450px);
-        margin: 0 auto;
-        margin-top: 5%;
+        max-width: em(300px);
+        margin-top: em(20px);
+        color: $dark;
     }
 
     video {
@@ -359,7 +345,6 @@ article {
 {
     background-color: transparent;
     border-color: transparent;
-    padding-top: 20px;
 }
 
 .navbar-default .navbar-toggle {
@@ -407,6 +392,7 @@ article {
 
 .navbar-default .navbar-collapse {
     background-color: tranparent;
+    margin-top: 45px;
 
         @media only screen and (max-width: $med) {
             background-color: $dark-blue;
@@ -415,34 +401,16 @@ article {
 }
 
 .row {
-    margin: 0;
+    margin: 1em -15px;
 }
 /* *******************************  Tabs *******************************/
 
 
 .nav-tabs {
-    margin-top: 1em;
+    margin-top: 1em ;
 }
 
 
-/* *******************************  Carousel *******************************/
-
-
-.item{
-    background: white;
-    text-align: center;
-    height: 300px !important;
-}
-
-.carousel.carousel-fade .item {
-  opacity:0;
-  filter: alpha(opacity=0); /* ie fix */
-}
-
-.carousel.carousel-fade .active.item {
-    opacity:1;
-    filter: alpha(opacity=100); /* ie fix */
-}
 /* ******************************* Slabs *******************************/
 
 
@@ -469,22 +437,41 @@ article {
     border-bottom: 1px solid rgba(0,0,0,.1);
 }
 
+#slab-top {
+    background: #FFF;
+    height: em(35px);
+    text-align: right;
+
+    li {
+        display: inline;
+        padding: 0 em(7px);
+        font: normal 140%/1  "bebas-neue", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+        color: $light-gray;
+    }
+    section.center {
+        float: right;
+        padding: 4px 0;
+    }
+}
+
 #slab-quote {
     background: $dark-background;
     color: #FFF;
     padding: 2em 0;
 
+
     h5, p {
         text-align: center;
+        font: italic 180%/1.4  "ff-tisa-web-pro", Georgia, Times, serif;
+        font-weight: 700;
     }
 
     h5 {
-        font-family: "ff-tisa-web-pro", Georgia, Times, serif;
         text-transform: none;
-        font-size: 170%;
-        font-weight: 700;
-        font-style: italic;
+        font-weight: 400;
         margin-bottom:.5em;
+        font-weight: 400;
+
         }
 }
 
@@ -492,7 +479,19 @@ article {
     background: $medium;
 }
 
+#slab-proudcts {
+    background: $blue-dark;
 
+    .row .product {
+        background: #FFF;
+        padding: em(25px);
+    }
+
+    h2 {
+        font-size: 200%;
+        margin-bottom: 0;
+    }
+}
 #slab-story {
     background: $light;
 }
@@ -517,18 +516,31 @@ article {
 
 #slab-testimonials {
 background: #FFF;
-min-height: 200px;
+min-height: em(140px);
 
     li {
         list-style: none;
         display: inline-block;
-        padding: 0 20px;
+        padding: 0 25px;
+    }
+
+    li:first-child{
+        padding-left: 0;
+    }
+
+    li:last-child {
+        padding-right: 0;
     }
 
     img {
         width: 100%;
         height: auto;
         max-width: em(130px);
+        opacity: .7;
+    }
+
+    section.center {
+        padding: 1em 0;
     }
 }
 
@@ -537,13 +549,16 @@ a.learnMoreButton {
     font-weight: bold;
     text-align: center;
     text-transform: uppercase;
-    background: $primary;
-    border: 1px solid #FFF;
-    color: #FFF;
+    background: $cta;
+    color: $dark;
     min-width: 143px;
     text-decoration: none;
     padding: 13px;
     display: block;
+}
+
+a.learnMoreButton:hover {
+    color: #FFF;
 }
 
 .row.video {
@@ -564,3 +579,38 @@ a.learnMoreButton {
 .navbar-default .navbar-nav > li > a {
     text-align: center;
 }
+
+
+
+/* *******************************  Carousel *******************************/
+.carousel.carousel-fade .item {
+    -webkit-transition: opacity 0.5s ease-in-out;
+    -moz-transition: opacity 0.5s ease-in-out;
+    -ms-transition: opacity 0.5s ease-in-out;
+    -o-transition: opacity 0.5s ease-in-out;
+    transition: opacity 0.5s ease-in-out;
+    opacity:0;
+}
+
+.carousel.carousel-fade .active.item {
+    opacity:1;
+}
+
+.carousel.carousel-fade .active.left,
+.carousel.carousel-fade .active.right {
+    left: 0;
+    z-index: 2;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+
+.carousel.carousel-fade .next,
+.carousel.carousel-fade .prev {
+    left: 0;
+    z-index: 1;
+}
+
+.carousel.carousel-fade .carousel-control {
+    z-index: 3;
+}
+

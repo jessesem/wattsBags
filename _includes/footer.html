@@ -80,34 +80,38 @@
 
 
 //Backstretch
-  $("#hero").backstretch([
-       "{{ site.baseurl }}img/hero/eric4.jpg",
-       "{{ site.baseurl }}img/hero/machine.jpg",
-       "{{ site.baseurl }}img/hero/eric5.jpg"
-   ], {duration: 5000, fade: 750});
-
-$(".hero-product").backstretch("{{ site.baseurl }}img/hero/airport.jpg");
+$(".hero-product").backstretch("{{ site.baseurl }}img/hero/two.jpg");
+$("#hero").backstretch("{{ site.baseurl }}img/hero/one.jpg");
+$("#slab-quote").backstretch("{{ site.baseurl }}img/hero/quotes/cubs.jpg");
 // $("#slab-high").backstretch("{{ site.baseurl }}img/hero/trainers.jpg");
 // $("#slab-med").backstretch("{{ site.baseurl }}img/hero/hospital.jpg");
 
 //Shrink Header
-$(function(){
- var shrinkHeader = (350);
-  $(window).scroll(function() {
-    var scroll = getCurrentScroll();
-      if ( scroll >= shrinkHeader ) {
-           $('header').addClass('shrink');
-        }
-        else {
-            $('header').removeClass('shrink');
-        }
-  });
-function getCurrentScroll() {
-    return window.pageYOffset;
-    }
-});
+// $(function(){
+//  var shrinkHeader = (350);
+//   $(window).scroll(function() {
+//     var scroll = getCurrentScroll();
+//       if ( scroll >= shrinkHeader ) {
+//            $('header').addClass('shrink');
+//         }
+//         else {
+//             $('header').removeClass('shrink');
+//         }
+//   });
+// function getCurrentScroll() {
+//     return window.pageYOffset;
+//     }
+// });
 $('#piggyback a').click(function (e) {
   e.preventDefault()
   $(this).tab('show')
 })
+</script>
+
+<script>
+  $(document).ready(function(){
+    $('.carousel').carousel({
+      interval: 2000
+    });
+  });
 </script>
