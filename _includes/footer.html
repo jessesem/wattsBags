@@ -69,6 +69,13 @@
 <script type="text/javascript" src="{{ site.baseurl }}/js/backstretch.min.js"></script>
 <script type="text/javascript" src="{{ site.baseurl }}/js/fitvid.js"></script>
 <script type="text/javascript" src="{{ site.baseurl }}/js/lazyLoad.min.js"></script>
+<script>
+  $(document).ready(function(){
+    $('.carousel').carousel({
+      interval: 2000
+    });
+  });
+</script>
 <script type="text/javascript">
 
   $(function() {
@@ -106,12 +113,4 @@ $('#piggyback a').click(function (e) {
   e.preventDefault()
   $(this).tab('show')
 })
-</script>
-
-<script>
-  $(document).ready(function(){
-    $('.carousel').carousel({
-      interval: 2000
-    });
-  });
 </script>

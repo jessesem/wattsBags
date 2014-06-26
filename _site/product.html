@@ -330,7 +330,6 @@
 </div>
 <div id="slab-testimonials" class="slab">
     <section class="center">
-            <div class="responsiveGallery">
                 <ul>
                     <li><img class="lazy visible content image" data-original="/img/logos/miami.png"></li>
                     <li><img class="lazy visible content image" data-original="/img/logos/boston.png"></li>
@@ -338,7 +337,6 @@
                     <li><img class="lazy visible content image" data-original="/img/logos/spurs.png"></li>
                     <li><img class="lazy visible content image" data-original="/img/logos/byu.png"></li>
                 </ul>
-            </div>
     </section>
 </div>
 
@@ -413,6 +411,13 @@
 <script type="text/javascript" src="/js/backstretch.min.js"></script>
 <script type="text/javascript" src="/js/fitvid.js"></script>
 <script type="text/javascript" src="/js/lazyLoad.min.js"></script>
+<script>
+  $(document).ready(function(){
+    $('.carousel').carousel({
+      interval: 2000
+    });
+  });
+</script>
 <script type="text/javascript">
 
   $(function() {
@@ -450,14 +455,6 @@ $('#piggyback a').click(function (e) {
   e.preventDefault()
   $(this).tab('show')
 })
-</script>
-
-<script>
-  $(document).ready(function(){
-    $('.carousel').carousel({
-      interval: 2000
-    });
-  });
 </script>
 
 
