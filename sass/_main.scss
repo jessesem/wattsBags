@@ -486,6 +486,31 @@ article {
         padding: em(25px);
     }
 
+    .product.oversize {
+        height: em(360px);
+        background: #FFF url(../img/home/oversized.jpg) bottom left no-repeat;
+    }
+
+    .product.professional {
+        height: em(360px);
+        background: #FFF url(../img/home/professional.jpg) bottom right no-repeat;
+    }
+
+    .product.trainer {
+        height: em(240px);
+        background: #FFF url(../img/home/trainer.jpg) bottom left no-repeat;
+    }
+
+    .product.laptop {
+        height: em(240px);
+        background: #FFF url(../img/home/laptop.jpg) bottom left no-repeat;
+    }
+
+    .product.programmer {
+        height: em(240px);
+        background: #FFF url(../img/home/programmer.jpg) bottom right no-repeat;
+    }
+
     h2 {
         font-size: 200%;
         margin-bottom: 0;

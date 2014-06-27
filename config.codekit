@@ -254,6 +254,61 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_site\/img\/home\/laptop.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8469,
+		"inputAbbreviatedPath": "\/_site\/img\/home\/laptop.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/home\/laptop.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/home\/oversized.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 15363,
+		"inputAbbreviatedPath": "\/_site\/img\/home\/oversized.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/home\/oversized.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/home\/professional.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 9297,
+		"inputAbbreviatedPath": "\/_site\/img\/home\/professional.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/home\/professional.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/home\/programmer.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5402,
+		"inputAbbreviatedPath": "\/_site\/img\/home\/programmer.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/home\/programmer.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/home\/trainer.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8525,
+		"inputAbbreviatedPath": "\/_site\/img\/home\/trainer.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/home\/trainer.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_site\/img\/logo.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -924,6 +979,61 @@
 		"initialSize": 67386,
 		"inputAbbreviatedPath": "\/img\/hero\/two.jpg",
 		"outputAbbreviatedPath": "\/img\/hero\/two.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/home\/laptop.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8469,
+		"inputAbbreviatedPath": "\/img\/home\/laptop.jpg",
+		"outputAbbreviatedPath": "\/img\/home\/laptop.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/home\/oversized.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 15363,
+		"inputAbbreviatedPath": "\/img\/home\/oversized.jpg",
+		"outputAbbreviatedPath": "\/img\/home\/oversized.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/home\/professional.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 9297,
+		"inputAbbreviatedPath": "\/img\/home\/professional.jpg",
+		"outputAbbreviatedPath": "\/img\/home\/professional.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/home\/programmer.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5402,
+		"inputAbbreviatedPath": "\/img\/home\/programmer.jpg",
+		"outputAbbreviatedPath": "\/img\/home\/programmer.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/home\/trainer.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8525,
+		"inputAbbreviatedPath": "\/img\/home\/trainer.jpg",
+		"outputAbbreviatedPath": "\/img\/home\/trainer.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

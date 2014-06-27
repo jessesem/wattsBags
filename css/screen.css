@@ -9452,57 +9452,77 @@ article {
     background: #FFF;
     padding: 1.66667em; }
   /* line 489, ../sass/_main.scss */
+  #slab-proudcts .product.oversize {
+    height: 24em;
+    background: white url(../img/home/oversized.jpg) bottom left no-repeat; }
+  /* line 494, ../sass/_main.scss */
+  #slab-proudcts .product.professional {
+    height: 24em;
+    background: white url(../img/home/professional.jpg) bottom right no-repeat; }
+  /* line 499, ../sass/_main.scss */
+  #slab-proudcts .product.trainer {
+    height: 16em;
+    background: white url(../img/home/trainer.jpg) bottom left no-repeat; }
+  /* line 504, ../sass/_main.scss */
+  #slab-proudcts .product.laptop {
+    height: 16em;
+    background: white url(../img/home/laptop.jpg) bottom left no-repeat; }
+  /* line 509, ../sass/_main.scss */
+  #slab-proudcts .product.programmer {
+    height: 16em;
+    background: white url(../img/home/programmer.jpg) bottom right no-repeat; }
+  /* line 514, ../sass/_main.scss */
   #slab-proudcts h2 {
     font-size: 200%;
     margin-bottom: 0; }
 
-/* line 494, ../sass/_main.scss */
+/* line 519, ../sass/_main.scss */
 #slab-story {
   background: #f3f0ea; }
 
-/* line 498, ../sass/_main.scss */
+/* line 523, ../sass/_main.scss */
 #slab-high {
   background: white; }
 
-/* line 503, ../sass/_main.scss */
+/* line 528, ../sass/_main.scss */
 #slab-med {
   background: #f7f7f7; }
 
-/* line 507, ../sass/_main.scss */
+/* line 532, ../sass/_main.scss */
 #slab-about {
   color: #FFF;
   background: #272727; }
 
-/* line 512, ../sass/_main.scss */
+/* line 537, ../sass/_main.scss */
 #slab-low {
   background: white; }
 
-/* line 516, ../sass/_main.scss */
+/* line 541, ../sass/_main.scss */
 #slab-testimonials {
   background: #FFF;
   min-height: 9.33333em; }
-  /* line 520, ../sass/_main.scss */
+  /* line 545, ../sass/_main.scss */
   #slab-testimonials li {
     list-style: none;
     display: inline-block;
     padding: 0 25px; }
-  /* line 526, ../sass/_main.scss */
+  /* line 551, ../sass/_main.scss */
   #slab-testimonials li:first-child {
     padding-left: 0; }
-  /* line 530, ../sass/_main.scss */
+  /* line 555, ../sass/_main.scss */
   #slab-testimonials li:last-child {
     padding-right: 0; }
-  /* line 534, ../sass/_main.scss */
+  /* line 559, ../sass/_main.scss */
   #slab-testimonials img {
     width: 100%;
     height: auto;
     max-width: 8.66667em;
     opacity: .7; }
-  /* line 541, ../sass/_main.scss */
+  /* line 566, ../sass/_main.scss */
   #slab-testimonials section.center {
     padding: 1em 0; }
 
-/* line 547, ../sass/_main.scss */
+/* line 572, ../sass/_main.scss */
 a.learnMoreButton {
   font-weight: bold;
   text-align: center;
@@ -9514,25 +9534,25 @@ a.learnMoreButton {
   padding: 13px;
   display: block; }
 
-/* line 559, ../sass/_main.scss */
+/* line 584, ../sass/_main.scss */
 a.learnMoreButton:hover {
   color: #FFF; }
 
-/* line 563, ../sass/_main.scss */
+/* line 588, ../sass/_main.scss */
 .row.video {
   text-align: center; }
-  /* line 566, ../sass/_main.scss */
+  /* line 591, ../sass/_main.scss */
   .row.video h2 {
     text-align: center;
     margin-bottom: .5em;
     font-size: 4em; }
 
-/* line 578, ../sass/_main.scss */
+/* line 603, ../sass/_main.scss */
 .navbar-default .navbar-nav > li > a {
   text-align: center; }
 
 /* *******************************  Carousel *******************************/
-/* line 585, ../sass/_main.scss */
+/* line 610, ../sass/_main.scss */
 .carousel.carousel-fade .item {
   -webkit-transition: opacity 0.5s ease-in-out;
   -moz-transition: opacity 0.5s ease-in-out;
@@ -9541,11 +9561,11 @@ a.learnMoreButton:hover {
   transition: opacity 0.5s ease-in-out;
   opacity: 0; }
 
-/* line 594, ../sass/_main.scss */
+/* line 619, ../sass/_main.scss */
 .carousel.carousel-fade .active.item {
   opacity: 1; }
 
-/* line 598, ../sass/_main.scss */
+/* line 623, ../sass/_main.scss */
 .carousel.carousel-fade .active.left,
 .carousel.carousel-fade .active.right {
   left: 0;
@@ -9553,12 +9573,12 @@ a.learnMoreButton:hover {
   opacity: 0;
   filter: alpha(opacity=0); }
 
-/* line 606, ../sass/_main.scss */
+/* line 631, ../sass/_main.scss */
 .carousel.carousel-fade .next,
 .carousel.carousel-fade .prev {
   left: 0;
   z-index: 1; }
 
-/* line 612, ../sass/_main.scss */
+/* line 637, ../sass/_main.scss */
 .carousel.carousel-fade .carousel-control {
   z-index: 3; }
