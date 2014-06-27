@@ -489,27 +489,52 @@ article {
     .product.oversize {
         height: em(360px);
         background: #FFF url(../img/home/oversized.jpg) bottom left no-repeat;
+
+        a.learnMoreButton {
+            margin-top: 9em;
+            width: 200px;
+            float: right
+        }
     }
 
     .product.professional {
         height: em(360px);
         background: #FFF url(../img/home/professional.jpg) bottom right no-repeat;
+
+        a.learnMoreButton {
+            margin-top: 10em;
+            width: 200px;
+        }
     }
 
     .product.trainer {
-        height: em(240px);
-        background: #FFF url(../img/home/trainer.jpg) bottom left no-repeat;
+        background: #FFF url(../img/home/trainer.jpg) 50% no-repeat;
     }
 
     .product.laptop {
-        height: em(240px);
-        background: #FFF url(../img/home/laptop.jpg) bottom left no-repeat;
+        background: #FFF url(../img/home/laptop.jpg) 50% no-repeat;
+
     }
 
     .product.programmer {
-        height: em(240px);
-        background: #FFF url(../img/home/programmer.jpg) bottom right no-repeat;
+        background: #FFF url(../img/home/programmer.jpg) 50% no-repeat;
     }
+
+.product.trainer,
+.product.laptop,
+.product.programmer {
+    height: 23em;
+
+    h2,p {
+        text-align: center;
+    }
+
+    h2 {
+         margin-bottom: 7.5em;
+    }
+
+}
+
 
     h2 {
         font-size: 200%;
