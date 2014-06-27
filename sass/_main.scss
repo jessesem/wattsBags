@@ -183,7 +183,6 @@ article {
 
 
 #hero {
-    background: $dark;
 	 height: 100%;
      max-height: em(575px);
      border-bottom: 15px solid $cta;
@@ -352,6 +351,14 @@ article {
         font-size: 150%;
     }
 }
+
+.hero-product {
+    background: $dark url(/img/hero/two.jpg) 50% 50% no-repeat;
+    background-size: cover;
+}
+
+
+
 /* ******************************* TB Responsive Menu Overrides *******************************/
 .navbar-default
 {
@@ -466,7 +473,8 @@ article {
 }
 
 #slab-quote {
-    background: $dark-background;
+    background: $dark url(/img/hero/quotes/cubs.jpg) 50% 50% no-repeat;
+    background-size: cover;
     color: #FFF;
     padding: 3em 0;
 
@@ -668,21 +676,21 @@ a.learnMoreButton:hover {
 
 #hero-1 {
     background: url(/img/hero/one.jpg) 50% 50% no-repeat;
-    background-size: contain;
+    background-size: cover;
 }
 #hero-2 {
     background: url(/img/hero/two.jpg) 50% 50% no-repeat;
-    background-size: contain;
+    background-size: cover;
 }
 
 #hero-3 {
     background: url(/img/hero/three.jpg) 50% 50% no-repeat;
-    background-size: contain;
+    background-size: cover;
 }
 
 #hero-4 {
     background: url(/img/hero/four.jpg) 50% 50% no-repeat;
-    background-size: contain;
+    background-size: cover;
 }
 
 #hero-3 .carousel-caption {
