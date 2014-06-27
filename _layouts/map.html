@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<html lang="en">
+
+
+<head>
+    {% include header.html %}
+<script src='https://api.tiles.mapbox.com/mapbox.js/v1.6.4/mapbox.js'></script>
+<link href='https://api.tiles.mapbox.com/mapbox.js/v1.6.4/mapbox.css' rel='stylesheet' />
+
+</head>
+
+<body>
+    {% include analytics.html %}
+
+    <header>
+            {% include menu.html %}
+    </header>
+
+        {{ content }}
+
+    {% include footer.html %}
+<script>
+var map = L.mapbox.map('map', 'examples.map-i86nkdio')
+    .setView([40, -74.50], 9);
+</script>
+</body>
+</html>
