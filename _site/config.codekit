@@ -128,15 +128,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/_site\/css\/parallax.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_site\/css\/parallax.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/_site\/css\/print.css": {
 		"fileType": 16,
 		"ignore": 0,
@@ -309,6 +300,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_site\/img\/icons\/arrow-left.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2995,
+		"inputAbbreviatedPath": "\/_site\/img\/icons\/arrow-left.png",
+		"outputAbbreviatedPath": "\/_site\/img\/icons\/arrow-left.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/icons\/arrow-right.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3011,
+		"inputAbbreviatedPath": "\/_site\/img\/icons\/arrow-right.png",
+		"outputAbbreviatedPath": "\/_site\/img\/icons\/arrow-right.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_site\/img\/logo.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -393,6 +406,17 @@
 		"initialSize": 2136,
 		"inputAbbreviatedPath": "\/_site\/img\/play.png",
 		"outputAbbreviatedPath": "\/_site\/img\/play.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/thumb-video.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 25656,
+		"inputAbbreviatedPath": "\/_site\/img\/thumb-video.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/thumb-video.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -857,15 +881,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/css\/parallax.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/css\/parallax.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/css\/print.css": {
 		"fileType": 16,
 		"ignore": 1,
@@ -1038,6 +1053,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/icons\/arrow-left.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2995,
+		"inputAbbreviatedPath": "\/img\/icons\/arrow-left.png",
+		"outputAbbreviatedPath": "\/img\/icons\/arrow-left.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/icons\/arrow-right.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3011,
+		"inputAbbreviatedPath": "\/img\/icons\/arrow-right.png",
+		"outputAbbreviatedPath": "\/img\/icons\/arrow-right.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/logo.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -1122,6 +1159,17 @@
 		"initialSize": 2136,
 		"inputAbbreviatedPath": "\/img\/play.png",
 		"outputAbbreviatedPath": "\/img\/play.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/thumb-video.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 26764,
+		"inputAbbreviatedPath": "\/img\/thumb-video.jpg",
+		"outputAbbreviatedPath": "\/img\/thumb-video.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

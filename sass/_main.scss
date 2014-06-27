@@ -202,7 +202,7 @@ article {
             }
 
             section.center {
-                padding: 12% 0 0 0;
+                padding: 0;
                 height: em(575px);
 
             }
@@ -339,6 +339,18 @@ article {
             h3 {
                opacity: .7;
             }
+}
+
+#wattsVideo {
+    border: 3px solid #FFF;
+}
+
+#home-list {
+
+    li {
+        text-align: left;
+        font-size: 150%;
+    }
 }
 /* ******************************* TB Responsive Menu Overrides *******************************/
 .navbar-default
@@ -632,34 +644,73 @@ a.learnMoreButton:hover {
 
 
 /* *******************************  Carousel *******************************/
-.carousel.carousel-fade .item {
-    -webkit-transition: opacity 0.5s ease-in-out;
-    -moz-transition: opacity 0.5s ease-in-out;
-    -ms-transition: opacity 0.5s ease-in-out;
-    -o-transition: opacity 0.5s ease-in-out;
-    transition: opacity 0.5s ease-in-out;
-    opacity:0;
+
+.carousel,
+.carousel-inner,
+.carousel-inner .item {
+  height: 100%;
 }
 
-.carousel.carousel-fade .active.item {
-    opacity:1;
+#carousel-home,
+.carousel-inner > .item {
+    height: em(555px);
+    overflow: hidden;
 }
 
-.carousel.carousel-fade .active.left,
-.carousel.carousel-fade .active.right {
+.carousel-caption {
     left: 0;
-    z-index: 2;
-    opacity: 0;
-    filter: alpha(opacity=0);
+    right: 0;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding-bottom: 100px;
 }
 
-.carousel.carousel-fade .next,
-.carousel.carousel-fade .prev {
-    left: 0;
-    z-index: 1;
+#hero-1 {
+    background: url(/img/hero/one.jpg) 50% 50% no-repeat;
+    background-size: contain;
+}
+#hero-2 {
+    background: url(/img/hero/two.jpg) 50% 50% no-repeat;
+    background-size: contain;
 }
 
-.carousel.carousel-fade .carousel-control {
-    z-index: 3;
+#hero-3 {
+    background: url(/img/hero/three.jpg) 50% 50% no-repeat;
+    background-size: contain;
 }
+
+#hero-4 {
+    background: url(/img/hero/four.jpg) 50% 50% no-repeat;
+    background-size: contain;
+}
+
+#hero-3 .carousel-caption {
+    padding-bottom: 0;
+}
+
+.carousel-fade .carousel-inner .item {
+  opacity: 0;
+  -webkit-transition-property: opacity;
+  -moz-transition-property: opacity;
+  -o-transition-property: opacity;
+  transition-property: opacity;
+}
+.carousel-fade .carousel-inner .active {
+  opacity: 1;
+}
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+  left: 0;
+  opacity: 0;
+  z-index: 1;
+}
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+  opacity: 1;
+}
+.carousel-fade .carousel-control {
+  z-index: 2;
+}
+
 

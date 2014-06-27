@@ -70,10 +70,13 @@
 <script type="text/javascript" src="{{ site.baseurl }}/js/fitvid.js"></script>
 <script type="text/javascript" src="{{ site.baseurl }}/js/lazyLoad.min.js"></script>
 <script>
-  $(document).ready(function(){
-    $('.carousel').carousel({
-      interval: 2000
+$(document).ready(function(){
+$('.carousel').carousel({interval: 5000});
+
+    $(document).on('mouseleave', '.carousel', function() {
+        $(this).carousel('pause');
     });
+
   });
 </script>
 <script type="text/javascript">
@@ -88,10 +91,8 @@
 
 //Backstretch
 $(".hero-product").backstretch("{{ site.baseurl }}img/hero/two.jpg");
-$("#hero").backstretch("{{ site.baseurl }}img/hero/one.jpg");
+
 $("#slab-quote").backstretch("{{ site.baseurl }}img/hero/quotes/cubs.jpg");
-// $("#slab-high").backstretch("{{ site.baseurl }}img/hero/trainers.jpg");
-// $("#slab-med").backstretch("{{ site.baseurl }}img/hero/hospital.jpg");
 
 //Shrink Header
 // $(function(){
