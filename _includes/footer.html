@@ -67,8 +67,18 @@
 <!-- Javascript -->
 <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="{{ site.baseurl }}/js/fitvid.js"></script>
+<script type="text/javascript" src="{{ site.baseurl }}/js/autofix.min.js"></script>
 <script type="text/javascript" src="{{ site.baseurl }}/js/lazyLoad.min.js"></script>
 <script>
+// AutoFix
+
+$('header').fixTo('body');
+
+$('#menu-products').fixTo('body', {
+    mind: 'header',
+    zIndex: 1050,
+});
+
 $(document).ready(function(){
 $('.carousel').carousel({interval: 5000});
 
@@ -86,25 +96,25 @@ $('.carousel').carousel({interval: 5000});
      });
 
   });
-
-//Shrink Header
-// $(function(){
-//  var shrinkHeader = (350);
-//   $(window).scroll(function() {
-//     var scroll = getCurrentScroll();
-//       if ( scroll >= shrinkHeader ) {
-//            $('header').addClass('shrink');
-//         }
-//         else {
-//             $('header').removeClass('shrink');
-//         }
-//   });
-// function getCurrentScroll() {
-//     return window.pageYOffset;
-//     }
-// });
+  //Tabs
 $('#piggyback a').click(function (e) {
   e.preventDefault()
   $(this).tab('show')
-})
+});
+
+// AutoFix
+    $('header').fixTo('body');
+    $('#menu-products').fixTo('#wrapper', {mind: 'header'
+    });
+
+    $(window).scroll(function() {
+        $('#phone').each(function(){
+        var imagePos = $(this).offset().top;
+
+        var topOfWindow = $(window).scrollTop();
+            if (imagePos < topOfWindow+400) {
+                $(this).addClass("slideLeft");
+            }
+        });
+});
 </script>

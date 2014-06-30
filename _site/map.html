@@ -27,7 +27,7 @@
 <script type="text/javascript" src="//use.typekit.net/bsx5zca.js"></script>
 <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 <script src='https://api.tiles.mapbox.com/mapbox.js/v1.6.4/mapbox.js'></script>
-<link href='https://api.tiles.mapbox.com/mapbox.js/v1.6.4/mapbox.css' rel='stylesheet' />
+<link rel='stylesheet'  href='https://api.tiles.mapbox.com/mapbox.js/v1.6.4/mapbox.css'/>
 
 </head>
 
@@ -49,16 +49,19 @@
     <div id="slab-top">
         <section class="center">
             <ul>
-                <li>Customer Reviews</li>
-                <li>News</li>
-                <li>801-756-7252</li>
+                <span class="hideMobile">
+                  <li>Customer Reviews</li>
+                <li>News</li></span>
+                <li><a href="tel:8017567252">801-756-7252</a></li>
+                <li class="search"><input type="text" placeholder="Search Watts"></li>
+
             </ul>
         </section>
     </div>
 
     <section class="center">
     <!-- Fixed navbar -->
-    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="navbar navbar-default" role="navigation">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -86,9 +89,6 @@
     </header>
 
         <div id="hero" class="hero-product">
-    <section id="" class="center">
-       <h1>Big hero name</h1>
-    </section>
     <div id="menu-products" class"home">
     <section class="center">
                 <ul>
@@ -96,7 +96,8 @@
             <li><a href="">Combo Sales Bags</a></li>
             <li><a href="">Add On Bag</a></li>
             <li><a href="">Biotronik Implant Bag</a></li>
-            <li><a href="">Nueromodulation Bag Travel Bag</a></li>
+            <li><a href="">Nueromodulation Bag </li>
+            <li>Travel Bag</a></li>
         </ul>
     </section>
 </div>
@@ -180,8 +181,18 @@
 <!-- Javascript -->
 <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="/js/fitvid.js"></script>
+<script type="text/javascript" src="/js/autofix.min.js"></script>
 <script type="text/javascript" src="/js/lazyLoad.min.js"></script>
 <script>
+// AutoFix
+
+$('header').fixTo('body');
+
+$('#menu-products').fixTo('body', {
+    mind: 'header',
+    zIndex: 1050,
+});
+
 $(document).ready(function(){
 $('.carousel').carousel({interval: 5000});
 
@@ -199,27 +210,27 @@ $('.carousel').carousel({interval: 5000});
      });
 
   });
-
-//Shrink Header
-// $(function(){
-//  var shrinkHeader = (350);
-//   $(window).scroll(function() {
-//     var scroll = getCurrentScroll();
-//       if ( scroll >= shrinkHeader ) {
-//            $('header').addClass('shrink');
-//         }
-//         else {
-//             $('header').removeClass('shrink');
-//         }
-//   });
-// function getCurrentScroll() {
-//     return window.pageYOffset;
-//     }
-// });
+  //Tabs
 $('#piggyback a').click(function (e) {
   e.preventDefault()
   $(this).tab('show')
-})
+});
+
+// AutoFix
+    $('header').fixTo('body');
+    $('#menu-products').fixTo('#wrapper', {mind: 'header'
+    });
+
+    $(window).scroll(function() {
+        $('#phone').each(function(){
+        var imagePos = $(this).offset().top;
+
+        var topOfWindow = $(window).scrollTop();
+            if (imagePos < topOfWindow+400) {
+                $(this).addClass("slideLeft");
+            }
+        });
+});
 </script>
 
 <script>

@@ -110,6 +110,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/_site\/about.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/about.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/_site\/category.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -154,6 +163,17 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
+		},
+	"\/_site\/img\/about\/alice.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 34969,
+		"inputAbbreviatedPath": "\/_site\/img\/about\/alice.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/about\/alice.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/_site\/img\/arrow.png": {
 		"fileType": 32768,
@@ -327,6 +347,17 @@
 		"initialSize": 3011,
 		"inputAbbreviatedPath": "\/_site\/img\/icons\/arrow-right.png",
 		"outputAbbreviatedPath": "\/_site\/img\/icons\/arrow-right.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/icons\/search.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1357,
+		"inputAbbreviatedPath": "\/_site\/img\/icons\/search.png",
+		"outputAbbreviatedPath": "\/_site\/img\/icons\/search.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -659,6 +690,17 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/_site\/js\/jquery.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/js\/jquery.min.js",
+		"outputAbbreviatedPath": "\/_site\/js\/min\/jquery.min-ck.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/_site\/js\/lazyLoad.min.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -863,6 +905,15 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/about.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/about.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/category.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -916,6 +967,17 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
+		},
+	"\/img\/about\/alice.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 34969,
+		"inputAbbreviatedPath": "\/img\/about\/alice.jpg",
+		"outputAbbreviatedPath": "\/img\/about\/alice.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/img\/arrow.png": {
 		"fileType": 32768,
@@ -1089,6 +1151,17 @@
 		"initialSize": 3011,
 		"inputAbbreviatedPath": "\/img\/icons\/arrow-right.png",
 		"outputAbbreviatedPath": "\/img\/icons\/arrow-right.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/icons\/search.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1357,
+		"inputAbbreviatedPath": "\/img\/icons\/search.png",
+		"outputAbbreviatedPath": "\/img\/icons\/search.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1416,6 +1489,17 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/html5shiv.js",
 		"outputAbbreviatedPath": "\/js\/min\/html5shiv-ck.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/jquery.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/jquery.min.js",
+		"outputAbbreviatedPath": "\/js\/min\/jquery.min-ck.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
