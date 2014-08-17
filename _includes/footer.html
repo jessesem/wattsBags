@@ -16,7 +16,7 @@
     <div class="col-md-3">
         <strong>Who we are</strong>
         <ul>
-            <li>About Us</li>
+            <li><a href="/about/">About Us</a></li>
             <li>Testimonials</li>
             <li>Our Staff</li>
             <li>Employment</li>
@@ -35,7 +35,7 @@
     </div>
 
     <div id="address" class="col-md-3">
-        <img class="lazy" data-original="{{ site.baseurl }}img/logo.svg" id="logo" onerror="img/logo.png">
+        <img class="lazy" data-original="{{ site.baseurl }}/img/logo.svg" id="logo" onerror="img/logo.png">
         </a>
         <p>1122 North 1800 West, Unit 1
             <br />Lindon, Utah 84042</p>
@@ -66,55 +66,4 @@
 
 <!-- Javascript -->
 <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
-<script type="text/javascript" src="{{ site.baseurl }}/js/fitvid.js"></script>
-<script type="text/javascript" src="{{ site.baseurl }}/js/autofix.min.js"></script>
-<script type="text/javascript" src="{{ site.baseurl }}/js/lazyLoad.min.js"></script>
-<script>
-// AutoFix
-
-$('header').fixTo('body');
-
-$('#menu-products').fixTo('body', {
-    mind: 'header',
-    zIndex: 1050,
-});
-
-$(document).ready(function(){
-$('.carousel').carousel({interval: 5000});
-
-    $(document).on('mouseleave', '.carousel', function() {
-        $(this).carousel('pause');
-    });
-
-  });
-</script>
-<script type="text/javascript">
-
-  $(function() {
-     $("img.lazy").lazyload({
-         effect : "fadeIn"
-     });
-
-  });
-  //Tabs
-$('#piggyback a').click(function (e) {
-  e.preventDefault()
-  $(this).tab('show')
-});
-
-// AutoFix
-    $('header').fixTo('body');
-    $('#menu-products').fixTo('#wrapper', {mind: 'header'
-    });
-
-    $(window).scroll(function() {
-        $('#phone').each(function(){
-        var imagePos = $(this).offset().top;
-
-        var topOfWindow = $(window).scrollTop();
-            if (imagePos < topOfWindow+400) {
-                $(this).addClass("slideLeft");
-            }
-        });
-});
-</script>
+<script type="text/javascript" src="{{ site.baseurl }}/js/main.min.js"></script>

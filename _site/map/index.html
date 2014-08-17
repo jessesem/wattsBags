@@ -12,11 +12,11 @@
 
 
 <!-- Styles -->
-<link rel="stylesheet" href="css/screen.css">
+<link rel="stylesheet" href="/css/screen.css">
 
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-<script type="text/javascript" src="js/modernizer.min.js"></script>
-<script type="text/javascript" src="js/selectivizr-min.js"></script>
+<script type="text/javascript" src="/js/modernizer.min.js"></script>
+<script type="text/javascript" src="/js/selectivizr-min.js"></script>
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -50,11 +50,9 @@
         <section class="center">
             <ul>
                 <span class="hideMobile">
-                  <li>Customer Reviews</li>
-                <li>News</li></span>
                 <li><a href="tel:8017567252">801-756-7252</a></li>
-                <li class="search"><input type="text" placeholder="Search Watts"></li>
-
+<!--                 <li class="search"><input type="text" placeholder="Search Watts"></li>
+ -->
             </ul>
         </section>
     </div>
@@ -70,17 +68,35 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="index.html"><img src="img/logo.svg" id="logo" onerror="img/logo.png" class="animated fadeInDown"></a>
+          <a class="navbar-brand" href="/"><img src="/img/logo.svg" id="logo" onerror="img/logo.png" class="animated fadeInDown"></a>
         </a>
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="">Services</a></li>
-            <li><a href="">Testimonials</a></li>
-            <li><a href="product.html">Products</a></li>
-            <li><a href="">Contact</a></li>
-          </ul>
+              <li><a href="/">Home</a></li>
+              <li><a href="/custom-bags/">Products</a></li>
+
+              <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">What We Do <span class="caret"></span></a>
+                  <ul class="dropdown-menu" role="menu">
+                      <li><a href="/about/embroidery/">Embroidery</a></li>
+                      <li><a href="/about//materials-used/">Materials Uses</a></li>
+                  </ul>
+              </li>
+
+             <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">About Us<span class="caret"></span></a>
+                  <ul class="dropdown-menu" role="menu">
+                      <li><a href="/about/">Our Story</a></li>
+                      <li><a href="/about/testimonials/">Customer Reviews</a></li>
+                      <li><a href="/about/news/">News</a></li>
+                  </ul>
+              </li>
+
+
+           <li><a href="/contact/">Contact Us</a></li>
+
+              </ul>
         </div><!--/.nav-collapse -->
       </div>
     </div>
@@ -130,7 +146,7 @@
     <div class="col-md-3">
         <strong>Who we are</strong>
         <ul>
-            <li>About Us</li>
+            <li><a href="/about/">About Us</a></li>
             <li>Testimonials</li>
             <li>Our Staff</li>
             <li>Employment</li>
@@ -149,7 +165,7 @@
     </div>
 
     <div id="address" class="col-md-3">
-        <img class="lazy" data-original="img/logo.svg" id="logo" onerror="img/logo.png">
+        <img class="lazy" data-original="/img/logo.svg" id="logo" onerror="img/logo.png">
         </a>
         <p>1122 North 1800 West, Unit 1
             <br />Lindon, Utah 84042</p>
@@ -180,58 +196,7 @@
 
 <!-- Javascript -->
 <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
-<script type="text/javascript" src="/js/fitvid.js"></script>
-<script type="text/javascript" src="/js/autofix.min.js"></script>
-<script type="text/javascript" src="/js/lazyLoad.min.js"></script>
-<script>
-// AutoFix
-
-$('header').fixTo('body');
-
-$('#menu-products').fixTo('body', {
-    mind: 'header',
-    zIndex: 1050,
-});
-
-$(document).ready(function(){
-$('.carousel').carousel({interval: 5000});
-
-    $(document).on('mouseleave', '.carousel', function() {
-        $(this).carousel('pause');
-    });
-
-  });
-</script>
-<script type="text/javascript">
-
-  $(function() {
-     $("img.lazy").lazyload({
-         effect : "fadeIn"
-     });
-
-  });
-  //Tabs
-$('#piggyback a').click(function (e) {
-  e.preventDefault()
-  $(this).tab('show')
-});
-
-// AutoFix
-    $('header').fixTo('body');
-    $('#menu-products').fixTo('#wrapper', {mind: 'header'
-    });
-
-    $(window).scroll(function() {
-        $('#phone').each(function(){
-        var imagePos = $(this).offset().top;
-
-        var topOfWindow = $(window).scrollTop();
-            if (imagePos < topOfWindow+400) {
-                $(this).addClass("slideLeft");
-            }
-        });
-});
-</script>
+<script type="text/javascript" src="/js/main.min.js"></script>
 
 <script>
 var map = L.mapbox.map('map', 'wattsbaggs.hggb92o7')

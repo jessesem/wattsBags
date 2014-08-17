@@ -18,16 +18,16 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 h1 {
-	font-size:1.6em;
+	font-size:2em;
 	line-height:1;
 	letter-spacing:-.02em;
 	margin-bottom:.2em;
 }
 
 h2 {
-	font-size:1.1em;
+	 font:normal 1.2em/1.4  "proxima-nova", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 	margin-bottom:10px;
-	line-height:1em;
+    text-transform: capitalize;
 }
 
 h3 {
@@ -196,7 +196,7 @@ article {
      max-height: em(575px);
      border-bottom: 15px solid $cta;
 
-            h1, h2 {
+            h1, h2, h3 {
                 line-height: 80px;
                 font-size: em(95px);
                 color: $cta;
@@ -207,6 +207,9 @@ article {
                 color: #FFF;
                 font: normal 180%/1  "proxima-nova", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
                 text-transform: none;
+            }
+            h3 {
+                margin-top: 5%;
             }
 
             section.center {
@@ -226,7 +229,6 @@ article {
         background-size: cover;
         background: url(/video/thumbnail.jpg) no-repeat;
         height: auto;
-        transform: translateX(-50%) translateY(-50%);
         width: 100%;
     }
 }
@@ -742,6 +744,10 @@ a.learnMoreButton:hover {
 .carousel-inner > .item {
     height: em(555px);
     overflow: hidden;
+}
+
+#carousel-sub {
+    height: em(255px);
 }
 
 .carousel-caption {
