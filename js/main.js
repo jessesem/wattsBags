@@ -1,6 +1,5 @@
 
 // AutoFix
-
 $('header').fixTo('body');
 
 $('#menu-products').fixTo('body', {
@@ -8,6 +7,7 @@ $('#menu-products').fixTo('body', {
     zIndex: 1050,
 });
 
+//Carousel
 $(document).ready(function(){
 $('.carousel').carousel({interval: 5000});
 
@@ -17,31 +17,16 @@ $('.carousel').carousel({interval: 5000});
 
   });
 
-
+//lazyload
   $(function() {
      $("img.lazy").lazyload({
          effect : "fadeIn"
      });
 
   });
-  //Tabs
+
+//Tabs
 $('#piggyback a').click(function (e) {
   e.preventDefault()
   $(this).tab('show')
-});
-
-// AutoFix
-    $('header').fixTo('body');
-    $('#menu-products').fixTo('#wrapper', {mind: 'header'
-    });
-
-    $(window).scroll(function() {
-        $('#phone').each(function(){
-        var imagePos = $(this).offset().top;
-
-        var topOfWindow = $(window).scrollTop();
-            if (imagePos < topOfWindow+400) {
-                $(this).addClass("slideLeft");
-            }
-        });
 });
