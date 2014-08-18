@@ -33,11 +33,29 @@ $cta: #ffc528;
 
 
 /* ******************************* Breakpoints *******************************/
-$xs: 200px;
-$sm: 500px;
-$med: 769px;
-$lg: 960px;
-$xxl: 1200px;
+
+@mixin respond-to($breakpoint) {
+  @if $breakpoint == "small" {
+    @media (max-width: 767px) {
+      @content;
+    }
+  }
+
+
+  @else if $breakpoint == "medium" {
+    @media (min-width: 768px) {
+      @content;
+    }
+  }
+
+    @else if $breakpoint == "large" {
+    @media (min-width: 900px) {
+      @content;
+    }
+  }
+
+
+}
 
 /* ******************************* Mixin *******************************/
 

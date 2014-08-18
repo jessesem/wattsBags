@@ -47,15 +47,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/_includes\/menu-sub.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_includes\/menu-sub.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/_includes\/menu.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -83,6 +74,60 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/_includes\/sub-menu\/accessory-bags-products.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_includes\/sub-menu\/accessory-bags-products.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/_includes\/sub-menu\/athletic-trainer-bags.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_includes\/sub-menu\/athletic-trainer-bags.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/_includes\/sub-menu\/other-bags.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_includes\/sub-menu\/other-bags.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/_includes\/sub-menu\/oversized-sales-bags.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_includes\/sub-menu\/oversized-sales-bags.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/_includes\/sub-menu\/professional-sales-bags.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_includes\/sub-menu\/professional-sales-bags.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/_includes\/sub-menu\/programmer-bags.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_includes\/sub-menu\/programmer-bags.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/_includes\/testimonial.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -106,15 +151,6 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_layouts\/map.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/_site\/about.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_site\/about.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -971,15 +1007,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
-		},
-	"\/about.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/about.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
 		},
 	"\/about\/embroidery\/index.html": {
 		"fileType": 8192,
@@ -3098,11 +3125,11 @@
 		},
 	"jsLintFlags2": {
 		"ass": {
-			"active": 0,
+			"active": 1,
 			"flagValue": -1
 			},
 		"bitwise": {
-			"active": 0,
+			"active": 1,
 			"flagValue": -1
 			},
 		"browser": {
@@ -3114,11 +3141,11 @@
 			"flagValue": -1
 			},
 		"continue": {
-			"active": 0,
+			"active": 1,
 			"flagValue": -1
 			},
 		"debug": {
-			"active": 0,
+			"active": 1,
 			"flagValue": -1
 			},
 		"devel": {
@@ -3126,15 +3153,15 @@
 			"flagValue": -1
 			},
 		"eqeq": {
-			"active": 0,
+			"active": 1,
 			"flagValue": -1
 			},
 		"evil": {
-			"active": 0,
+			"active": 1,
 			"flagValue": -1
 			},
 		"forin": {
-			"active": 0,
+			"active": 1,
 			"flagValue": -1
 			},
 		"indent": {
@@ -3162,7 +3189,7 @@
 			"flagValue": -1
 			},
 		"properties": {
-			"active": 0,
+			"active": 1,
 			"flagValue": -1
 			},
 		"regexp": {
@@ -3182,15 +3209,15 @@
 			"flagValue": -1
 			},
 		"sub": {
-			"active": 0,
+			"active": 1,
 			"flagValue": -1
 			},
 		"todo": {
-			"active": 0,
+			"active": 1,
 			"flagValue": -1
 			},
 		"unparam": {
-			"active": 0,
+			"active": 1,
 			"flagValue": -1
 			},
 		"vars": {
@@ -3198,7 +3225,7 @@
 			"flagValue": -1
 			},
 		"white": {
-			"active": 0,
+			"active": 1,
 			"flagValue": -1
 			}
 		},

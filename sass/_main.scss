@@ -77,6 +77,10 @@ header {
         padding: 0;
     }
 
+     @include respond-to(small) {
+        height: 5.5em;
+    }
+
 }
 // header.shrink {
 //     height: 72px;
@@ -166,6 +170,12 @@ article {
     padding: em(27px);
     @include transition();
     margin-top: -2em;
+
+     @include respond-to(small) {
+        padding: 20px 0 0 0;
+        background: $blue-dark;
+        width: 70%;
+    }
 
 }
 
@@ -293,7 +303,7 @@ div#trip-panel {
      }
 
      img {
-        @media only screen and (max-width: $med) {
+        @include respond-to(medium) {
         display: none;
         }
      }
@@ -345,15 +355,20 @@ div#trip-panel {
         border-right: 1px solid rgba(255,255,255,.2);
         a {
             color: #FFF;
-            font-size: 90%;
             text-transform: uppercase;
             font-weight: 600;
+            width: 100%;
+            max-width: 10em;
         }
 
     }
 
     li:last-child {
         border-right: none;
+    }
+
+     @include respond-to(small) {
+       display: none;
     }
 }
 
@@ -398,12 +413,16 @@ div#trip-panel {
     border-color: transparent;
     z-index: 1050;
     position: absolute;
+
+     @include respond-to(small) {
+       width: 100%;
+    }
 }
 
 
 .navbar-default .navbar-toggle {
     border-color: transparent;
-    margin-top: 48px;
+    margin-top: -15px;
 }
 .navbar-brand {
     padding: 0 0 0 em(10px);
@@ -413,10 +432,11 @@ div#trip-panel {
     color: #fff;
     text-transform: uppercase;
     font-weight: 600;
-    padding-top: em(15px);
-    @media only screen and (max-width: $med) {
-            text-align: right;
-        }
+
+     @include respond-to(medium) {
+       text-align: right;
+    }
+
 }
 
 .navbar-toggle .icon-bar {
@@ -448,7 +468,7 @@ div#trip-panel {
     background-color: tranparent;
     padding-top: 8px;
 
-        @media only screen and (max-width: $med) {
+        @include respond-to(medium) {
             background-color: $blue-dark;
         }
 
@@ -496,7 +516,7 @@ div#trip-panel {
 
 #slab-top {
     background: #FFF;
-    height: em(32px);
+    height: 2em;
     text-align: right;
 
     li {
@@ -539,7 +559,11 @@ div#trip-panel {
                 /* IE 10+ */
                 color: #FFF;
             }
+    }
 
+
+    @include respond-to(small) {
+        background: $blue-dark;
     }
 }
 
@@ -814,7 +838,7 @@ a.learnMoreButton:hover {
   z-index: 2;
 }
 
-@media only screen and (max-width: $med) {
+@include respond-to(small) {
     .hideMobile {
         display: none;
     }
