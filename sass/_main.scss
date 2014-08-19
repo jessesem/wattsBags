@@ -601,6 +601,12 @@ div#trip-panel {
         padding: em(25px);
     }
 
+     h2 {
+        font-family:  "bebas-neue", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+        font-size: 2em;
+        margin-bottom: 0;
+    }
+
     .product.oversize {
         height: em(360px);
         background: #FFF url(/img/home/oversized.jpg) bottom left no-repeat;
@@ -649,26 +655,22 @@ div#trip-panel {
         background: #FFF url(/img/home/programmer.jpg) 50% no-repeat;
     }
 
-.product.trainer,
-.product.laptop,
-.product.programmer {
-    height: 23em;
+    .product.trainer,
+    .product.laptop,
+    .product.programmer {
+        height: 23em;
 
-    h2,p {
-        text-align: center;
+        h2,p {
+            text-align: center;
+        }
+
+        h2 {
+             margin-bottom: 7.5em;
+        }
+
     }
 
-    h2 {
-         margin-bottom: 7.5em;
-    }
 
-}
-
-
-    h2 {
-        font-size: 200%;
-        margin-bottom: 0;
-    }
 }
 #slab-story {
     background: $light;
