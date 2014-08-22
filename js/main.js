@@ -7,6 +7,12 @@ $('#menu-products').fixTo('body', {
     zIndex: 1050,
 });
 
+//Tabs
+$('#piggyback a').click(function (e) {
+  e.preventDefault()
+  $(this).tab('show')
+});
+
 //Carousel
 $(document).ready(function(){
 $('.carousel').carousel({interval: 5000});
@@ -24,9 +30,3 @@ $('.carousel').carousel({interval: 5000});
      });
 
   });
-
-//Tabs
-$('#piggyback a').click(function (e) {
-  e.preventDefault()
-  $(this).tab('show')
-});
