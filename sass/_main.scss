@@ -278,6 +278,7 @@ div#trip-panel {
     padding: 20px 0;
     min-height: em(230px);
     font-size: 90%;
+    margin-bottom: 1.2em;
 
      h1,h2 {
         font: normal 700 100%/1.5 "proximanova-regular-bold", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
@@ -310,6 +311,11 @@ div#trip-panel {
       a.learnMoreButton {
             margin-top: em(26px);
         }
+}
+
+.category-row.main {
+    width: 46%;
+    display: inline-block
 }
 
 
@@ -404,6 +410,42 @@ div#trip-panel {
 .hero-product {
     background: $dark url(../img/hero/two.jpg) 50% 50% no-repeat;
     background-size: cover;
+}
+
+/* ******************************* Color Blocks *******************************/
+
+.color-block {
+    height: em(15px);
+    width: em(15px);
+    margin: 0 2px;
+    display: inline-block;
+}
+
+.color-block:first-child {
+    margin-left: 0
+}
+
+.color-block:last-child {
+    margin-right: 0;
+}
+
+.color-block.black {
+    background: #000;
+}
+.color-block.red {
+    background: #CC0000;
+}
+.color-block.navy {
+    background: #000080;
+}
+.color-block.royal {
+    background: #4169e1;
+}
+.color-block.green {
+    background: #266A2E;
+}
+.color-block.grey {
+    background: #CCCCCC;
 }
 
 /* ******************************* TB Responsive Menu Overrides *******************************/

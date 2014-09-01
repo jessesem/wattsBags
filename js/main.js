@@ -1,10 +1,17 @@
 
 // AutoFix
 $('header').fixTo('body');
-
 $('#menu-products').fixTo('body', {
     mind: 'header',
     zIndex: 1050,
+});
+
+//lazyload
+$(function() {
+   $("img.lazy").lazyload({
+       effect : "fadeIn"
+   });
+
 });
 
 //Tabs
@@ -23,10 +30,3 @@ $('.carousel').carousel({interval: 5000});
 
   });
 
-//lazyload
-  $(function() {
-     $("img.lazy").lazyload({
-         effect : "fadeIn"
-     });
-
-  });
