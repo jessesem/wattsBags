@@ -207,7 +207,7 @@ div#trip-panel {
 #hero {
 	 height: 100%;
      max-height: em(575px);
-     border-bottom: 15px solid $cta;
+     border-bottom: 5px solid $cta;
 
             h1, h2, h3 {
                 line-height: 80px;
@@ -365,8 +365,13 @@ div#trip-panel {
             font-weight: 600;
             width: 100%;
             max-width: 10em;
+            font-size: 12px;
         }
 
+    }
+
+    li:first-child {
+        padding-left: 0;
     }
 
     li:last-child {
@@ -819,7 +824,7 @@ a.learnMoreButton:hover {
 }
 
 #carousel-sub {
-    height: em(255px);
+    height: em(325px);
 
     h1 {
         margin-top: 5%;
@@ -856,6 +861,11 @@ a.learnMoreButton:hover {
 
 #hero-4 .carousel-caption {
     padding-bottom: em(160px);
+}
+
+#hero .combo-bag {
+    background: url(../img/hero/two.jpg) 50% 50% no-repeat;
+    background-size: cover;
 }
 
 .carousel-fade .carousel-inner .item {
