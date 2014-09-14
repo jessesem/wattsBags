@@ -35,6 +35,14 @@ $cta: #ffc528;
 /* ******************************* Breakpoints *******************************/
 
 @mixin respond-to($breakpoint) {
+
+@if $breakpoint == "tiny" {
+    @media (max-width: 320px) {
+      @content;
+    }
+  }
+
+
   @if $breakpoint == "small" {
     @media (max-width: 767px) {
       @content;

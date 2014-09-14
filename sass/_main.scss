@@ -225,6 +225,10 @@ div#trip-panel {
             h3 {
                 margin-top: 5%;
                 font-size: 5em;
+                    @include respond-to(small) {
+                        text-align: center;
+                    }
+
             }
 
             section.center {
@@ -276,11 +280,14 @@ div#trip-panel {
 .category-row {
     background: #F5F5F5;
     width: 100%;
-    padding: 20px 0;
+    padding: 2% 0;
     height: auto;
     min-height: 225px;
     font-size: 90%;
     margin-bottom: 1.2em;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
 
 
      h1,h2 {
@@ -306,17 +313,24 @@ div#trip-panel {
         font-size: 90%;
      }
 
-
-        img.left {
-            float:left;
-            margin:0 1em 0 0;
-        }
-
       a.learnMoreButton {
             margin-top: em(26px);
         }
 
 
+}
+
+.category-row img {
+    max-width: 175px;
+    margin:0 1em 0 0;
+    border: 1px solid rgba(0,0,0,.1);
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+
+    @include respond-to(small) {
+        max-width: 425px;
+    }
 }
 
 .category-row.main {
@@ -468,6 +482,7 @@ div#trip-panel {
 
      @include respond-to(small) {
        width: 100%;
+       background: $blue-dark;
     }
 }
 
