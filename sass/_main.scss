@@ -277,9 +277,11 @@ div#trip-panel {
     background: #F5F5F5;
     width: 100%;
     padding: 20px 0;
-    min-height: em(230px);
+    height: auto;
+    min-height: 225px;
     font-size: 90%;
     margin-bottom: 1.2em;
+
 
      h1,h2 {
         font: normal 700 100%/1.5 "proximanova-regular-bold", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
@@ -304,14 +306,17 @@ div#trip-panel {
         font-size: 90%;
      }
 
-     // img {
-     //    @include respond-to(medium) {
-     //    display: none;
-     //    }
-     // }
+
+        img.left {
+            float:left;
+            margin:0 1em 0 0;
+        }
+
       a.learnMoreButton {
             margin-top: em(26px);
         }
+
+
 }
 
 .category-row.main {
