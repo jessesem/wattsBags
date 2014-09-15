@@ -202,7 +202,11 @@ article {
 }
 
 div#trip-panel {
-    text-align: right;
+    text-align: center;
+
+    img {
+        max-height: 400px;
+    }
 }
 
 #hero {
@@ -367,16 +371,18 @@ div#trip-panel {
 #menu-products {
     background: $dark;
     height: em(40px);
-    text-align: center;
+    text-align: left;
 
     section.center {
         padding: 0;
     }
 
     li {
+        text-align: center;
         display: inline-block;
         list-style: none;
         padding: em(10px);
+        min-width: 110px;
         border-right: 1px solid rgba(255,255,255,.2);
         a {
             color: #FFF;

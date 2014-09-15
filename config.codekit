@@ -1014,17 +1014,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/_site\/img\/products\/oversized-sales-bags\/Main Photo.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 707765,
-		"inputAbbreviatedPath": "\/_site\/img\/products\/oversized-sales-bags\/Main Photo.jpg",
-		"outputAbbreviatedPath": "\/_site\/img\/products\/oversized-sales-bags\/Main Photo.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/_site\/img\/products\/oversized-sales-bags\/oversized-travel-bag.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -1054,6 +1043,17 @@
 		"initialSize": 23389,
 		"inputAbbreviatedPath": "\/_site\/img\/products\/oversized-sales-bags\/top-loading-catheter-bag.jpg",
 		"outputAbbreviatedPath": "\/_site\/img\/products\/oversized-sales-bags\/top-loading-catheter-bag.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/products\/oversized-sales-bags\/travel-bag.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 707765,
+		"inputAbbreviatedPath": "\/_site\/img\/products\/oversized-sales-bags\/travel-bag.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/products\/oversized-sales-bags\/travel-bag.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1157,145 +1157,145 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/_site\/img\/products\/programmer-bags\/Biotronik ICS 3000 Top Loading Style.jpg": {
+	"\/_site\/img\/products\/programmer-bags\/Biotronik-ICS-3000-Top-Loading-Style.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 2.74972e+06,
-		"inputAbbreviatedPath": "\/_site\/img\/products\/programmer-bags\/Biotronik ICS 3000 Top Loading Style.jpg",
-		"outputAbbreviatedPath": "\/_site\/img\/products\/programmer-bags\/Biotronik ICS 3000 Top Loading Style.jpg",
+		"initialSize": 22602,
+		"inputAbbreviatedPath": "\/_site\/img\/products\/programmer-bags\/Biotronik-ICS-3000-Top-Loading-Style.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/products\/programmer-bags\/Biotronik-ICS-3000-Top-Loading-Style.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/_site\/img\/products\/programmer-bags\/Biotronik Renamic Open Cart Style.jpg": {
+	"\/_site\/img\/products\/programmer-bags\/Biotronik-Renamic-Open-Cart-Style.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 1.10655e+06,
-		"inputAbbreviatedPath": "\/_site\/img\/products\/programmer-bags\/Biotronik Renamic Open Cart Style.jpg",
-		"outputAbbreviatedPath": "\/_site\/img\/products\/programmer-bags\/Biotronik Renamic Open Cart Style.jpg",
+		"initialSize": 10894,
+		"inputAbbreviatedPath": "\/_site\/img\/products\/programmer-bags\/Biotronik-Renamic-Open-Cart-Style.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/products\/programmer-bags\/Biotronik-Renamic-Open-Cart-Style.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/_site\/img\/products\/programmer-bags\/Biotronik Top Loading Style.jpg": {
+	"\/_site\/img\/products\/programmer-bags\/Biotronik-Top-Loading-Style.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 2.4813e+06,
-		"inputAbbreviatedPath": "\/_site\/img\/products\/programmer-bags\/Biotronik Top Loading Style.jpg",
-		"outputAbbreviatedPath": "\/_site\/img\/products\/programmer-bags\/Biotronik Top Loading Style.jpg",
+		"initialSize": 17750,
+		"inputAbbreviatedPath": "\/_site\/img\/products\/programmer-bags\/Biotronik-Top-Loading-Style.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/products\/programmer-bags\/Biotronik-Top-Loading-Style.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/_site\/img\/products\/programmer-bags\/Boston Scientific Front Loading Programmer.jpg": {
+	"\/_site\/img\/products\/programmer-bags\/Boston-Scientific-Front-Loading-Programmer.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 2.60367e+06,
-		"inputAbbreviatedPath": "\/_site\/img\/products\/programmer-bags\/Boston Scientific Front Loading Programmer.jpg",
-		"outputAbbreviatedPath": "\/_site\/img\/products\/programmer-bags\/Boston Scientific Front Loading Programmer.jpg",
+		"initialSize": 16987,
+		"inputAbbreviatedPath": "\/_site\/img\/products\/programmer-bags\/Boston-Scientific-Front-Loading-Programmer.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/products\/programmer-bags\/Boston-Scientific-Front-Loading-Programmer.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/_site\/img\/products\/programmer-bags\/Boston Scientific Open Cart.jpg": {
+	"\/_site\/img\/products\/programmer-bags\/Boston-Scientific-Open-Cart.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 2.38639e+06,
-		"inputAbbreviatedPath": "\/_site\/img\/products\/programmer-bags\/Boston Scientific Open Cart.jpg",
-		"outputAbbreviatedPath": "\/_site\/img\/products\/programmer-bags\/Boston Scientific Open Cart.jpg",
+		"initialSize": 15233,
+		"inputAbbreviatedPath": "\/_site\/img\/products\/programmer-bags\/Boston-Scientific-Open-Cart.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/products\/programmer-bags\/Boston-Scientific-Open-Cart.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/_site\/img\/products\/programmer-bags\/Boston Top Loading Pro.jpg": {
+	"\/_site\/img\/products\/programmer-bags\/Boston-Top-Loading-Pro.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 3.83695e+06,
-		"inputAbbreviatedPath": "\/_site\/img\/products\/programmer-bags\/Boston Top Loading Pro.jpg",
-		"outputAbbreviatedPath": "\/_site\/img\/products\/programmer-bags\/Boston Top Loading Pro.jpg",
+		"initialSize": 17458,
+		"inputAbbreviatedPath": "\/_site\/img\/products\/programmer-bags\/Boston-Top-Loading-Pro.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/products\/programmer-bags\/Boston-Top-Loading-Pro.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/_site\/img\/products\/programmer-bags\/Medtronic Front Loading Pro - Medtronic.jpg": {
+	"\/_site\/img\/products\/programmer-bags\/Medtronic-Front-Loading-Pro.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 4.75477e+06,
-		"inputAbbreviatedPath": "\/_site\/img\/products\/programmer-bags\/Medtronic Front Loading Pro - Medtronic.jpg",
-		"outputAbbreviatedPath": "\/_site\/img\/products\/programmer-bags\/Medtronic Front Loading Pro - Medtronic.jpg",
+		"initialSize": 19826,
+		"inputAbbreviatedPath": "\/_site\/img\/products\/programmer-bags\/Medtronic-Front-Loading-Pro.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/products\/programmer-bags\/Medtronic-Front-Loading-Pro.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/_site\/img\/products\/programmer-bags\/Medtronic Open Pro Cart - Main Photo.jpg": {
+	"\/_site\/img\/products\/programmer-bags\/Medtronic-Open-Pro-Cart.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 2.44445e+06,
-		"inputAbbreviatedPath": "\/_site\/img\/products\/programmer-bags\/Medtronic Open Pro Cart - Main Photo.jpg",
-		"outputAbbreviatedPath": "\/_site\/img\/products\/programmer-bags\/Medtronic Open Pro Cart - Main Photo.jpg",
+		"initialSize": 14273,
+		"inputAbbreviatedPath": "\/_site\/img\/products\/programmer-bags\/Medtronic-Open-Pro-Cart.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/products\/programmer-bags\/Medtronic-Open-Pro-Cart.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/_site\/img\/products\/programmer-bags\/Medtronic Top Loading Pro - Main Photo.jpg": {
+	"\/_site\/img\/products\/programmer-bags\/Medtronic-Top-Loading-Pro.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 3.26120e+06,
-		"inputAbbreviatedPath": "\/_site\/img\/products\/programmer-bags\/Medtronic Top Loading Pro - Main Photo.jpg",
-		"outputAbbreviatedPath": "\/_site\/img\/products\/programmer-bags\/Medtronic Top Loading Pro - Main Photo.jpg",
+		"initialSize": 17018,
+		"inputAbbreviatedPath": "\/_site\/img\/products\/programmer-bags\/Medtronic-Top-Loading-Pro.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/products\/programmer-bags\/Medtronic-Top-Loading-Pro.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/_site\/img\/products\/programmer-bags\/Sorin Front Loading.jpg": {
+	"\/_site\/img\/products\/programmer-bags\/Sorin-Front-Loading.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 2.55088e+06,
-		"inputAbbreviatedPath": "\/_site\/img\/products\/programmer-bags\/Sorin Front Loading.jpg",
-		"outputAbbreviatedPath": "\/_site\/img\/products\/programmer-bags\/Sorin Front Loading.jpg",
+		"initialSize": 15070,
+		"inputAbbreviatedPath": "\/_site\/img\/products\/programmer-bags\/Sorin-Front-Loading.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/products\/programmer-bags\/Sorin-Front-Loading.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/_site\/img\/products\/programmer-bags\/St Jude Open Cart Style.jpg": {
+	"\/_site\/img\/products\/programmer-bags\/St-Jude-Open-Cart-Style.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 788181,
-		"inputAbbreviatedPath": "\/_site\/img\/products\/programmer-bags\/St Jude Open Cart Style.jpg",
-		"outputAbbreviatedPath": "\/_site\/img\/products\/programmer-bags\/St Jude Open Cart Style.jpg",
+		"initialSize": 12558,
+		"inputAbbreviatedPath": "\/_site\/img\/products\/programmer-bags\/St-Jude-Open-Cart-Style.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/products\/programmer-bags\/St-Jude-Open-Cart-Style.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/_site\/img\/products\/programmer-bags\/St Jude Programmer Bag.jpg": {
+	"\/_site\/img\/products\/programmer-bags\/St-Jude-Programmer-Bag.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 2.80744e+06,
-		"inputAbbreviatedPath": "\/_site\/img\/products\/programmer-bags\/St Jude Programmer Bag.jpg",
-		"outputAbbreviatedPath": "\/_site\/img\/products\/programmer-bags\/St Jude Programmer Bag.jpg",
+		"initialSize": 16502,
+		"inputAbbreviatedPath": "\/_site\/img\/products\/programmer-bags\/St-Jude-Programmer-Bag.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/products\/programmer-bags\/St-Jude-Programmer-Bag.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/_site\/img\/products\/programmer-bags\/St Jude Top Loading Pro - Main Photo.jpg": {
+	"\/_site\/img\/products\/programmer-bags\/St-Jude-Top-Loading-Pro.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 4.75539e+06,
-		"inputAbbreviatedPath": "\/_site\/img\/products\/programmer-bags\/St Jude Top Loading Pro - Main Photo.jpg",
-		"outputAbbreviatedPath": "\/_site\/img\/products\/programmer-bags\/St Jude Top Loading Pro - Main Photo.jpg",
+		"initialSize": 17993,
+		"inputAbbreviatedPath": "\/_site\/img\/products\/programmer-bags\/St-Jude-Top-Loading-Pro.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/products\/programmer-bags\/St-Jude-Top-Loading-Pro.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3155,17 +3155,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/products\/oversized-sales-bags\/Main Photo.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 707765,
-		"inputAbbreviatedPath": "\/img\/products\/oversized-sales-bags\/Main Photo.jpg",
-		"outputAbbreviatedPath": "\/img\/products\/oversized-sales-bags\/Main Photo.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/img\/products\/oversized-sales-bags\/oversized-travel-bag.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -3195,6 +3184,17 @@
 		"initialSize": 2.89489e+06,
 		"inputAbbreviatedPath": "\/img\/products\/oversized-sales-bags\/top-loading-catheter-bag.jpg",
 		"outputAbbreviatedPath": "\/img\/products\/oversized-sales-bags\/top-loading-catheter-bag.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/products\/oversized-sales-bags\/travel-bag.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 707765,
+		"inputAbbreviatedPath": "\/img\/products\/oversized-sales-bags\/travel-bag.jpg",
+		"outputAbbreviatedPath": "\/img\/products\/oversized-sales-bags\/travel-bag.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3298,145 +3298,145 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/products\/programmer-bags\/Biotronik ICS 3000 Top Loading Style.jpg": {
+	"\/img\/products\/programmer-bags\/Biotronik-ICS-3000-Top-Loading-Style.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 2.74972e+06,
-		"inputAbbreviatedPath": "\/img\/products\/programmer-bags\/Biotronik ICS 3000 Top Loading Style.jpg",
-		"outputAbbreviatedPath": "\/img\/products\/programmer-bags\/Biotronik ICS 3000 Top Loading Style.jpg",
+		"initialSize": 22602,
+		"inputAbbreviatedPath": "\/img\/products\/programmer-bags\/Biotronik-ICS-3000-Top-Loading-Style.jpg",
+		"outputAbbreviatedPath": "\/img\/products\/programmer-bags\/Biotronik-ICS-3000-Top-Loading-Style.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/products\/programmer-bags\/Biotronik Renamic Open Cart Style.jpg": {
+	"\/img\/products\/programmer-bags\/Biotronik-Renamic-Open-Cart-Style.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 1.10655e+06,
-		"inputAbbreviatedPath": "\/img\/products\/programmer-bags\/Biotronik Renamic Open Cart Style.jpg",
-		"outputAbbreviatedPath": "\/img\/products\/programmer-bags\/Biotronik Renamic Open Cart Style.jpg",
+		"initialSize": 10894,
+		"inputAbbreviatedPath": "\/img\/products\/programmer-bags\/Biotronik-Renamic-Open-Cart-Style.jpg",
+		"outputAbbreviatedPath": "\/img\/products\/programmer-bags\/Biotronik-Renamic-Open-Cart-Style.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/products\/programmer-bags\/Biotronik Top Loading Style.jpg": {
+	"\/img\/products\/programmer-bags\/Biotronik-Top-Loading-Style.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 2.4813e+06,
-		"inputAbbreviatedPath": "\/img\/products\/programmer-bags\/Biotronik Top Loading Style.jpg",
-		"outputAbbreviatedPath": "\/img\/products\/programmer-bags\/Biotronik Top Loading Style.jpg",
+		"initialSize": 17750,
+		"inputAbbreviatedPath": "\/img\/products\/programmer-bags\/Biotronik-Top-Loading-Style.jpg",
+		"outputAbbreviatedPath": "\/img\/products\/programmer-bags\/Biotronik-Top-Loading-Style.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/products\/programmer-bags\/Boston Scientific Front Loading Programmer.jpg": {
+	"\/img\/products\/programmer-bags\/Boston-Scientific-Front-Loading-Programmer.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 2.60367e+06,
-		"inputAbbreviatedPath": "\/img\/products\/programmer-bags\/Boston Scientific Front Loading Programmer.jpg",
-		"outputAbbreviatedPath": "\/img\/products\/programmer-bags\/Boston Scientific Front Loading Programmer.jpg",
+		"initialSize": 16987,
+		"inputAbbreviatedPath": "\/img\/products\/programmer-bags\/Boston-Scientific-Front-Loading-Programmer.jpg",
+		"outputAbbreviatedPath": "\/img\/products\/programmer-bags\/Boston-Scientific-Front-Loading-Programmer.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/products\/programmer-bags\/Boston Scientific Open Cart.jpg": {
+	"\/img\/products\/programmer-bags\/Boston-Scientific-Open-Cart.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 2.38639e+06,
-		"inputAbbreviatedPath": "\/img\/products\/programmer-bags\/Boston Scientific Open Cart.jpg",
-		"outputAbbreviatedPath": "\/img\/products\/programmer-bags\/Boston Scientific Open Cart.jpg",
+		"initialSize": 15233,
+		"inputAbbreviatedPath": "\/img\/products\/programmer-bags\/Boston-Scientific-Open-Cart.jpg",
+		"outputAbbreviatedPath": "\/img\/products\/programmer-bags\/Boston-Scientific-Open-Cart.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/products\/programmer-bags\/Boston Top Loading Pro.jpg": {
+	"\/img\/products\/programmer-bags\/Boston-Top-Loading-Pro.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 3.83695e+06,
-		"inputAbbreviatedPath": "\/img\/products\/programmer-bags\/Boston Top Loading Pro.jpg",
-		"outputAbbreviatedPath": "\/img\/products\/programmer-bags\/Boston Top Loading Pro.jpg",
+		"initialSize": 17458,
+		"inputAbbreviatedPath": "\/img\/products\/programmer-bags\/Boston-Top-Loading-Pro.jpg",
+		"outputAbbreviatedPath": "\/img\/products\/programmer-bags\/Boston-Top-Loading-Pro.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/products\/programmer-bags\/Medtronic Front Loading Pro - Medtronic.jpg": {
+	"\/img\/products\/programmer-bags\/Medtronic-Front-Loading-Pro.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 4.75477e+06,
-		"inputAbbreviatedPath": "\/img\/products\/programmer-bags\/Medtronic Front Loading Pro - Medtronic.jpg",
-		"outputAbbreviatedPath": "\/img\/products\/programmer-bags\/Medtronic Front Loading Pro - Medtronic.jpg",
+		"initialSize": 19826,
+		"inputAbbreviatedPath": "\/img\/products\/programmer-bags\/Medtronic-Front-Loading-Pro.jpg",
+		"outputAbbreviatedPath": "\/img\/products\/programmer-bags\/Medtronic-Front-Loading-Pro.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/products\/programmer-bags\/Medtronic Open Pro Cart - Main Photo.jpg": {
+	"\/img\/products\/programmer-bags\/Medtronic-Open-Pro-Cart.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 2.44445e+06,
-		"inputAbbreviatedPath": "\/img\/products\/programmer-bags\/Medtronic Open Pro Cart - Main Photo.jpg",
-		"outputAbbreviatedPath": "\/img\/products\/programmer-bags\/Medtronic Open Pro Cart - Main Photo.jpg",
+		"initialSize": 14273,
+		"inputAbbreviatedPath": "\/img\/products\/programmer-bags\/Medtronic-Open-Pro-Cart.jpg",
+		"outputAbbreviatedPath": "\/img\/products\/programmer-bags\/Medtronic-Open-Pro-Cart.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/products\/programmer-bags\/Medtronic Top Loading Pro - Main Photo.jpg": {
+	"\/img\/products\/programmer-bags\/Medtronic-Top-Loading-Pro.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 3.26120e+06,
-		"inputAbbreviatedPath": "\/img\/products\/programmer-bags\/Medtronic Top Loading Pro - Main Photo.jpg",
-		"outputAbbreviatedPath": "\/img\/products\/programmer-bags\/Medtronic Top Loading Pro - Main Photo.jpg",
+		"initialSize": 17018,
+		"inputAbbreviatedPath": "\/img\/products\/programmer-bags\/Medtronic-Top-Loading-Pro.jpg",
+		"outputAbbreviatedPath": "\/img\/products\/programmer-bags\/Medtronic-Top-Loading-Pro.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/products\/programmer-bags\/Sorin Front Loading.jpg": {
+	"\/img\/products\/programmer-bags\/Sorin-Front-Loading.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 2.55088e+06,
-		"inputAbbreviatedPath": "\/img\/products\/programmer-bags\/Sorin Front Loading.jpg",
-		"outputAbbreviatedPath": "\/img\/products\/programmer-bags\/Sorin Front Loading.jpg",
+		"initialSize": 15070,
+		"inputAbbreviatedPath": "\/img\/products\/programmer-bags\/Sorin-Front-Loading.jpg",
+		"outputAbbreviatedPath": "\/img\/products\/programmer-bags\/Sorin-Front-Loading.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/products\/programmer-bags\/St Jude Open Cart Style.jpg": {
+	"\/img\/products\/programmer-bags\/St-Jude-Open-Cart-Style.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 788181,
-		"inputAbbreviatedPath": "\/img\/products\/programmer-bags\/St Jude Open Cart Style.jpg",
-		"outputAbbreviatedPath": "\/img\/products\/programmer-bags\/St Jude Open Cart Style.jpg",
+		"initialSize": 12558,
+		"inputAbbreviatedPath": "\/img\/products\/programmer-bags\/St-Jude-Open-Cart-Style.jpg",
+		"outputAbbreviatedPath": "\/img\/products\/programmer-bags\/St-Jude-Open-Cart-Style.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/products\/programmer-bags\/St Jude Programmer Bag.jpg": {
+	"\/img\/products\/programmer-bags\/St-Jude-Programmer-Bag.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 2.80744e+06,
-		"inputAbbreviatedPath": "\/img\/products\/programmer-bags\/St Jude Programmer Bag.jpg",
-		"outputAbbreviatedPath": "\/img\/products\/programmer-bags\/St Jude Programmer Bag.jpg",
+		"initialSize": 16502,
+		"inputAbbreviatedPath": "\/img\/products\/programmer-bags\/St-Jude-Programmer-Bag.jpg",
+		"outputAbbreviatedPath": "\/img\/products\/programmer-bags\/St-Jude-Programmer-Bag.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/products\/programmer-bags\/St Jude Top Loading Pro - Main Photo.jpg": {
+	"\/img\/products\/programmer-bags\/St-Jude-Top-Loading-Pro.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 4.75539e+06,
-		"inputAbbreviatedPath": "\/img\/products\/programmer-bags\/St Jude Top Loading Pro - Main Photo.jpg",
-		"outputAbbreviatedPath": "\/img\/products\/programmer-bags\/St Jude Top Loading Pro - Main Photo.jpg",
+		"initialSize": 17993,
+		"inputAbbreviatedPath": "\/img\/products\/programmer-bags\/St-Jude-Top-Loading-Pro.jpg",
+		"outputAbbreviatedPath": "\/img\/products\/programmer-bags\/St-Jude-Top-Loading-Pro.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
