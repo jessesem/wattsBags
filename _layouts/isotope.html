@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<html lang="en">
+
+
+<head>
+    {% include header.html %}
+</head>
+
+<body>
+    {% include analytics.html %}
+
+    <header>
+            {% include menu.html %}
+    </header>
+
+        {{ content }}
+
+    {% include footer.html %}
+
+</body>
+<script type="text/javascript" src="{{ site.baseurl }}/js/isotope.min.js"></script>
+</html>
