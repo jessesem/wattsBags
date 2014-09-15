@@ -372,6 +372,7 @@ div#trip-panel {
     background: $dark;
     height: em(40px);
     text-align: left;
+    z-index: 1049;
 
     section.center {
         padding: 0;

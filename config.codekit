@@ -272,15 +272,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/_site\/athletic-trainer-bags\/trainer-bag\/index.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_site\/athletic-trainer-bags\/trainer-bag\/index.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/_site\/athletic-trainer-bags\/trainer-bag1\/index.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -376,6 +367,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/css\/print.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/_site\/css\/screen.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/css\/screen.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -805,72 +805,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/_site\/img\/products\/athletic-trainer-bags\/mini-trainer-bag.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 48688,
-		"inputAbbreviatedPath": "\/_site\/img\/products\/athletic-trainer-bags\/mini-trainer-bag.jpg",
-		"outputAbbreviatedPath": "\/_site\/img\/products\/athletic-trainer-bags\/mini-trainer-bag.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_site\/img\/products\/athletic-trainer-bags\/trainer-bag1.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 45164,
-		"inputAbbreviatedPath": "\/_site\/img\/products\/athletic-trainer-bags\/trainer-bag1.jpg",
-		"outputAbbreviatedPath": "\/_site\/img\/products\/athletic-trainer-bags\/trainer-bag1.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_site\/img\/products\/athletic-trainer-bags\/trainer-bag2.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 43899,
-		"inputAbbreviatedPath": "\/_site\/img\/products\/athletic-trainer-bags\/trainer-bag2.jpg",
-		"outputAbbreviatedPath": "\/_site\/img\/products\/athletic-trainer-bags\/trainer-bag2.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_site\/img\/products\/athletic-trainer-bags\/trainer-bag3.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 43804,
-		"inputAbbreviatedPath": "\/_site\/img\/products\/athletic-trainer-bags\/trainer-bag3.jpg",
-		"outputAbbreviatedPath": "\/_site\/img\/products\/athletic-trainer-bags\/trainer-bag3.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_site\/img\/products\/athletic-trainer-bags\/trainer-bag4.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 73091,
-		"inputAbbreviatedPath": "\/_site\/img\/products\/athletic-trainer-bags\/trainer-bag4.jpg",
-		"outputAbbreviatedPath": "\/_site\/img\/products\/athletic-trainer-bags\/trainer-bag4.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_site\/img\/products\/athletic-trainer-bags\/trainer-bag5.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 25720,
-		"inputAbbreviatedPath": "\/_site\/img\/products\/athletic-trainer-bags\/trainer-bag5.jpg",
-		"outputAbbreviatedPath": "\/_site\/img\/products\/athletic-trainer-bags\/trainer-bag5.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/_site\/img\/products\/computer-duffle-bags\/ Lead Vest Duffel Bag.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -1040,7 +974,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 23389,
+		"initialSize": 2.89489e+06,
 		"inputAbbreviatedPath": "\/_site\/img\/products\/oversized-sales-bags\/top-loading-catheter-bag.jpg",
 		"outputAbbreviatedPath": "\/_site\/img\/products\/oversized-sales-bags\/top-loading-catheter-bag.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -1095,7 +1029,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 4.05342e+06,
+		"initialSize": 17956,
 		"inputAbbreviatedPath": "\/_site\/img\/products\/professional-sales-bags\/carry-on-bag.jpg",
 		"outputAbbreviatedPath": "\/_site\/img\/products\/professional-sales-bags\/carry-on-bag.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -2391,15 +2325,6 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/athletic-trainer-bags\/mini-trainer-bags\/index.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/athletic-trainer-bags\/trainer-bag\/index.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/athletic-trainer-bags\/trainer-bag\/index.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
