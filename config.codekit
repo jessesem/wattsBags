@@ -770,84 +770,84 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 136513,
+		"initialSize": 14187,
 		"inputAbbreviatedPath": "\/_site\/img\/products\/accesory-bags\/accessory-bag.jpg",
 		"outputAbbreviatedPath": "\/_site\/img\/products\/accesory-bags\/accessory-bag.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/_site\/img\/products\/accesory-bags\/add-on.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 9289,
+		"initialSize": 11188,
 		"inputAbbreviatedPath": "\/_site\/img\/products\/accesory-bags\/add-on.jpg",
 		"outputAbbreviatedPath": "\/_site\/img\/products\/accesory-bags\/add-on.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/_site\/img\/products\/accesory-bags\/biotronik-demo-kit.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 1.71603e+06,
+		"initialSize": 14484,
 		"inputAbbreviatedPath": "\/_site\/img\/products\/accesory-bags\/biotronik-demo-kit.jpg",
 		"outputAbbreviatedPath": "\/_site\/img\/products\/accesory-bags\/biotronik-demo-kit.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/_site\/img\/products\/accesory-bags\/city-corp.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 61862,
+		"initialSize": 23476,
 		"inputAbbreviatedPath": "\/_site\/img\/products\/accesory-bags\/city-corp.jpg",
 		"outputAbbreviatedPath": "\/_site\/img\/products\/accesory-bags\/city-corp.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/_site\/img\/products\/accesory-bags\/demo-kit.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 9101,
+		"initialSize": 10534,
 		"inputAbbreviatedPath": "\/_site\/img\/products\/accesory-bags\/demo-kit.jpg",
 		"outputAbbreviatedPath": "\/_site\/img\/products\/accesory-bags\/demo-kit.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/_site\/img\/products\/accesory-bags\/heavy-duty-luggage-cart.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 54767,
+		"initialSize": 14779,
 		"inputAbbreviatedPath": "\/_site\/img\/products\/accesory-bags\/heavy-duty-luggage-cart.jpg",
 		"outputAbbreviatedPath": "\/_site\/img\/products\/accesory-bags\/heavy-duty-luggage-cart.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/_site\/img\/products\/accesory-bags\/luggage-cart.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 37826,
+		"initialSize": 11468,
 		"inputAbbreviatedPath": "\/_site\/img\/products\/accesory-bags\/luggage-cart.jpg",
 		"outputAbbreviatedPath": "\/_site\/img\/products\/accesory-bags\/luggage-cart.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/_site\/img\/products\/accesory-bags\/schawn-bag.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 4.69382e+06,
+		"initialSize": 16240,
 		"inputAbbreviatedPath": "\/_site\/img\/products\/accesory-bags\/schawn-bag.jpg",
 		"outputAbbreviatedPath": "\/_site\/img\/products\/accesory-bags\/schawn-bag.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -858,12 +858,12 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 1.76852e+06,
+		"initialSize": 21039,
 		"inputAbbreviatedPath": "\/_site\/img\/products\/accesory-bags\/small-accessory-bag.jpg",
 		"outputAbbreviatedPath": "\/_site\/img\/products\/accesory-bags\/small-accessory-bag.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/_site\/img\/products\/athletic-trainer-bags\/mini-trainer-bag.jpg": {
 		"fileType": 16384,
@@ -942,82 +942,93 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
-	"\/_site\/img\/products\/computer-duffle-bags\/Bounty Hunter Computer Backpack.jpg": {
+	"\/_site\/img\/products\/computer-duffle-bags\/Bounty-Hunter-Computer-Backpack.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 1.31895e+06,
-		"inputAbbreviatedPath": "\/_site\/img\/products\/computer-duffle-bags\/Bounty Hunter Computer Backpack.jpg",
-		"outputAbbreviatedPath": "\/_site\/img\/products\/computer-duffle-bags\/Bounty Hunter Computer Backpack.jpg",
+		"initialSize": 25278,
+		"inputAbbreviatedPath": "\/_site\/img\/products\/computer-duffle-bags\/Bounty-Hunter-Computer-Backpack.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/products\/computer-duffle-bags\/Bounty-Hunter-Computer-Backpack.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/_site\/img\/products\/computer-duffle-bags\/city-corp.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 61862,
+		"initialSize": 23476,
 		"inputAbbreviatedPath": "\/_site\/img\/products\/computer-duffle-bags\/city-corp.jpg",
 		"outputAbbreviatedPath": "\/_site\/img\/products\/computer-duffle-bags\/city-corp.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
-	"\/_site\/img\/products\/computer-duffle-bags\/Epic Computer Backpack.jpg": {
+	"\/_site\/img\/products\/computer-duffle-bags\/Epic-Computer-Backpack.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 156845,
-		"inputAbbreviatedPath": "\/_site\/img\/products\/computer-duffle-bags\/Epic Computer Backpack.jpg",
-		"outputAbbreviatedPath": "\/_site\/img\/products\/computer-duffle-bags\/Epic Computer Backpack.jpg",
+		"initialSize": 28731,
+		"inputAbbreviatedPath": "\/_site\/img\/products\/computer-duffle-bags\/Epic-Computer-Backpack.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/products\/computer-duffle-bags\/Epic-Computer-Backpack.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
-	"\/_site\/img\/products\/computer-duffle-bags\/Mastermind Computer Backpack.jpg": {
+	"\/_site\/img\/products\/computer-duffle-bags\/Lead-Vest-Duffel-Bag.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 2.15571e+06,
-		"inputAbbreviatedPath": "\/_site\/img\/products\/computer-duffle-bags\/Mastermind Computer Backpack.jpg",
-		"outputAbbreviatedPath": "\/_site\/img\/products\/computer-duffle-bags\/Mastermind Computer Backpack.jpg",
+		"initialSize": 14886,
+		"inputAbbreviatedPath": "\/_site\/img\/products\/computer-duffle-bags\/Lead-Vest-Duffel-Bag.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/products\/computer-duffle-bags\/Lead-Vest-Duffel-Bag.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
-	"\/_site\/img\/products\/computer-duffle-bags\/Straight Zipperd Duffle Bag.jpg": {
+	"\/_site\/img\/products\/computer-duffle-bags\/Mastermind-Computer-Backpack.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 4.76275e+06,
-		"inputAbbreviatedPath": "\/_site\/img\/products\/computer-duffle-bags\/Straight Zipperd Duffle Bag.jpg",
-		"outputAbbreviatedPath": "\/_site\/img\/products\/computer-duffle-bags\/Straight Zipperd Duffle Bag.jpg",
+		"initialSize": 25891,
+		"inputAbbreviatedPath": "\/_site\/img\/products\/computer-duffle-bags\/Mastermind-Computer-Backpack.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/products\/computer-duffle-bags\/Mastermind-Computer-Backpack.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
+		},
+	"\/_site\/img\/products\/computer-duffle-bags\/Straight-Zipperd-Duffle-Bag.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 11356,
+		"inputAbbreviatedPath": "\/_site\/img\/products\/computer-duffle-bags\/Straight-Zipperd-Duffle-Bag.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/products\/computer-duffle-bags\/Straight-Zipperd-Duffle-Bag.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/_site\/img\/products\/computer-duffle-bags\/Transfer-Duffel-Bag.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 31010,
+		"initialSize": 25899,
 		"inputAbbreviatedPath": "\/_site\/img\/products\/computer-duffle-bags\/Transfer-Duffel-Bag.jpg",
 		"outputAbbreviatedPath": "\/_site\/img\/products\/computer-duffle-bags\/Transfer-Duffel-Bag.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
-	"\/_site\/img\/products\/computer-duffle-bags\/Traverese Wheeled Briefcase.jpg": {
+	"\/_site\/img\/products\/computer-duffle-bags\/Traverese-Wheeled-Briefcase.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 722715,
-		"inputAbbreviatedPath": "\/_site\/img\/products\/computer-duffle-bags\/Traverese Wheeled Briefcase.jpg",
-		"outputAbbreviatedPath": "\/_site\/img\/products\/computer-duffle-bags\/Traverese Wheeled Briefcase.jpg",
+		"initialSize": 22285,
+		"inputAbbreviatedPath": "\/_site\/img\/products\/computer-duffle-bags\/Traverese-Wheeled-Briefcase.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/products\/computer-duffle-bags\/Traverese-Wheeled-Briefcase.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/_site\/img\/products\/oversized-sales-bags\/accuity-bag.jpg": {
 		"fileType": 16384,
@@ -3107,24 +3118,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
-	"\/img\/products\/computer-duffle-bags\/ Lead Vest Duffel Bag.jpg": {
+	"\/img\/products\/computer-duffle-bags\/Bounty-Hunter-Computer-Backpack.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 3.27848e+06,
-		"inputAbbreviatedPath": "\/img\/products\/computer-duffle-bags\/ Lead Vest Duffel Bag.jpg",
-		"outputAbbreviatedPath": "\/img\/products\/computer-duffle-bags\/ Lead Vest Duffel Bag.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
-	"\/img\/products\/computer-duffle-bags\/Bounty Hunter Computer Backpack.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1.31895e+06,
-		"inputAbbreviatedPath": "\/img\/products\/computer-duffle-bags\/Bounty Hunter Computer Backpack.jpg",
-		"outputAbbreviatedPath": "\/img\/products\/computer-duffle-bags\/Bounty Hunter Computer Backpack.jpg",
+		"initialSize": 25278,
+		"inputAbbreviatedPath": "\/img\/products\/computer-duffle-bags\/Bounty-Hunter-Computer-Backpack.jpg",
+		"outputAbbreviatedPath": "\/img\/products\/computer-duffle-bags\/Bounty-Hunter-Computer-Backpack.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
@@ -3140,35 +3140,46 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
-	"\/img\/products\/computer-duffle-bags\/Epic Computer Backpack.jpg": {
+	"\/img\/products\/computer-duffle-bags\/Epic-Computer-Backpack.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 156845,
-		"inputAbbreviatedPath": "\/img\/products\/computer-duffle-bags\/Epic Computer Backpack.jpg",
-		"outputAbbreviatedPath": "\/img\/products\/computer-duffle-bags\/Epic Computer Backpack.jpg",
+		"initialSize": 28731,
+		"inputAbbreviatedPath": "\/img\/products\/computer-duffle-bags\/Epic-Computer-Backpack.jpg",
+		"outputAbbreviatedPath": "\/img\/products\/computer-duffle-bags\/Epic-Computer-Backpack.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
-	"\/img\/products\/computer-duffle-bags\/Mastermind Computer Backpack.jpg": {
+	"\/img\/products\/computer-duffle-bags\/Lead-Vest-Duffel-Bag.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 2.15571e+06,
-		"inputAbbreviatedPath": "\/img\/products\/computer-duffle-bags\/Mastermind Computer Backpack.jpg",
-		"outputAbbreviatedPath": "\/img\/products\/computer-duffle-bags\/Mastermind Computer Backpack.jpg",
+		"initialSize": 14886,
+		"inputAbbreviatedPath": "\/img\/products\/computer-duffle-bags\/Lead-Vest-Duffel-Bag.jpg",
+		"outputAbbreviatedPath": "\/img\/products\/computer-duffle-bags\/Lead-Vest-Duffel-Bag.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
-	"\/img\/products\/computer-duffle-bags\/Straight Zipperd Duffle Bag.jpg": {
+	"\/img\/products\/computer-duffle-bags\/Mastermind-Computer-Backpack.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 4.76275e+06,
-		"inputAbbreviatedPath": "\/img\/products\/computer-duffle-bags\/Straight Zipperd Duffle Bag.jpg",
-		"outputAbbreviatedPath": "\/img\/products\/computer-duffle-bags\/Straight Zipperd Duffle Bag.jpg",
+		"initialSize": 25891,
+		"inputAbbreviatedPath": "\/img\/products\/computer-duffle-bags\/Mastermind-Computer-Backpack.jpg",
+		"outputAbbreviatedPath": "\/img\/products\/computer-duffle-bags\/Mastermind-Computer-Backpack.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/img\/products\/computer-duffle-bags\/Straight-Zipperd-Duffle-Bag.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 11356,
+		"inputAbbreviatedPath": "\/img\/products\/computer-duffle-bags\/Straight-Zipperd-Duffle-Bag.jpg",
+		"outputAbbreviatedPath": "\/img\/products\/computer-duffle-bags\/Straight-Zipperd-Duffle-Bag.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
@@ -3184,13 +3195,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
-	"\/img\/products\/computer-duffle-bags\/Traverese Wheeled Briefcase.jpg": {
+	"\/img\/products\/computer-duffle-bags\/Traverese-Wheeled-Briefcase.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 722715,
-		"inputAbbreviatedPath": "\/img\/products\/computer-duffle-bags\/Traverese Wheeled Briefcase.jpg",
-		"outputAbbreviatedPath": "\/img\/products\/computer-duffle-bags\/Traverese Wheeled Briefcase.jpg",
+		"initialSize": 22285,
+		"inputAbbreviatedPath": "\/img\/products\/computer-duffle-bags\/Traverese-Wheeled-Briefcase.jpg",
+		"outputAbbreviatedPath": "\/img\/products\/computer-duffle-bags\/Traverese-Wheeled-Briefcase.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
