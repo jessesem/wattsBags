@@ -389,6 +389,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/_site\/css\/screen.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/css\/screen.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/_site\/custom-bag-embroidery\/index.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -500,72 +509,6 @@
 		"initialSize": 12799,
 		"inputAbbreviatedPath": "\/_site\/img\/glyphicons-halflings.png",
 		"outputAbbreviatedPath": "\/_site\/img\/glyphicons-halflings.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
-	"\/_site\/img\/hero\/four.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 39536,
-		"inputAbbreviatedPath": "\/_site\/img\/hero\/four.jpg",
-		"outputAbbreviatedPath": "\/_site\/img\/hero\/four.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
-	"\/_site\/img\/hero\/hero-combo.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 129801,
-		"inputAbbreviatedPath": "\/_site\/img\/hero\/hero-combo.jpg",
-		"outputAbbreviatedPath": "\/_site\/img\/hero\/hero-combo.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
-	"\/_site\/img\/hero\/one.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 56630,
-		"inputAbbreviatedPath": "\/_site\/img\/hero\/one.jpg",
-		"outputAbbreviatedPath": "\/_site\/img\/hero\/one.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
-	"\/_site\/img\/hero\/quotes\/cubs.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 73396,
-		"inputAbbreviatedPath": "\/_site\/img\/hero\/quotes\/cubs.jpg",
-		"outputAbbreviatedPath": "\/_site\/img\/hero\/quotes\/cubs.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
-	"\/_site\/img\/hero\/three.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 51573,
-		"inputAbbreviatedPath": "\/_site\/img\/hero\/three.jpg",
-		"outputAbbreviatedPath": "\/_site\/img\/hero\/three.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
-	"\/_site\/img\/hero\/two.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 67386,
-		"inputAbbreviatedPath": "\/_site\/img\/hero\/two.jpg",
-		"outputAbbreviatedPath": "\/_site\/img\/hero\/two.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
@@ -2691,39 +2634,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
-	"\/img\/hero\/four.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 39536,
-		"inputAbbreviatedPath": "\/img\/hero\/four.jpg",
-		"outputAbbreviatedPath": "\/img\/hero\/four.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
-	"\/img\/hero\/hero-combo.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 122632,
-		"inputAbbreviatedPath": "\/img\/hero\/hero-combo.jpg",
-		"outputAbbreviatedPath": "\/img\/hero\/hero-combo.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
-	"\/img\/hero\/one.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 56630,
-		"inputAbbreviatedPath": "\/img\/hero\/one.jpg",
-		"outputAbbreviatedPath": "\/img\/hero\/one.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
 	"\/img\/hero\/quotes\/cubs.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -2733,29 +2643,7 @@
 		"outputAbbreviatedPath": "\/img\/hero\/quotes\/cubs.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
-	"\/img\/hero\/three.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 51573,
-		"inputAbbreviatedPath": "\/img\/hero\/three.jpg",
-		"outputAbbreviatedPath": "\/img\/hero\/three.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
-	"\/img\/hero\/two.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 67386,
-		"inputAbbreviatedPath": "\/img\/hero\/two.jpg",
-		"outputAbbreviatedPath": "\/img\/hero\/two.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/img\/home\/laptop.jpg": {
 		"fileType": 16384,
