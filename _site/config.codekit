@@ -389,15 +389,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/_site\/css\/screen.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_site\/css\/screen.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/_site\/custom-bag-embroidery\/index.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -931,17 +922,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
-	"\/_site\/img\/products\/computer-duffle-bags\/ Lead Vest Duffel Bag.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 3.27848e+06,
-		"inputAbbreviatedPath": "\/_site\/img\/products\/computer-duffle-bags\/ Lead Vest Duffel Bag.jpg",
-		"outputAbbreviatedPath": "\/_site\/img\/products\/computer-duffle-bags\/ Lead Vest Duffel Bag.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
 	"\/_site\/img\/products\/computer-duffle-bags\/Bounty-Hunter-Computer-Backpack.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -1370,6 +1350,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
+		},
+	"\/_site\/img\/temp.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 35264,
+		"inputAbbreviatedPath": "\/_site\/img\/temp.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/temp.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/_site\/img\/thumb-video.jpg": {
 		"fileType": 16384,
@@ -1843,29 +1834,29 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/_site\/other-bags\/computer-breifcases\/city-corp-computer\/index.html": {
+	"\/_site\/other-bags\/computer-briefcases\/city-corp-computer\/index.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_site\/other-bags\/computer-breifcases\/city-corp-computer\/index.html",
+		"inputAbbreviatedPath": "\/_site\/other-bags\/computer-briefcases\/city-corp-computer\/index.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/_site\/other-bags\/computer-breifcases\/index.html": {
+	"\/_site\/other-bags\/computer-briefcases\/index.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_site\/other-bags\/computer-breifcases\/index.html",
+		"inputAbbreviatedPath": "\/_site\/other-bags\/computer-briefcases\/index.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/_site\/other-bags\/computer-breifcases\/traverse-wheeled\/index.html": {
+	"\/_site\/other-bags\/computer-briefcases\/traverse-wheeled\/index.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_site\/other-bags\/computer-breifcases\/traverse-wheeled\/index.html",
+		"inputAbbreviatedPath": "\/_site\/other-bags\/computer-briefcases\/traverse-wheeled\/index.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -3547,6 +3538,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
+	"\/img\/temp.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 35264,
+		"inputAbbreviatedPath": "\/img\/temp.jpg",
+		"outputAbbreviatedPath": "\/img\/temp.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/thumb-video.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -4019,29 +4021,29 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/other-bags\/computer-breifcases\/city-corp-computer\/index.html": {
+	"\/other-bags\/computer-briefcases\/city-corp-computer\/index.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/other-bags\/computer-breifcases\/city-corp-computer\/index.html",
+		"inputAbbreviatedPath": "\/other-bags\/computer-briefcases\/city-corp-computer\/index.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/other-bags\/computer-breifcases\/index.html": {
+	"\/other-bags\/computer-briefcases\/index.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/other-bags\/computer-breifcases\/index.html",
+		"inputAbbreviatedPath": "\/other-bags\/computer-briefcases\/index.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/other-bags\/computer-breifcases\/traverse-wheeled\/index.html": {
+	"\/other-bags\/computer-briefcases\/traverse-wheeled\/index.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/other-bags\/computer-breifcases\/traverse-wheeled\/index.html",
+		"inputAbbreviatedPath": "\/other-bags\/computer-briefcases\/traverse-wheeled\/index.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0

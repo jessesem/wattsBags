@@ -339,7 +339,13 @@ div#trip-panel {
 
 .category-row.main {
     width: 49%;
-    display: inline-block
+    display: inline-block;
+
+        .col-sm-6,
+        .col-sm-8,
+        .col-sm-2 {
+            padding-top: 3%;
+        }
 }
 
 #menu-piggyback {
@@ -364,8 +370,6 @@ div#trip-panel {
     .nav-tabs > li > a {
         color: $dark;
     }
-
-
 }
 
 #menu-products {
@@ -442,11 +446,6 @@ div#trip-panel {
     background: $dark url(../img/hero/two.jpg) 50% 50% no-repeat;
     background-size: cover;
 }
-
-.category-row.main .col-sm-8 {
-    padding-top: 6%;
-}
-
 /* ******************************* Color Blocks *******************************/
 
 .color-block {
@@ -839,7 +838,10 @@ a.learnMoreButton:hover {
 }
 
 
-
+div.price h3,
+div.price p {
+    text-align: right;
+}
 /* *******************************  Carousel *******************************/
 
 .carousel,

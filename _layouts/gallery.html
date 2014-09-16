@@ -5,7 +5,7 @@
 
 <head>
     {% include header.html %}
-    <link rel="stylesheet" href="{{ site.baseurl }}/css/blueimp.css">
+    <link rel="stylesheet" href="{{ site.baseurl }}/css/gallery/blueimp.css">
 </head>
 
 <body>
@@ -29,6 +29,15 @@
     <a class="play-pause"></a>
     <ol class="indicator"></ol>
 </div>
-<script type="text/javascript" src="{{ site.baseurl }}/js/gallery.min.js"></script>
-
+<script type="text/javascript" src="{{ site.baseurl }}/js/gallery/gallery.min.js"></script>
+<script>
+document.getElementById('links').onclick = function (event) {
+    event = event || window.event;
+    var target = event.target || event.srcElement,
+        link = target.src ? target.parentNode : target,
+        options = {index: link, event: event},
+        links = this.getElementsByTagName('a');
+    blueimp.Gallery(links, options);
+};
+</script>
 </html>
