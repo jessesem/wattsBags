@@ -194,8 +194,10 @@
                             <li><strong>Minimum Vehicle Space Needed:</strong> <span class="right">17" Deep x 15.5" Wide x 36" Long</span></li>
                         </ul>
                         <div id="links">
-                            <a href="/img/temp.jpg" title="Professional Sales Features">Learn more about bag features</a>
-                            <a href="/img/temp.jpg" title="Professional Sales Featrures 2"></a>
+                            <ul class="gallery clearfix">
+                            <li><a href="/img/temp.jpg" title="Professional Sales Features">Learn more about bag features</a></li>
+                            <li><a href="/img/temp.jpg" title="Professional Sales Featrures 2"></a></li>
+                        </ul>
                         </div>
                 </div>
 
@@ -487,8 +489,6 @@
 <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="/js/main.min.js"></script>
 
-
-</body>
 <div id="blueimp-gallery" class="blueimp-gallery blueimp-gallery-controls">
     <div class="slides"></div>
     <h3 class="title"></h3>
@@ -498,7 +498,8 @@
     <a class="play-pause"></a>
     <ol class="indicator"></ol>
 </div>
-<script type="text/javascript" src="/js/gallery/gallery.min.js"></script>
+<script type="text/javascript" src="/js/gallery/blueimp-gallery.min.js"></script>
+
 <script>
 document.getElementById('links').onclick = function (event) {
     event = event || window.event;
@@ -509,4 +510,5 @@ document.getElementById('links').onclick = function (event) {
     blueimp.Gallery(links, options);
 };
 </script>
+</body>
 </html>

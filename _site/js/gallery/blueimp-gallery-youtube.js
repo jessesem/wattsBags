@@ -42,7 +42,7 @@
             wmode: 'transparent'
         },
         // Require a click on the native YouTube player for the initial playback:
-        youTubeClickToPlay: false
+        youTubeClickToPlay: true
     });
 
     var textFactory = Gallery.prototype.textFactory || Gallery.prototype.imageFactory,

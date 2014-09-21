@@ -132,7 +132,7 @@
           <li><a class="button" data-filter=".computer-backpack">Computer Backpacks</a></li>
           <li><a class="button" data-filter=".computer-briefcase">Computer Briefcases</a></li>
           <li><a class="button" data-filter=".duffel-bag">Duffel Bags</a></li>
-          <li><a class="button" data-filter="">All Bags</a></li>
+          <li><a href="/other-bags/" class="button" data-filter="">All Bags</a></li>
     </div>
 </div>
     </section>
@@ -307,8 +307,6 @@
 <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="/js/main.min.js"></script>
 
-
-</body>
 <div id="blueimp-gallery" class="blueimp-gallery blueimp-gallery-controls">
     <div class="slides"></div>
     <h3 class="title"></h3>
@@ -318,7 +316,8 @@
     <a class="play-pause"></a>
     <ol class="indicator"></ol>
 </div>
-<script type="text/javascript" src="/js/gallery/gallery.min.js"></script>
+<script type="text/javascript" src="/js/gallery/blueimp-gallery.min.js"></script>
+
 <script>
 document.getElementById('links').onclick = function (event) {
     event = event || window.event;
@@ -329,4 +328,5 @@ document.getElementById('links').onclick = function (event) {
     blueimp.Gallery(links, options);
 };
 </script>
+</body>
 </html>
