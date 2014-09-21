@@ -325,7 +325,7 @@ div#trip-panel {
 }
 
 .category-row img {
-    max-width: 175px;
+    max-width: 165px;
     margin:0 1em 0 0;
     border: 1px solid rgba(0,0,0,.1);
     -webkit-border-radius: 4px;
@@ -338,8 +338,9 @@ div#trip-panel {
 }
 
 .category-row.main {
-    width: 49%;
+    width: 47%;
     display: inline-block;
+    border-right: 5px solid #FFF;
 
         .col-sm-6,
         .col-sm-8,
@@ -446,6 +447,17 @@ div#trip-panel {
     background: $dark url(../img/hero/two.jpg) 50% 50% no-repeat;
     background-size: cover;
 }
+
+
+/* ******************************* isotope *******************************/
+
+/* clear fix */
+.isotope:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
 /* ******************************* Color Blocks *******************************/
 
 .color-block {

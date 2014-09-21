@@ -126,21 +126,24 @@
 <!-- Product Sub Menu -->
 <div id="menu-products">
     <section class="center">
-                <ul>
-            <li><a href="/other-bags/computer-backpacks/">Computer Backpacks</a></li>
-            <li><a href="/other-bags/computer-briefcases/">Computer Briefcases</a></li>
-            <li><a href="/other-bags/duffel-bags/">Duffel Bags</a></li>
-        </ul>
+        <div id="filters">
+    <ul data-filter-group="client">
+          <li><a class="button" data-filter=".computer-backpack">Computer Backpacks</a></li>
+          <li><a class="button" data-filter=".computer-briefcase">Computer Briefcases</a></li>
+          <li><a class="button" data-filter=".duffel-bag">Duffel Bags</a></li>
+          <li><a class="button" data-filter="">All Bags</a></li>
+    </div>
+</div>
     </section>
 </div>
 <!-- / Product Sub Menu -->
 
 <section class="center">
-
+<div class="isotope">
 <!-- Product -->
-        <div class="category-row main">
+        <div class="category-row main client-name computer-briefcase">
             <div class="col-sm-4">
-                <img class="lazy" data-original="/img/products/computer-duffle-bags/city-corp.jpg" border="0" alt="" />
+                <img src="/img/products/computer-duffle-bags/city-corp.jpg" border="0" alt="" />
             </div>
                 <div class="col-sm-8">
                         <h1>Ogio City Corp Computer Briefcase</h1>
@@ -151,9 +154,9 @@
             </div>
 <!-- End Product -->
 <!-- Product -->
-        <div class="category-row main">
+        <div class="category-row main client-name computer-briefcase">
             <div class="col-sm-4">
-                <img class="lazy" data-original="/img/products/computer-duffle-bags/Traverese-Wheeled-Briefcase.jpg" border="0" alt="" />
+                <img src="/img/products/computer-duffle-bags/Traverese-Wheeled-Briefcase.jpg" border="0" alt="" />
             </div>
                 <div class="col-sm-8">
                         <h1>Ogio Traverese Wheeled Briefcase</h1>
@@ -164,9 +167,9 @@
             </div>
 <!-- End Product -->
 <!-- Product -->
-        <div class="category-row main">
+        <div class="category-row main client-name computer-backpack">
             <div class="col-sm-4">
-                <img class="lazy" data-original="/img/products/computer-duffle-bags/Epic-Computer-Backpack.jpg" border="0" alt="" />
+                <img src="/img/products/computer-duffle-bags/Epic-Computer-Backpack.jpg" border="0" alt="" />
             </div>
                 <div class="col-sm-8">
                         <h1>Ogio Epic Computer Backpack</h1>
@@ -177,9 +180,9 @@
             </div>
 <!-- End Product -->
 <!-- Product -->
-        <div class="category-row main">
+        <div class="category-row main client-name computer-backpack">
             <div class="col-sm-4">
-                <img class="lazy" data-original="/img/products/computer-duffle-bags/Mastermind-Computer-Backpack.jpg" border="0" alt="" />
+                <img src="/img/products/computer-duffle-bags/Mastermind-Computer-Backpack.jpg" border="0" alt="" />
             </div>
                 <div class="col-sm-8">
                         <h1>Mastermind Computer Backpack</h1>
@@ -190,9 +193,9 @@
             </div>
 <!-- End Product -->
 <!-- Product -->
-        <div class="category-row main">
+        <div class="category-row main client-name computer-backpack">
             <div class="col-sm-4">
-                <img class="lazy" data-original="/img/products/computer-duffle-bags/Bounty-Hunter-Computer-Backpack.jpg" border="0" alt="" />
+                <img src="/img/products/computer-duffle-bags/Bounty-Hunter-Computer-Backpack.jpg" border="0" alt="" />
             </div>
                 <div class="col-sm-8">
                         <h1>Bounty Hunter Computer Backpack</h1>
@@ -203,9 +206,9 @@
             </div>
 <!-- End Product -->
 <!-- Product -->
-        <div class="category-row main">
+        <div class="category-row main client-name duffel-bag">
             <div class="col-sm-4">
-                <img class="lazy" data-original="/img/products/computer-duffle-bags/Lead-Vest-Duffel-Bag.jpg" border="0" alt="" />
+                <img src="/img/products/computer-duffle-bags/Lead-Vest-Duffel-Bag.jpg" border="0" alt="" />
             </div>
                 <div class="col-sm-8">
                         <h1>Lead Vest Duffel Bag</h1>
@@ -217,9 +220,9 @@
             </div>
 <!-- End Product -->
 <!-- Product -->
-        <div class="category-row main">
+        <div class="category-row main client-name duffel-bag">
             <div class="col-sm-4">
-                <img class="lazy" data-original="/img/products/computer-duffle-bags/Straight-Zipperd-Duffle-Bag.jpg" border="0" alt="" />
+                <img src="/img/products/computer-duffle-bags/Straight-Zipperd-Duffle-Bag.jpg" border="0" alt="" />
             </div>
                 <div class="col-sm-8">
                         <h1>Straight Zippered Duffle Bag</h1>
@@ -230,9 +233,9 @@
             </div>
 <!-- End Product -->
 <!-- Product -->
-        <div class="category-row main">
+        <div class="category-row main client-name duffel-bag">
             <div class="col-sm-4">
-                <img class="lazy" data-original="/img/products/computer-duffle-bags/Transfer-Duffel-Bag.jpg" border="0" alt="" />
+                <img src="/img/products/computer-duffle-bags/Transfer-Duffel-Bag.jpg" border="0" alt="" />
             </div>
                 <div class="col-sm-8">
                         <h1>Ogio Transfer Duffel Bag</h1>
@@ -330,4 +333,36 @@
 
 
 </body>
+<script type="text/javascript" src="/js/isotope.min.js"></script>
+<script type="text/javascript">
+$( function() {
+  // init Isotope
+  var $container = $('.isotope').isotope({
+    itemSelector: '.client-name'
+  });
+
+  // store filter for each group
+  var filters = {};
+
+    $('#filters').on( 'click', '.button', function() {
+    var $this = $(this);
+    // get group key
+    var $buttonGroup = $this.parents('.button-group');
+    var filterGroup = $buttonGroup.attr('data-filter-group');
+    // set filter for group
+    filters[ filterGroup ] = $this.attr('data-filter');
+    // combine filters
+    var filterValue = '';
+    for ( var prop in filters ) {
+      filterValue += filters[ prop ];
+    }
+    // set filter for Isotope
+    $container.isotope({ filter: filterValue });
+
+  });
+
+
+});
+
+</script>
 </html>

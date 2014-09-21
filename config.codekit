@@ -389,15 +389,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/_site\/css\/screen.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_site\/css\/screen.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/_site\/custom-bag-embroidery\/index.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -429,12 +420,12 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 35235,
+		"initialSize": 34357,
 		"inputAbbreviatedPath": "\/_site\/img\/about\/alice.jpg",
 		"outputAbbreviatedPath": "\/_site\/img\/about\/alice.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/_site\/img\/arrow.png": {
 		"fileType": 32768,
@@ -445,7 +436,7 @@
 		"outputAbbreviatedPath": "\/_site\/img\/arrow.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/_site\/img\/arrowdown.png": {
 		"fileType": 32768,
@@ -456,40 +447,40 @@
 		"outputAbbreviatedPath": "\/_site\/img\/arrowdown.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/_site\/img\/gallery\/error.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 2216,
+		"initialSize": 1651,
 		"inputAbbreviatedPath": "\/_site\/img\/gallery\/error.png",
 		"outputAbbreviatedPath": "\/_site\/img\/gallery\/error.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/_site\/img\/gallery\/play-pause.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 606,
+		"initialSize": 358,
 		"inputAbbreviatedPath": "\/_site\/img\/gallery\/play-pause.png",
 		"outputAbbreviatedPath": "\/_site\/img\/gallery\/play-pause.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/_site\/img\/gallery\/video-play.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 2811,
+		"initialSize": 1519,
 		"inputAbbreviatedPath": "\/_site\/img\/gallery\/video-play.png",
 		"outputAbbreviatedPath": "\/_site\/img\/gallery\/video-play.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/_site\/img\/glyphicons-halflings-white.png": {
 		"fileType": 32768,
@@ -500,7 +491,7 @@
 		"outputAbbreviatedPath": "\/_site\/img\/glyphicons-halflings-white.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/_site\/img\/glyphicons-halflings.png": {
 		"fileType": 32768,
@@ -511,7 +502,7 @@
 		"outputAbbreviatedPath": "\/_site\/img\/glyphicons-halflings.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/_site\/img\/hero\/four.jpg": {
 		"fileType": 16384,
@@ -583,111 +574,166 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 8422,
+		"initialSize": 7500,
 		"inputAbbreviatedPath": "\/_site\/img\/home\/laptop.jpg",
 		"outputAbbreviatedPath": "\/_site\/img\/home\/laptop.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/_site\/img\/home\/oversized.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 15363,
+		"initialSize": 14440,
 		"inputAbbreviatedPath": "\/_site\/img\/home\/oversized.jpg",
 		"outputAbbreviatedPath": "\/_site\/img\/home\/oversized.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/_site\/img\/home\/professional.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 9297,
+		"initialSize": 8371,
 		"inputAbbreviatedPath": "\/_site\/img\/home\/professional.jpg",
 		"outputAbbreviatedPath": "\/_site\/img\/home\/professional.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/_site\/img\/home\/programmer.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 5402,
+		"initialSize": 4483,
 		"inputAbbreviatedPath": "\/_site\/img\/home\/programmer.jpg",
 		"outputAbbreviatedPath": "\/_site\/img\/home\/programmer.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/_site\/img\/home\/trainer.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 8543,
+		"initialSize": 7633,
 		"inputAbbreviatedPath": "\/_site\/img\/home\/trainer.jpg",
 		"outputAbbreviatedPath": "\/_site\/img\/home\/trainer.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/_site\/img\/icons\/arrow-left.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 2995,
+		"initialSize": 2872,
 		"inputAbbreviatedPath": "\/_site\/img\/icons\/arrow-left.png",
 		"outputAbbreviatedPath": "\/_site\/img\/icons\/arrow-left.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/_site\/img\/icons\/arrow-right.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 3011,
+		"initialSize": 2876,
 		"inputAbbreviatedPath": "\/_site\/img\/icons\/arrow-right.png",
 		"outputAbbreviatedPath": "\/_site\/img\/icons\/arrow-right.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/_site\/img\/icons\/search.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 1357,
+		"initialSize": 1272,
 		"inputAbbreviatedPath": "\/_site\/img\/icons\/search.png",
 		"outputAbbreviatedPath": "\/_site\/img\/icons\/search.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/_site\/img\/logo.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 5597,
+		"initialSize": 3731,
 		"inputAbbreviatedPath": "\/_site\/img\/logo.png",
 		"outputAbbreviatedPath": "\/_site\/img\/logo.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/_site\/img\/logos\/big\/biotronik.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 49491,
+		"initialSize": 41940,
 		"inputAbbreviatedPath": "\/_site\/img\/logos\/big\/biotronik.png",
 		"outputAbbreviatedPath": "\/_site\/img\/logos\/big\/biotronik.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
+		},
+	"\/_site\/img\/logos\/boston.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2586,
+		"inputAbbreviatedPath": "\/_site\/img\/logos\/boston.png",
+		"outputAbbreviatedPath": "\/_site\/img\/logos\/boston.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/logos\/byu.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4045,
+		"inputAbbreviatedPath": "\/_site\/img\/logos\/byu.png",
+		"outputAbbreviatedPath": "\/_site\/img\/logos\/byu.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/logos\/gatorade.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8503,
+		"inputAbbreviatedPath": "\/_site\/img\/logos\/gatorade.png",
+		"outputAbbreviatedPath": "\/_site\/img\/logos\/gatorade.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/logos\/miami.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7133,
+		"inputAbbreviatedPath": "\/_site\/img\/logos\/miami.png",
+		"outputAbbreviatedPath": "\/_site\/img\/logos\/miami.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/logos\/spurs.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 9108,
+		"inputAbbreviatedPath": "\/_site\/img\/logos\/spurs.png",
+		"outputAbbreviatedPath": "\/_site\/img\/logos\/spurs.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/_site\/img\/menu.png": {
 		"fileType": 32768,
@@ -698,7 +744,7 @@
 		"outputAbbreviatedPath": "\/_site\/img\/menu.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/_site\/img\/play.png": {
 		"fileType": 32768,
@@ -709,7 +755,172 @@
 		"outputAbbreviatedPath": "\/_site\/img\/play.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
+		},
+	"\/_site\/img\/products\/accesory-bags\/accessory-bag.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 9393,
+		"inputAbbreviatedPath": "\/_site\/img\/products\/accesory-bags\/accessory-bag.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/products\/accesory-bags\/accessory-bag.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/products\/accesory-bags\/add-on.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7655,
+		"inputAbbreviatedPath": "\/_site\/img\/products\/accesory-bags\/add-on.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/products\/accesory-bags\/add-on.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/products\/accesory-bags\/biotronik-demo-kit.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8311,
+		"inputAbbreviatedPath": "\/_site\/img\/products\/accesory-bags\/biotronik-demo-kit.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/products\/accesory-bags\/biotronik-demo-kit.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/products\/accesory-bags\/city-corp.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 19321,
+		"inputAbbreviatedPath": "\/_site\/img\/products\/accesory-bags\/city-corp.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/products\/accesory-bags\/city-corp.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/products\/accesory-bags\/demo-kit.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7101,
+		"inputAbbreviatedPath": "\/_site\/img\/products\/accesory-bags\/demo-kit.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/products\/accesory-bags\/demo-kit.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/products\/accesory-bags\/heavy-duty-luggage-cart.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 9645,
+		"inputAbbreviatedPath": "\/_site\/img\/products\/accesory-bags\/heavy-duty-luggage-cart.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/products\/accesory-bags\/heavy-duty-luggage-cart.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/products\/accesory-bags\/luggage-cart.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7041,
+		"inputAbbreviatedPath": "\/_site\/img\/products\/accesory-bags\/luggage-cart.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/products\/accesory-bags\/luggage-cart.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/products\/accesory-bags\/schawn-bag.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 9958,
+		"inputAbbreviatedPath": "\/_site\/img\/products\/accesory-bags\/schawn-bag.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/products\/accesory-bags\/schawn-bag.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/products\/accesory-bags\/small-accessory-bag.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 14928,
+		"inputAbbreviatedPath": "\/_site\/img\/products\/accesory-bags\/small-accessory-bag.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/products\/accesory-bags\/small-accessory-bag.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/products\/athletic-trainer-bags\/mini-trainer-bag.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 11669,
+		"inputAbbreviatedPath": "\/_site\/img\/products\/athletic-trainer-bags\/mini-trainer-bag.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/products\/athletic-trainer-bags\/mini-trainer-bag.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/products\/athletic-trainer-bags\/trainer-bag1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 9889,
+		"inputAbbreviatedPath": "\/_site\/img\/products\/athletic-trainer-bags\/trainer-bag1.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/products\/athletic-trainer-bags\/trainer-bag1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/products\/athletic-trainer-bags\/trainer-bag2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 9352,
+		"inputAbbreviatedPath": "\/_site\/img\/products\/athletic-trainer-bags\/trainer-bag2.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/products\/athletic-trainer-bags\/trainer-bag2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/products\/athletic-trainer-bags\/trainer-bag3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10702,
+		"inputAbbreviatedPath": "\/_site\/img\/products\/athletic-trainer-bags\/trainer-bag3.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/products\/athletic-trainer-bags\/trainer-bag3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/products\/athletic-trainer-bags\/trainer-bag4.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 24797,
+		"inputAbbreviatedPath": "\/_site\/img\/products\/athletic-trainer-bags\/trainer-bag4.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/products\/athletic-trainer-bags\/trainer-bag4.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/products\/athletic-trainer-bags\/trainer-bag5.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 11865,
+		"inputAbbreviatedPath": "\/_site\/img\/products\/athletic-trainer-bags\/trainer-bag5.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/products\/athletic-trainer-bags\/trainer-bag5.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/_site\/img\/products\/computer-duffle-bags\/Bounty-Hunter-Computer-Backpack.jpg": {
 		"fileType": 16384,
@@ -799,6 +1010,347 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_site\/img\/products\/oversized-sales-bags\/accuity-bag.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 14026,
+		"inputAbbreviatedPath": "\/_site\/img\/products\/oversized-sales-bags\/accuity-bag.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/products\/oversized-sales-bags\/accuity-bag.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/products\/oversized-sales-bags\/attain.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 14026,
+		"inputAbbreviatedPath": "\/_site\/img\/products\/oversized-sales-bags\/attain.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/products\/oversized-sales-bags\/attain.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/products\/oversized-sales-bags\/biotronik-scout-pro.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 9131,
+		"inputAbbreviatedPath": "\/_site\/img\/products\/oversized-sales-bags\/biotronik-scout-pro.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/products\/oversized-sales-bags\/biotronik-scout-pro.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/products\/oversized-sales-bags\/combo-bag.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7072,
+		"inputAbbreviatedPath": "\/_site\/img\/products\/oversized-sales-bags\/combo-bag.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/products\/oversized-sales-bags\/combo-bag.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/products\/oversized-sales-bags\/cps-bag.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 14026,
+		"inputAbbreviatedPath": "\/_site\/img\/products\/oversized-sales-bags\/cps-bag.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/products\/oversized-sales-bags\/cps-bag.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/products\/oversized-sales-bags\/oversized-travel-bag.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8274,
+		"inputAbbreviatedPath": "\/_site\/img\/products\/oversized-sales-bags\/oversized-travel-bag.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/products\/oversized-sales-bags\/oversized-travel-bag.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/products\/oversized-sales-bags\/small-piggyback.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 14026,
+		"inputAbbreviatedPath": "\/_site\/img\/products\/oversized-sales-bags\/small-piggyback.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/products\/oversized-sales-bags\/small-piggyback.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/products\/oversized-sales-bags\/top-loading-catheter-bag.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 11858,
+		"inputAbbreviatedPath": "\/_site\/img\/products\/oversized-sales-bags\/top-loading-catheter-bag.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/products\/oversized-sales-bags\/top-loading-catheter-bag.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/products\/oversized-sales-bags\/travel-bag.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 21856,
+		"inputAbbreviatedPath": "\/_site\/img\/products\/oversized-sales-bags\/travel-bag.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/products\/oversized-sales-bags\/travel-bag.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/products\/professional-sales-bags\/add-on-bag.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 11978,
+		"inputAbbreviatedPath": "\/_site\/img\/products\/professional-sales-bags\/add-on-bag.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/products\/professional-sales-bags\/add-on-bag.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/products\/professional-sales-bags\/all.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 11771,
+		"inputAbbreviatedPath": "\/_site\/img\/products\/professional-sales-bags\/all.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/products\/professional-sales-bags\/all.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/products\/professional-sales-bags\/biotronik-implant-bag.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 12199,
+		"inputAbbreviatedPath": "\/_site\/img\/products\/professional-sales-bags\/biotronik-implant-bag.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/products\/professional-sales-bags\/biotronik-implant-bag.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/products\/professional-sales-bags\/carry-on-bag.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 12694,
+		"inputAbbreviatedPath": "\/_site\/img\/products\/professional-sales-bags\/carry-on-bag.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/products\/professional-sales-bags\/carry-on-bag.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/products\/professional-sales-bags\/combo.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 16545,
+		"inputAbbreviatedPath": "\/_site\/img\/products\/professional-sales-bags\/combo.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/products\/professional-sales-bags\/combo.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/products\/professional-sales-bags\/lg-neuromodulation-bag.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8276,
+		"inputAbbreviatedPath": "\/_site\/img\/products\/professional-sales-bags\/lg-neuromodulation-bag.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/products\/professional-sales-bags\/lg-neuromodulation-bag.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/products\/professional-sales-bags\/main.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7830,
+		"inputAbbreviatedPath": "\/_site\/img\/products\/professional-sales-bags\/main.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/products\/professional-sales-bags\/main.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/products\/professional-sales-bags\/sm-neuromodulation-bag.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10022,
+		"inputAbbreviatedPath": "\/_site\/img\/products\/professional-sales-bags\/sm-neuromodulation-bag.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/products\/professional-sales-bags\/sm-neuromodulation-bag.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/products\/professional-sales-bags\/travel-bag.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10566,
+		"inputAbbreviatedPath": "\/_site\/img\/products\/professional-sales-bags\/travel-bag.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/products\/professional-sales-bags\/travel-bag.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/products\/programmer-bags\/Biotronik-ICS-3000-Top-Loading-Style.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 13353,
+		"inputAbbreviatedPath": "\/_site\/img\/products\/programmer-bags\/Biotronik-ICS-3000-Top-Loading-Style.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/products\/programmer-bags\/Biotronik-ICS-3000-Top-Loading-Style.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/products\/programmer-bags\/Biotronik-Renamic-Open-Cart-Style.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6200,
+		"inputAbbreviatedPath": "\/_site\/img\/products\/programmer-bags\/Biotronik-Renamic-Open-Cart-Style.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/products\/programmer-bags\/Biotronik-Renamic-Open-Cart-Style.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/products\/programmer-bags\/Biotronik-Top-Loading-Style.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10639,
+		"inputAbbreviatedPath": "\/_site\/img\/products\/programmer-bags\/Biotronik-Top-Loading-Style.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/products\/programmer-bags\/Biotronik-Top-Loading-Style.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/products\/programmer-bags\/Boston-Scientific-Front-Loading-Programmer.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10114,
+		"inputAbbreviatedPath": "\/_site\/img\/products\/programmer-bags\/Boston-Scientific-Front-Loading-Programmer.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/products\/programmer-bags\/Boston-Scientific-Front-Loading-Programmer.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/products\/programmer-bags\/Boston-Scientific-Open-Cart.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8612,
+		"inputAbbreviatedPath": "\/_site\/img\/products\/programmer-bags\/Boston-Scientific-Open-Cart.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/products\/programmer-bags\/Boston-Scientific-Open-Cart.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/products\/programmer-bags\/Boston-Top-Loading-Pro.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 11399,
+		"inputAbbreviatedPath": "\/_site\/img\/products\/programmer-bags\/Boston-Top-Loading-Pro.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/products\/programmer-bags\/Boston-Top-Loading-Pro.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/products\/programmer-bags\/Medtronic-Front-Loading-Pro.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 12946,
+		"inputAbbreviatedPath": "\/_site\/img\/products\/programmer-bags\/Medtronic-Front-Loading-Pro.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/products\/programmer-bags\/Medtronic-Front-Loading-Pro.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/products\/programmer-bags\/Medtronic-Open-Pro-Cart.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 9210,
+		"inputAbbreviatedPath": "\/_site\/img\/products\/programmer-bags\/Medtronic-Open-Pro-Cart.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/products\/programmer-bags\/Medtronic-Open-Pro-Cart.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/products\/programmer-bags\/Medtronic-Top-Loading-Pro.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 11673,
+		"inputAbbreviatedPath": "\/_site\/img\/products\/programmer-bags\/Medtronic-Top-Loading-Pro.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/products\/programmer-bags\/Medtronic-Top-Loading-Pro.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/products\/programmer-bags\/Sorin-Front-Loading.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10410,
+		"inputAbbreviatedPath": "\/_site\/img\/products\/programmer-bags\/Sorin-Front-Loading.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/products\/programmer-bags\/Sorin-Front-Loading.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/products\/programmer-bags\/St-Jude-Open-Cart-Style.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7177,
+		"inputAbbreviatedPath": "\/_site\/img\/products\/programmer-bags\/St-Jude-Open-Cart-Style.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/products\/programmer-bags\/St-Jude-Open-Cart-Style.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/products\/programmer-bags\/St-Jude-Programmer-Bag.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10671,
+		"inputAbbreviatedPath": "\/_site\/img\/products\/programmer-bags\/St-Jude-Programmer-Bag.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/products\/programmer-bags\/St-Jude-Programmer-Bag.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/products\/programmer-bags\/St-Jude-Top-Loading-Pro.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 12523,
+		"inputAbbreviatedPath": "\/_site\/img\/products\/programmer-bags\/St-Jude-Top-Loading-Pro.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/products\/programmer-bags\/St-Jude-Top-Loading-Pro.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_site\/img\/temp.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -814,12 +1366,12 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 25656,
+		"initialSize": 24726,
 		"inputAbbreviatedPath": "\/_site\/img\/thumb-video.jpg",
 		"outputAbbreviatedPath": "\/_site\/img\/thumb-video.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/_site\/index.html": {
 		"fileType": 8192,
@@ -1642,6 +2194,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/_site\/programmer-bags\/sort.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/programmer-bags\/sort.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/_site\/programmer-bags\/st-jude\/front-loading\/index.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -1792,12 +2353,12 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 265022,
+		"initialSize": 264117,
 		"inputAbbreviatedPath": "\/_site\/video\/thumbnail.jpg",
 		"outputAbbreviatedPath": "\/_site\/video\/thumbnail.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/about-us\/index.html": {
 		"fileType": 8192,
@@ -2315,6 +2876,61 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
+	"\/img\/logos\/boston.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2586,
+		"inputAbbreviatedPath": "\/img\/logos\/boston.png",
+		"outputAbbreviatedPath": "\/img\/logos\/boston.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/logos\/byu.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4045,
+		"inputAbbreviatedPath": "\/img\/logos\/byu.png",
+		"outputAbbreviatedPath": "\/img\/logos\/byu.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/logos\/gatorade.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8503,
+		"inputAbbreviatedPath": "\/img\/logos\/gatorade.png",
+		"outputAbbreviatedPath": "\/img\/logos\/gatorade.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/logos\/miami.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7133,
+		"inputAbbreviatedPath": "\/img\/logos\/miami.png",
+		"outputAbbreviatedPath": "\/img\/logos\/miami.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/logos\/spurs.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 9108,
+		"inputAbbreviatedPath": "\/img\/logos\/spurs.png",
+		"outputAbbreviatedPath": "\/img\/logos\/spurs.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/menu.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -2336,6 +2952,171 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
+		},
+	"\/img\/products\/accesory-bags\/accessory-bag.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 9393,
+		"inputAbbreviatedPath": "\/img\/products\/accesory-bags\/accessory-bag.jpg",
+		"outputAbbreviatedPath": "\/img\/products\/accesory-bags\/accessory-bag.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/products\/accesory-bags\/add-on.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7655,
+		"inputAbbreviatedPath": "\/img\/products\/accesory-bags\/add-on.jpg",
+		"outputAbbreviatedPath": "\/img\/products\/accesory-bags\/add-on.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/products\/accesory-bags\/biotronik-demo-kit.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8311,
+		"inputAbbreviatedPath": "\/img\/products\/accesory-bags\/biotronik-demo-kit.jpg",
+		"outputAbbreviatedPath": "\/img\/products\/accesory-bags\/biotronik-demo-kit.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/products\/accesory-bags\/city-corp.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 19321,
+		"inputAbbreviatedPath": "\/img\/products\/accesory-bags\/city-corp.jpg",
+		"outputAbbreviatedPath": "\/img\/products\/accesory-bags\/city-corp.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/products\/accesory-bags\/demo-kit.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7101,
+		"inputAbbreviatedPath": "\/img\/products\/accesory-bags\/demo-kit.jpg",
+		"outputAbbreviatedPath": "\/img\/products\/accesory-bags\/demo-kit.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/products\/accesory-bags\/heavy-duty-luggage-cart.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 9645,
+		"inputAbbreviatedPath": "\/img\/products\/accesory-bags\/heavy-duty-luggage-cart.jpg",
+		"outputAbbreviatedPath": "\/img\/products\/accesory-bags\/heavy-duty-luggage-cart.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/products\/accesory-bags\/luggage-cart.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7041,
+		"inputAbbreviatedPath": "\/img\/products\/accesory-bags\/luggage-cart.jpg",
+		"outputAbbreviatedPath": "\/img\/products\/accesory-bags\/luggage-cart.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/products\/accesory-bags\/schawn-bag.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 9958,
+		"inputAbbreviatedPath": "\/img\/products\/accesory-bags\/schawn-bag.jpg",
+		"outputAbbreviatedPath": "\/img\/products\/accesory-bags\/schawn-bag.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/products\/accesory-bags\/small-accessory-bag.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 14928,
+		"inputAbbreviatedPath": "\/img\/products\/accesory-bags\/small-accessory-bag.jpg",
+		"outputAbbreviatedPath": "\/img\/products\/accesory-bags\/small-accessory-bag.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/products\/athletic-trainer-bags\/mini-trainer-bag.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 11669,
+		"inputAbbreviatedPath": "\/img\/products\/athletic-trainer-bags\/mini-trainer-bag.jpg",
+		"outputAbbreviatedPath": "\/img\/products\/athletic-trainer-bags\/mini-trainer-bag.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/products\/athletic-trainer-bags\/trainer-bag1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 9889,
+		"inputAbbreviatedPath": "\/img\/products\/athletic-trainer-bags\/trainer-bag1.jpg",
+		"outputAbbreviatedPath": "\/img\/products\/athletic-trainer-bags\/trainer-bag1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/products\/athletic-trainer-bags\/trainer-bag2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 9352,
+		"inputAbbreviatedPath": "\/img\/products\/athletic-trainer-bags\/trainer-bag2.jpg",
+		"outputAbbreviatedPath": "\/img\/products\/athletic-trainer-bags\/trainer-bag2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/products\/athletic-trainer-bags\/trainer-bag3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10702,
+		"inputAbbreviatedPath": "\/img\/products\/athletic-trainer-bags\/trainer-bag3.jpg",
+		"outputAbbreviatedPath": "\/img\/products\/athletic-trainer-bags\/trainer-bag3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/products\/athletic-trainer-bags\/trainer-bag4.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 24797,
+		"inputAbbreviatedPath": "\/img\/products\/athletic-trainer-bags\/trainer-bag4.jpg",
+		"outputAbbreviatedPath": "\/img\/products\/athletic-trainer-bags\/trainer-bag4.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/products\/athletic-trainer-bags\/trainer-bag5.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 11865,
+		"inputAbbreviatedPath": "\/img\/products\/athletic-trainer-bags\/trainer-bag5.jpg",
+		"outputAbbreviatedPath": "\/img\/products\/athletic-trainer-bags\/trainer-bag5.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/img\/products\/computer-duffle-bags\/Bounty-Hunter-Computer-Backpack.jpg": {
 		"fileType": 16384,
@@ -2421,6 +3202,347 @@
 		"initialSize": 17056,
 		"inputAbbreviatedPath": "\/img\/products\/computer-duffle-bags\/Traverese-Wheeled-Briefcase.jpg",
 		"outputAbbreviatedPath": "\/img\/products\/computer-duffle-bags\/Traverese-Wheeled-Briefcase.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/products\/oversized-sales-bags\/accuity-bag.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 14026,
+		"inputAbbreviatedPath": "\/img\/products\/oversized-sales-bags\/accuity-bag.jpg",
+		"outputAbbreviatedPath": "\/img\/products\/oversized-sales-bags\/accuity-bag.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/products\/oversized-sales-bags\/attain.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 14026,
+		"inputAbbreviatedPath": "\/img\/products\/oversized-sales-bags\/attain.jpg",
+		"outputAbbreviatedPath": "\/img\/products\/oversized-sales-bags\/attain.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/products\/oversized-sales-bags\/biotronik-scout-pro.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 9131,
+		"inputAbbreviatedPath": "\/img\/products\/oversized-sales-bags\/biotronik-scout-pro.jpg",
+		"outputAbbreviatedPath": "\/img\/products\/oversized-sales-bags\/biotronik-scout-pro.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/products\/oversized-sales-bags\/combo-bag.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7072,
+		"inputAbbreviatedPath": "\/img\/products\/oversized-sales-bags\/combo-bag.jpg",
+		"outputAbbreviatedPath": "\/img\/products\/oversized-sales-bags\/combo-bag.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/products\/oversized-sales-bags\/cps-bag.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 14026,
+		"inputAbbreviatedPath": "\/img\/products\/oversized-sales-bags\/cps-bag.jpg",
+		"outputAbbreviatedPath": "\/img\/products\/oversized-sales-bags\/cps-bag.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/products\/oversized-sales-bags\/oversized-travel-bag.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8274,
+		"inputAbbreviatedPath": "\/img\/products\/oversized-sales-bags\/oversized-travel-bag.jpg",
+		"outputAbbreviatedPath": "\/img\/products\/oversized-sales-bags\/oversized-travel-bag.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/products\/oversized-sales-bags\/small-piggyback.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 14026,
+		"inputAbbreviatedPath": "\/img\/products\/oversized-sales-bags\/small-piggyback.jpg",
+		"outputAbbreviatedPath": "\/img\/products\/oversized-sales-bags\/small-piggyback.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/products\/oversized-sales-bags\/top-loading-catheter-bag.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 11858,
+		"inputAbbreviatedPath": "\/img\/products\/oversized-sales-bags\/top-loading-catheter-bag.jpg",
+		"outputAbbreviatedPath": "\/img\/products\/oversized-sales-bags\/top-loading-catheter-bag.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/products\/oversized-sales-bags\/travel-bag.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 21856,
+		"inputAbbreviatedPath": "\/img\/products\/oversized-sales-bags\/travel-bag.jpg",
+		"outputAbbreviatedPath": "\/img\/products\/oversized-sales-bags\/travel-bag.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/products\/professional-sales-bags\/add-on-bag.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 11978,
+		"inputAbbreviatedPath": "\/img\/products\/professional-sales-bags\/add-on-bag.jpg",
+		"outputAbbreviatedPath": "\/img\/products\/professional-sales-bags\/add-on-bag.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/products\/professional-sales-bags\/all.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 11771,
+		"inputAbbreviatedPath": "\/img\/products\/professional-sales-bags\/all.jpg",
+		"outputAbbreviatedPath": "\/img\/products\/professional-sales-bags\/all.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/products\/professional-sales-bags\/biotronik-implant-bag.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 12199,
+		"inputAbbreviatedPath": "\/img\/products\/professional-sales-bags\/biotronik-implant-bag.jpg",
+		"outputAbbreviatedPath": "\/img\/products\/professional-sales-bags\/biotronik-implant-bag.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/products\/professional-sales-bags\/carry-on-bag.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 12694,
+		"inputAbbreviatedPath": "\/img\/products\/professional-sales-bags\/carry-on-bag.jpg",
+		"outputAbbreviatedPath": "\/img\/products\/professional-sales-bags\/carry-on-bag.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/products\/professional-sales-bags\/combo.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 16545,
+		"inputAbbreviatedPath": "\/img\/products\/professional-sales-bags\/combo.jpg",
+		"outputAbbreviatedPath": "\/img\/products\/professional-sales-bags\/combo.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/products\/professional-sales-bags\/lg-neuromodulation-bag.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8276,
+		"inputAbbreviatedPath": "\/img\/products\/professional-sales-bags\/lg-neuromodulation-bag.jpg",
+		"outputAbbreviatedPath": "\/img\/products\/professional-sales-bags\/lg-neuromodulation-bag.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/products\/professional-sales-bags\/main.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7830,
+		"inputAbbreviatedPath": "\/img\/products\/professional-sales-bags\/main.jpg",
+		"outputAbbreviatedPath": "\/img\/products\/professional-sales-bags\/main.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/products\/professional-sales-bags\/sm-neuromodulation-bag.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10022,
+		"inputAbbreviatedPath": "\/img\/products\/professional-sales-bags\/sm-neuromodulation-bag.jpg",
+		"outputAbbreviatedPath": "\/img\/products\/professional-sales-bags\/sm-neuromodulation-bag.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/products\/professional-sales-bags\/travel-bag.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10566,
+		"inputAbbreviatedPath": "\/img\/products\/professional-sales-bags\/travel-bag.jpg",
+		"outputAbbreviatedPath": "\/img\/products\/professional-sales-bags\/travel-bag.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/products\/programmer-bags\/Biotronik-ICS-3000-Top-Loading-Style.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 13353,
+		"inputAbbreviatedPath": "\/img\/products\/programmer-bags\/Biotronik-ICS-3000-Top-Loading-Style.jpg",
+		"outputAbbreviatedPath": "\/img\/products\/programmer-bags\/Biotronik-ICS-3000-Top-Loading-Style.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/products\/programmer-bags\/Biotronik-Renamic-Open-Cart-Style.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6200,
+		"inputAbbreviatedPath": "\/img\/products\/programmer-bags\/Biotronik-Renamic-Open-Cart-Style.jpg",
+		"outputAbbreviatedPath": "\/img\/products\/programmer-bags\/Biotronik-Renamic-Open-Cart-Style.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/products\/programmer-bags\/Biotronik-Top-Loading-Style.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10639,
+		"inputAbbreviatedPath": "\/img\/products\/programmer-bags\/Biotronik-Top-Loading-Style.jpg",
+		"outputAbbreviatedPath": "\/img\/products\/programmer-bags\/Biotronik-Top-Loading-Style.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/products\/programmer-bags\/Boston-Scientific-Front-Loading-Programmer.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10114,
+		"inputAbbreviatedPath": "\/img\/products\/programmer-bags\/Boston-Scientific-Front-Loading-Programmer.jpg",
+		"outputAbbreviatedPath": "\/img\/products\/programmer-bags\/Boston-Scientific-Front-Loading-Programmer.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/products\/programmer-bags\/Boston-Scientific-Open-Cart.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8612,
+		"inputAbbreviatedPath": "\/img\/products\/programmer-bags\/Boston-Scientific-Open-Cart.jpg",
+		"outputAbbreviatedPath": "\/img\/products\/programmer-bags\/Boston-Scientific-Open-Cart.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/products\/programmer-bags\/Boston-Top-Loading-Pro.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 11399,
+		"inputAbbreviatedPath": "\/img\/products\/programmer-bags\/Boston-Top-Loading-Pro.jpg",
+		"outputAbbreviatedPath": "\/img\/products\/programmer-bags\/Boston-Top-Loading-Pro.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/products\/programmer-bags\/Medtronic-Front-Loading-Pro.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 12946,
+		"inputAbbreviatedPath": "\/img\/products\/programmer-bags\/Medtronic-Front-Loading-Pro.jpg",
+		"outputAbbreviatedPath": "\/img\/products\/programmer-bags\/Medtronic-Front-Loading-Pro.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/products\/programmer-bags\/Medtronic-Open-Pro-Cart.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 9210,
+		"inputAbbreviatedPath": "\/img\/products\/programmer-bags\/Medtronic-Open-Pro-Cart.jpg",
+		"outputAbbreviatedPath": "\/img\/products\/programmer-bags\/Medtronic-Open-Pro-Cart.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/products\/programmer-bags\/Medtronic-Top-Loading-Pro.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 11673,
+		"inputAbbreviatedPath": "\/img\/products\/programmer-bags\/Medtronic-Top-Loading-Pro.jpg",
+		"outputAbbreviatedPath": "\/img\/products\/programmer-bags\/Medtronic-Top-Loading-Pro.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/products\/programmer-bags\/Sorin-Front-Loading.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10410,
+		"inputAbbreviatedPath": "\/img\/products\/programmer-bags\/Sorin-Front-Loading.jpg",
+		"outputAbbreviatedPath": "\/img\/products\/programmer-bags\/Sorin-Front-Loading.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/products\/programmer-bags\/St-Jude-Open-Cart-Style.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7177,
+		"inputAbbreviatedPath": "\/img\/products\/programmer-bags\/St-Jude-Open-Cart-Style.jpg",
+		"outputAbbreviatedPath": "\/img\/products\/programmer-bags\/St-Jude-Open-Cart-Style.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/products\/programmer-bags\/St-Jude-Programmer-Bag.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10671,
+		"inputAbbreviatedPath": "\/img\/products\/programmer-bags\/St-Jude-Programmer-Bag.jpg",
+		"outputAbbreviatedPath": "\/img\/products\/programmer-bags\/St-Jude-Programmer-Bag.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/products\/programmer-bags\/St-Jude-Top-Loading-Pro.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 12523,
+		"inputAbbreviatedPath": "\/img\/products\/programmer-bags\/St-Jude-Top-Loading-Pro.jpg",
+		"outputAbbreviatedPath": "\/img\/products\/programmer-bags\/St-Jude-Top-Loading-Pro.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3264,6 +4386,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/programmer-bags\/sorin\/front-loading\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/programmer-bags\/sort.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/programmer-bags\/sort.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0

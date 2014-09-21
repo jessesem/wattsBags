@@ -20,4 +20,35 @@
 
 </body>
 <script type="text/javascript" src="{{ site.baseurl }}/js/isotope.min.js"></script>
+<script type="text/javascript">
+$( function() {
+  // init Isotope
+  var $container = $('.isotope').isotope({
+    itemSelector: '.client-name'
+  });
+
+  // store filter for each group
+  var filters = {};
+
+    $('#filters').on( 'click', '.button', function() {
+    var $this = $(this);
+    // get group key
+    var $buttonGroup = $this.parents('.button-group');
+    var filterGroup = $buttonGroup.attr('data-filter-group');
+    // set filter for group
+    filters[ filterGroup ] = $this.attr('data-filter');
+    // combine filters
+    var filterValue = '';
+    for ( var prop in filters ) {
+      filterValue += filters[ prop ];
+    }
+    // set filter for Isotope
+    $container.isotope({ filter: filterValue });
+
+  });
+
+
+});
+
+</script>
 </html>
