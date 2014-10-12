@@ -40,6 +40,7 @@
 <!-- Typekit -->
 <script type="text/javascript" src="//use.typekit.net/bsx5zca.js"></script>
 <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+    <link rel="stylesheet" href="/css/gallery/blueimp.css">
 </head>
 
 <body>
@@ -180,51 +181,33 @@
                 <div class="col-sm-5">
                 <div id="trip-panel">
                     <img class="lazy" data-original="http://placehold.it/450X450" border="0" alt="" />
+                        <!-- Feature Gallery -->
+                         <div id="links">
+                            <ul class="gallery clearfix">
+                                <li><a href="/img/temp.jpg" title="Professional Sales Features">Learn more about bag features</a></li>
+                                <li><a href="/img/temp.jpg" title="Professional Sales Featrures 2"></a></li>
+                            </ul>
+                        </div>
+                        <!-- End Feature Gallery -->
                 </div>
                 </div>
         </div>
-</section>
-
-
-<section class="center">
-
-<!-- Product -->
+<!--Row-->
+<div class="row">
+    <div class="col-sm-6">
+        <!-- Product -->
         <div class="category-row">
-                <div class="col-sm-2">
-                        <img class="lazy" data-original="http://placehold.it/175X175" border="0" alt="" />
-                </div>
-
-                <div class="col-sm-6">
-                        <h1>Biotronik Demo Kit Bag</h1>
+                        <h1>Biotronik Demo Kit Bag<span class="right">$70</span></h1>
 
                         <ul>
                             <li><strong>External Dimensions:</strong> <span class="right">2.5" Deep x 6.5" Wide x 11.25" Long</span></li>
-                        </ul>
-                        <a href="">Learn more about bag features</a>
-                </div>
-
-                <div class="col-sm-4">
-
-                        <ul>
-                            <li><strong>Available Colors:</strong> <div id="color-choices">
-
-    <div class="color-block black"></div>
-    <div class="color-block red"></div>
-    <div class="color-block navy"></div>
-    <div class="color-block royal"></div>
-    <div class="color-block green"></div>
-    <div class="color-block grey"></div>
-
-</div></li>
-                            <li><strong>Custom Embroidery:</strong> <span class="right">Yes</span></li>
-                            <li class="price"><strong>Price:</strong> <span class="right">$70</span></li>
-                        </ul>
+                         </ul>
                         <p><a href="" class="learnMoreButton">Order &amp; Customize</a></p>
                 </div>
             </div>
 
 <!-- End Product -->
-
+</div>
 </section>
 </div>
 <div id="slab-quote" class="slab">
@@ -312,6 +295,26 @@
 <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="/js/main.min.js"></script>
 
+<div id="blueimp-gallery" class="blueimp-gallery blueimp-gallery-controls">
+    <div class="slides"></div>
+    <h3 class="title"></h3>
+    <a class="prev">‹</a>
+    <a class="next">›</a>
+    <a class="close">×</a>
+    <a class="play-pause"></a>
+    <ol class="indicator"></ol>
+</div>
+<script type="text/javascript" src="/js/gallery/blueimp-gallery.min.js"></script>
 
+<script>
+document.getElementById('links').onclick = function (event) {
+    event = event || window.event;
+    var target = event.target || event.srcElement,
+        link = target.src ? target.parentNode : target,
+        options = {index: link, event: event},
+        links = this.getElementsByTagName('a');
+    blueimp.Gallery(links, options);
+};
+</script>
 </body>
 </html>

@@ -1,5 +1,5 @@
 ---
-layout: gallery
+layout: default
 ---
 
 <div id="hero">
@@ -57,22 +57,23 @@ layout: gallery
                 <div class="col-sm-5">
                 <div id="trip-panel">
                     <img class="lazy" data-original="{{ site.baseurl }}/img/products/computer-duffle-bags/Epic-Computer-Backpack.jpg" border="0" alt="" />
+                        <!-- Feature Gallery -->
+                         <div id="links">
+                            <ul class="gallery clearfix">
+                                <li><a href="{{ site.baseurl }}/img/temp.jpg" title="Professional Sales Features">Learn more about bag features</a></li>
+                                <li><a href="{{ site.baseurl }}/img/temp.jpg" title="Professional Sales Featrures 2"></a></li>
+                            </ul>
+                        </div>
+                        <!-- End Feature Gallery -->
                 </div>
                 </div>
         </div>
-</section>
-
-
-<section class="center">
-
-<!-- Product -->
+<!--Row-->
+<div class="row">
+    <div class="col-sm-6">
+        <!-- Product -->
         <div class="category-row">
-                <div class="col-sm-2">
-                        <img class="lazy" data-original="{{ site.baseurl }}/img/products/computer-duffle-bags/Epic-Computer-Backpack.jpg" border="0" alt="" />
-                </div>
-
-                <div class="col-sm-6">
-                        <h1>Ogio Epic Computer Backpack</h1>
+                        <h1>Ogio Epic Computer Backpack<span class="right">$90</span></h1>
 
                         <ul>
                             <li><strong>Laptop sleeve:</strong> <span class="right">16.5"h x 11"w x 2"d; fits most 17" laptops</span></li>
@@ -80,20 +81,13 @@ layout: gallery
                             <li><strong>Capacity:</strong> <span class="right">2,500 cu.in./41LL</span></li>
                             <li><strong>Weight:</strong> <span class="right">3.2 lbs./1.5kg</span></li>
                         </ul>
-                </div>
 
-                <div class="col-sm-4">
-
-                        <ul>
-                            <li><strong>Available Colors:</strong> {% include colors.html %}</li>
-                            <li class="price"><strong>Price:</strong> <span class="right">$90</span></li>
-                        </ul>
                         <p><a href="" class="learnMoreButton">Order &amp; Customize</a></p>
                 </div>
             </div>
 
 <!-- End Product -->
-
+</div>
 </section>
 </div>
 {% include testimonial.html %}

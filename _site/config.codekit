@@ -155,15 +155,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/_layouts\/gallery.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_layouts\/gallery.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/_layouts\/isotope.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -548,6 +539,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_site\/img\/hero\/quotes\/gatorade.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 28962,
+		"inputAbbreviatedPath": "\/_site\/img\/hero\/quotes\/gatorade.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/hero\/quotes\/gatorade.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_site\/img\/hero\/three.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -731,6 +733,17 @@
 		"initialSize": 9108,
 		"inputAbbreviatedPath": "\/_site\/img\/logos\/spurs.png",
 		"outputAbbreviatedPath": "\/_site\/img\/logos\/spurs.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/materials.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 41335,
+		"inputAbbreviatedPath": "\/_site\/img\/materials.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/materials.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -2825,6 +2838,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/hero\/quotes\/gatorade.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 28962,
+		"inputAbbreviatedPath": "\/img\/hero\/quotes\/gatorade.jpg",
+		"outputAbbreviatedPath": "\/img\/hero\/quotes\/gatorade.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/hero\/three.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -3008,6 +3032,17 @@
 		"initialSize": 9108,
 		"inputAbbreviatedPath": "\/img\/logos\/spurs.png",
 		"outputAbbreviatedPath": "\/img\/logos\/spurs.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/materials.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 41335,
+		"inputAbbreviatedPath": "\/img\/materials.jpg",
+		"outputAbbreviatedPath": "\/img\/materials.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

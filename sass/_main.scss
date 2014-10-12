@@ -467,6 +467,14 @@ div#trip-panel {
   clear: both;
 }
 
+.isotope .category-row {
+    padding: 3% 0;
+
+    .col-sm-8 {
+        padding-top: 0;
+    }
+}
+
 /* ******************************* Color Blocks *******************************/
 #color-choices {
     display: inline;
@@ -866,6 +874,48 @@ div.price h3,
 div.price p {
     text-align: right;
 }
+
+
+#reviews {
+
+    strong{
+        display: block;
+        // font: normal 100%/1.4 "proxima-nova", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+        margin: 1em 0;
+    }
+
+    p {
+        border-bottom: 1px solid #CCCCCC;
+        // font: italic 100%/1.2 "ff-tisa-web-pro", Georgia, Times, serif;
+        margin: 1em 0 2em 0;
+    }
+
+    p:last-child {
+        border-bottom: none;
+    }
+}
+
+#product-details {
+
+    .color-block {
+        float: left;
+    }
+
+}
+
+#links {
+    .gallery {
+        padding: 0;
+    }
+
+    .gallery li {
+        list-style: none;
+        padding: 0;
+        display: inline;
+        text-indent: 0;
+    }
+
+}
 /* *******************************  Carousel *******************************/
 
 .carousel,
@@ -922,6 +972,11 @@ div.price p {
 
 #hero .combo-bag {
     background: url(../img/hero/two.jpg) 50% 50% no-repeat;
+    background-size: cover;
+}
+
+#hero .reviews {
+    background: url(../img/hero/quotes/gatorade.jpg) 50% 50% no-repeat;
     background-size: cover;
 }
 
