@@ -209,6 +209,7 @@ div#trip-panel {
     }
 }
 
+
 #hero {
 	 height: 100%;
      max-height: em(575px);
@@ -284,14 +285,15 @@ div#trip-panel {
 .category-row {
     background: #F5F5F5;
     width: 100%;
-    padding: 2% 0;
+    padding: 3%;
     height: auto;
-    min-height: 225px;
+    min-height: em(270px);
     font-size: 90%;
     margin-bottom: 1.2em;
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
     border-radius: 4px;
+    line-height: 22px;
 
 
      h1,h2 {
@@ -299,7 +301,7 @@ div#trip-panel {
      }
 
      h1 {
-        font-size: 120%;
+        font-size: 140%;
      }
 
      ul {
@@ -312,15 +314,12 @@ div#trip-panel {
 
      }
 
-     p {
-        line-height: 20px;
-        font-size: 90%;
-     }
-
       a.learnMoreButton {
             margin-top: em(26px);
         }
-
+     @include respond-to(small) {
+        text-align: center;
+    }
 
 }
 
@@ -337,8 +336,18 @@ div#trip-panel {
     }
 }
 
+
+.category-row strong,
+.category-row .right {
+
+      @include respond-to(small) {
+        float: none;
+        display: block;
+    }
+}
+
 .category-row.main {
-    width: 47%;
+    width: 50%;
     display: inline-block;
     border-right: 5px solid #FFF;
 
@@ -459,12 +468,15 @@ div#trip-panel {
 }
 
 /* ******************************* Color Blocks *******************************/
+#color-choices {
+    display: inline;
+}
 
 .color-block {
     height: em(15px);
     width: em(15px);
     margin: 0 2px;
-    display: inline-block;
+    float: right;
 }
 
 .color-block:first-child {
@@ -939,6 +951,21 @@ div.price p {
 
 @include respond-to(small) {
     .hideMobile {
+        display: none;
+    }
+}
+
+
+.category-row.main {
+    width: 49%;
+}
+
+
+
+#trip-panel img,
+.col-sm-2 {
+
+     @include respond-to(small) {
         display: none;
     }
 }

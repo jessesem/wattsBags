@@ -1,9 +1,25 @@
 <!DOCTYPE html>
 <html>
 <html lang="en">
-
-
 <head>
+{% if page.title %}<title>{{ page.title }}</title>{% endif %}
+    {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
+    {% if page.keywords %}<meta name="keywords" content="{{ page.keywords }}">{% endif %}
+    <!-- Twitter card data -->
+    {% if page.twitter-card %}<meta name="twitter:card" content="{{ page.twitter-card }}">{% endif %}
+    {% if page.twitter-site %}<meta name="twitter:site" content="{{ page.twitter-site }}">{% endif %}
+    {% if page.twitter-title %}<meta name="twitter:title" content="{{ page.twitter-title }}">{% endif %}
+    {% if page.twitter-description %}<meta name="twitter:description" content="{{ page.twitter-description }}">{% endif %}
+    {% if page.twitter-image %}<meta name="twitter:image:src" content="{{ page.twitter-image }}">{% endif %}
+    <!-- Open Graph data -->
+    {% if page.og-title %}<meta name="og:title" content="{{ page.og-title }}">{% endif %}
+    {% if page.og-url %}<meta name="og:url" content="{{ page.og-url }}">{% endif %}
+    {% if page.og-image %}<meta name="og:image" content="{{ page.og-image }}">{% endif %}
+    {% if page.og-description %}<meta name="og:description" content="{{ page.og-description }}">{% endif %}
+    {% if page.og-sitename %}<meta name="og:site_name" content="{{ page.og-sitename}}">{% endif %}
+    {% if page.fb-admins %}<meta name="fb:admins" content="{{ page.fb-admins }}">{% endif %}
+    {% if page.google-verify %}<meta name="google-site-verification" content="{{ page.google-verify }}">{% endif %}
+    {% if page.robots %}<meta name="ROBOTS" content="{{ page.robots }}">{% endif %}
     {% include header.html %}
 </head>
 

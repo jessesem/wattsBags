@@ -313,7 +313,191 @@ hr {
     background-image:-o-linear-gradient(left,transparent,rgba(0,0,0,0.75),transparent);
 }
 
+
+
+/* ******************************* Form *******************************/
 section {
     overflow: hidden;
     width: 100%;
+}
+
+form {
+    margin:0;
+}
+
+fieldset {
+    margin-bottom:1.5em;
+    padding:0;
+    border-width:0;
+}
+
+legend {
+    *margin-left:-7px;
+    padding:0;
+    border-width:0;
+}
+
+label {
+    cursor:pointer;
+    display:block;
+    font-size:14px;
+    margin-top:1em;
+}
+
+button,input,select,textarea {
+    margin:0;
+    vertical-align:baseline;
+    *vertical-align:middle;
+}
+
+button,input {
+    line-height:normal;
+    *overflow:visible;
+}
+
+button,input[type="button"],input[type="reset"],input[type="submit"] {
+    cursor:pointer;
+}
+
+input[type="checkbox"],input[type="radio"] {
+    box-sizing:border-box;
+}
+
+input[type="search"] {
+    box-sizing:content-box;
+}
+
+button::-moz-focus-inner,input::-moz-focus-inner {
+    padding:0;
+    border:0;
+}
+
+textarea {
+    overflow:auto;
+    vertical-align:top;
+}
+
+input:invalid,textarea:invalid {
+    -webkit-box-shadow:0 0 2px red;
+    -moz-box-shadow:0 0 2px red;
+    box-shadow:0 0 2px red;
+}
+
+.no-boxshadow input:invalid,.no-boxshadow textarea:invalid {
+    background-color:#f0dddd;
+}
+
+form p {
+    position:relative;
+    margin:10px 0;
+}
+
+form fieldset p input,form fieldset p textarea {
+    display:block;
+    margin:0;
+    border:none;
+}
+
+form fieldset p label {
+    width:100%;
+    display:block;
+    margin:5px 5px 5px 6px;
+    padding:2px 5px;
+}
+
+form fieldset p textarea {
+    padding:2px;
+    width:100%;
+}
+
+form fieldset p textarea,form fieldset p input {
+    border:solid 1px #ccc;
+}
+
+form fieldset p label {
+    color:#EFEFEF;
+}
+
+.infield {
+    top:5px;
+    left:5px;
+}
+
+.required {
+    font-size:16px;
+}
+
+.spammer {
+    width:20px;
+    visibility:hidden;
+}
+
+input,textarea,select {
+    font-size:14px;
+    height:30px;
+    border:solid 1px #CCC;
+    outline:0;
+    padding-left:5px;
+    width:95%;
+    -moz-box-shadow:rgba(0,0,0,0.1) 0 0 8px;
+    -webkit-box-shadow:rgba(0,0,0,0.1) 0 0 8px;
+    box-shadow:rgba(0,0,0,0.1) 0 0 8px;
+}
+
+textarea {
+    height:10em;
+}
+
+p .highlight {
+    background: #F4AAAA;
+    border: 1px solid #C00;
+}
+
+#form-contact input {
+    height:2.9em;
+}
+
+#form-contact p label {
+    padding:.2em;
+    display:block;
+}
+
+#form-signup input {
+    height:44px;
+    width:100%;
+}
+
+.loading {
+    float:left;
+    background:url(../img/ajax-loader.gif) no-repeat 1px;
+    height:32px;
+    width:32px;
+    display:none;
+    background-size:100%;
+    display:none;
+}
+
+.done {
+    display:none;
+}
+
+input:hover {
+    background:#FFFECC;
+    background:#E6FDB4;
+}
+
+select,option {
+    height:44px;
+    font-size:14px;
+    line-height:28px;
+    padding:10px;
+    color:#555;
+    max-width:575px;
+    padding:12px 4px;
+    width:100%;
+    border:solid 1px #CCC;
+    outline:0;
+    box-shadow:rgba(0,0,0,0.1) 0 0 8px;
+    -moz-box-shadow:rgba(0,0,0,0.1) 0 0 8px;
+    -webkit-box-shadow:rgba(0,0,0,0.1) 0 0 8px;
 }

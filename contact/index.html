@@ -1,5 +1,19 @@
 ---
 layout: default
+title: ''
+description: ''
+keywords: ''
+twitter-card:
+twitter-site: ''
+twitter-title: ''
+twitter-description: '.'
+twitter-image:
+og-title: ''
+og-url: http://www.wattsbags.com
+og-image:
+og-description: ''
+og-sitename: 'Watts Bags'
+fb-admins: ''
 ---
 
 <div id="hero">
@@ -42,7 +56,22 @@ layout: default
                 </div>
 
                 <div class="col-sm-4">
-               <p>Sidebar</p>
+               <form action="process.php" method="post" class="form" name="form-registration" id="form-registration">
+                        <fieldset>
+                        <label>Name:</label>
+                        <input class="input" type="text" size="20" name="name" id="name"><br>
+                        <label>Email:</label>
+                        <input class="input" type="email" size="20" name="email2" id="email2"><br>
+                        <label>Company Name:</label>
+                        <input class="input" type="text" size="20" name="company" id="company"><br>
+                        <label>Number in Party:</label>
+                        <input class="input" type="text" size="20" name="party" id="party"><br>
+
+                        </fieldset>
+
+
+                         <button type="button" id="submit" class="blue" value="submit">Sign Up</button>
+                        </form>
                 </div>
         </div>
 

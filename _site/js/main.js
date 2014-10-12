@@ -3,7 +3,7 @@
 $('header').fixTo('body');
 $('#menu-products').fixTo('body', {
     mind: 'header',
-    zIndex: 1050,
+    zIndex: 1045,
 });
 
 //lazyload
