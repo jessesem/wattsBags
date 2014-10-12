@@ -676,10 +676,9 @@ div#trip-panel {
 }
 
 #slab-quote {
-    background: $dark url(../img/hero/quotes/cubs.jpg) 50% 50% no-repeat;
-    background-size: cover;
+    background: $dark;
     color: #FFF;
-    padding: 3em 0;
+    height: 4em;
 
 
     h5, p {
@@ -696,6 +695,17 @@ div#trip-panel {
 
         }
 }
+
+.read-more a:link,
+.read-more a:active,
+.read-more a:visited  {
+    text-align: center;
+    font: normal 400 50%/1 "proxima-nova", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #FFF;
+}
+
 
 #slab-hero {
     background: $medium;
