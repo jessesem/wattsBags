@@ -1,0 +1,24 @@
+@media (min-width: 1199px){
+	p.color-alert{
+		width: 58%;
+		float: left;
+		clear: none;
+		background: #fff;
+		padding: 2%;
+	}
+	p.rigid-desc, p.lightened-desc{
+		width: 58%;
+		float: right;
+		clear: none;
+		background: #fff;
+		padding: 2%;
+	}
+    
+    p.divider-option-1-desc, p.divider-option-2-desc{
+        width: 58%;
+        float: right;
+        clear: none;
+        background: #fff;
+        padding: 2%;
+    }
+}

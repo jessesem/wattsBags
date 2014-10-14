@@ -1,0 +1,642 @@
+@font-face {
+	font-family: 'ProximaNova-Bold';
+	src: url('../fonts/ProximaNova-Bold.eot?') format('eot'), 
+	     url('../fonts/ProximaNova-Bold.otf')  format('opentype'),
+	     url('../fonts/ProximaNova-Bold.woff') format('woff'), 
+	     url('../fonts/ProximaNova-Bold.ttf')  format('truetype'),
+	     url('../fonts/ProximaNova-Bold.svg#ProximaNova-Bold') format('svg');
+	font-weight: normal;
+}
+@font-face {
+	font-family: 'ProximaNova-Semibold';
+	src: url('../fonts/fonts/ProximaNova-Semibold.eot?') format('eot'), 
+	     url('../fonts/ProximaNova-Semibold.otf')  format('opentype'),
+	     url('../fonts/ProximaNova-Semibold.woff') format('woff'), 
+	     url('../fonts/ProximaNova-Semibold.ttf')  format('truetype'),
+	     url('../fonts/ProximaNova-Semibold.svg#ProximaNova-Semibold') format('svg');
+	font-weight: normal;
+}
+@font-face {
+	font-family: 'ProximaNova-Light';
+	src: url('../fonts/ProximaNova-Light.eot?') format('eot'), 
+	     url('../fonts/ProximaNova-Light.otf')  format('opentype'),
+	     url('../fonts/ProximaNova-Light.woff') format('woff'), 
+	     url('../fonts/ProximaNova-Light.ttf')  format('truetype'),
+	     url('../fonts/ProximaNova-Light.svg#ProximaNova-Light') format('svg');
+	font-weight: normal;
+}
+@font-face {
+    font-family: 'bebas_neueregular';
+    src: url('../fonts/BebasNeue-webfont.eot');
+    src: url('../fonts/BebasNeue-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/BebasNeue-webfont.woff') format('woff'),
+         url('../fonts/BebasNeue-webfont.ttf') format('truetype'),
+         url('../fonts/BebasNeue-webfont.svg#bebas_neueregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'Trajan Pro Regular';
+    src: url('../fonts/trajanpro-regular.eot');
+    src: url('../fonts/trajanpro-regular.eot') format('embedded-opentype'),
+         url('../fonts/trajanpro-regular.woff') format('woff'),
+         url('../fonts/trajanpro-regular.ttf') format('truetype'),
+         url('../fonts/trajanpro-regular.svg#TrajanProRegular') format('svg');
+}
+@font-face {
+    font-family: 'Trajan Pro Regular';
+    src: url('../fonts/trajanpro-regular.eot');
+    src: url('../fonts/trajanpro-regular.eot') format('embedded-opentype'),
+         url('../fonts/trajanpro-regular.woff') format('woff'),
+         url('../fonts/trajanpro-regular.ttf') format('truetype'),
+         url('../fonts/trajanpro-regular.svg#TrajanProRegular') format('svg');
+}
+@font-face {
+    font-family: 'Athletic Regular';
+    src: url('../fonts/athletic.eot');
+    src: url('../fonts/athletic.eot') format('embedded-opentype'),
+         url('../fonts/athletic.woff') format('woff'),
+         url('../fonts/athletic.ttf') format('truetype'),
+         url('../fonts/athletic.svg#AthleticRegular') format('svg');
+}
+@font-face {
+    font-family: 'Black Chancery';
+    src: url('../fonts/blkchcry.eot');
+    src: url('../fonts/blkchcry.eot') format('embedded-opentype'),
+         url('../fonts/blkchcry.woff') format('woff'),
+         url('../fonts/blkchcry.ttf') format('truetype'),
+         url('../fonts/blkchcry.svg#BlackChanceryRegular') format('svg');
+}
+
+
+
+body {
+	margin-top: 60px;
+	font-family: 'ProximaNova-Light';
+	font-size: 16px;
+}
+
+@media (max-width: 979px) {
+	body {
+		margin-top:0px;
+	}
+}
+
+a{
+	-moz-transition: all 0.2s ease-in-out;
+	-webkit-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+h4{
+	font-family: 'ProximaNova-Semibold';
+	letter-spacing: 1px;
+}
+h2, h3, h5{
+	 font-family: 'bebas_neueregular';
+}
+p{
+	line-height: 150%;
+}
+.clear{
+	clear: both;
+}
+
+
+img.responsiveImage
+{
+	width: 100%;
+}
+
+.price-slash {
+	text-decoration:line-through;
+	font-size:.9em;
+	color:#999;
+}
+
+.price-sale {
+	font-weight:bold;
+	color:#ff753f;
+}
+
+.price-reg {
+	font-weight:bold;
+	color:#38586f;
+}
+
+/* Header
+-------------------------------------------------- */
+.navbar.nav-top{
+	height: 35px;
+	background: #fff;
+}
+.navbar.nav-top .nav > li > a{
+	color: #999999;
+	text-transform: none;
+	padding: 10px 10px;
+	font-family: 'ProximaNova-Light';
+}
+.navbar.nav-top.nav-top .nav > li > a:hover{
+	background: transparent;
+}
+.navbar .brand{
+	width: 205px;
+	height: 50px;
+	float: left;
+	padding: 30px 30px;
+	margin: -50px 0 0;
+	background: #036187;
+}
+.navbar.nav-main{
+	background: #033448;
+	top: 35px;
+	padding: 10px 0;
+}
+.navbar.navbar-fixed-top.navbar-sub{
+	top: 105px;
+}
+.navbar-inner{
+	padding: 0;
+	background: transparent;
+	box-shadow: none;
+}
+.navbar .nav.navbar-right{
+	float: right;
+}
+.navbar .nav > li >a{
+	color: #fff;
+	text-transform: uppercase;
+	font-family: 'ProximaNova-Semibold';
+	font-size: 14px;
+	letter-spacing: 1px;
+	padding: 15px;
+	text-shadow: none;
+}
+.navbar .nav > li >a:hover{
+	background: #fab030;
+	color: #033448;
+}
+
+.navbar.navbar-fixed-top.navbar-sub .navbar-inner{
+	padding: 5px 0;
+	background: #272727;
+}
+.navbar.navbar-fixed-top.navbar-sub .nav > li >a:hover{
+	background-color: transparent;
+	color:  #fab030;
+}
+.navbar .subnav{
+	padding: 0 !important;
+}
+.navbar .subnav .nav > li > a{
+	padding: 10px 15px;
+}
+.navbar .subnav .nav > li{
+	box-shadow: 1px 0 0  rgba(255,255,255,0.3);
+}
+.dropdown .caret{
+	margin-left: 15px;
+}
+/* Content
+-------------------------------------------------- */
+.content{
+	margin-top: 150px;
+	padding: 30px 0;
+}
+/* --- Products --- */
+.page-header h2{
+	text-transform: uppercase;
+	margin-bottom: 10px;
+	font-size: 30px;
+}
+.description h4{
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+.description p, .description li{
+	line-height: 150%;
+}
+.product-price{
+	font-size: 36px;
+	font-family: 'bebas_neueregular';
+	color: #fab030;
+	line-height: 100%;
+}
+.on-sale{
+	margin-left: 10px;
+	background: #fab030;
+	padding: 5px 10px;
+	font-size: 18px;
+	color: #fff;
+	font-family: 'ProximaNova-Light';
+	line-height: 190%;
+}
+
+/* --- Order Form --- */
+.order h3{
+	font-size: 25px;
+	padding-bottom: 10px;
+}
+.product-cart-form{
+	background-color:#f7f7f7;
+	border: none;
+	padding: 15px;
+}
+.product-cart-form form{
+	margin-bottom: 0;
+}
+.option-header{
+	padding-bottom: 5px;
+	margin-bottom: 20px;
+	border-bottom: 1px solid rgba(0,0,0,0.08);
+}
+.option-number{
+	background: #333;
+	color: #fff;
+	width: 25px;
+	height: 25px;
+	text-align: center;
+	border-radius: 50%;
+	margin-right: 10px;
+	padding: 5px;
+}
+.option-number h3{
+	line-height: 100%;
+}
+.option-title{
+	padding-top: 5px;
+}
+.row.description h4{
+	font-size: 18px;
+	line-height: 150%;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+}
+.row.description li{
+	margin: 5px 0 0 0;
+}
+.form-horizontal .controls{
+	margin-left: 50px;
+}
+.option-indicator{
+	margin-top: 15px;
+}
+.option-indicator h4{
+	font-size: 18px;
+	color: #666;
+	letter-spacing: 0;
+}
+#sizes.selectable li{
+	margin-right: 10px;
+}
+#sizes.selectable li.text{
+	font-family: 'ProximaNova-Semibold';
+	border: 3px solid #444;
+	cursor: pointer;
+	color: #444;
+	font-size: 14px;
+}
+#sizes.selectable li.text.ui-selected{
+	font-family: 'ProximaNova-Semibold';
+	border: 3px solid #fab030;
+	color: #fab030;
+}
+#colors.selectable li{
+	border: 3px solid transparent;
+	cursor: pointer;
+	color: #444;
+	padding: 0;
+}
+#colors.selectable li.ui-selected{
+	border: 3px solid #fab030;
+	position: relative;
+}
+#colors.selectable li.ui-selected:before{
+	top: 8px;
+	right: 8px;
+	position: absolute;
+	content:'';
+	display: inline-block;
+	width: 14px;
+	height: 14px;
+	line-height: 14px;
+	vertical-align: text-top;
+	background-image: url("../img/glyphicons-halflings.png");
+	background-position: 14px 14px;
+	background-repeat: no-repeat;
+	background-position: -288px 0;
+	z-index: 10;
+}
+
+
+/* Footer
+-------------------------------------------------- */
+.footer {
+	margin-top: 45px;
+	padding: 35px 0 36px;
+	border-top: 1px solid #e5e5e5;
+}
+.footer p {
+	margin-bottom: 0;
+	color: #555;
+}
+
+/* Hide Related products from the responsive design */
+ @media (max-width: 767px) {
+	.desktop {
+		display:none;
+	}
+}
+
+@media (min-width: 767px) {
+	.mobile {
+		display:none;
+	}
+
+}
+
+.sku-pricing div{
+	color:#999;
+	text-transform:uppercase;
+	font-size:14px;
+}
+
+.out-of-stock div{
+	background-color:#eee;
+	font-family: 'Oswald', sans-serif;
+	color:#858585;
+	text-transform:uppercase;
+	text-align:center;
+	padding:12px 15px;
+	font-size:22px;
+	margin:0px 0px 0px 45px;
+}
+
+
+
+/* My Account */
+.my-account-box {
+	border:1px solid #eee;
+	background-color:#f2f2f2;
+	padding:5px 20px;
+	margin:10px -20px 5px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+}
+
+.hide {
+	display:none;
+}
+
+.category_container .span3{
+	overflow:hidden;
+}
+
+.category_container .span3 div{
+	padding-bottom:9999px;
+	margin-bottom:-9989px;
+}
+
+.product-image {
+	display:table;
+	width:100%;
+}
+
+.product .thumbnail {
+	height:150px;
+	vertical-align:middle;
+	text-align:center;
+	display: table-cell;
+	width:100%;
+	vertical-align: middle; 
+	text-align: center; 
+}
+
+.product .thumbnail img {
+	max-height:150px;
+	display:inline;
+	margin:auto;
+}
+
+/*
+  Hide radio button (the round disc)
+  we will use just the label to create pushbutton effect
+*/
+input[type=radio] {
+    display:none; 
+    margin:10px;
+}
+ 
+/*
+  Change the look'n'feel of labels (which are adjacent to radiobuttons).
+  Add some margin, padding to label
+*/
+input[type=radio] + label {
+    display:inline-block;
+    margin:-2px;
+    padding: 4px 12px;
+    background-color: #e7e7e7;
+    border-color: #ddd;
+}
+/*
+ Change background color for label next to checked radio button
+ to make it look like highlighted button
+*/
+input[type=radio]:checked + label { 
+   background-image: none;
+    background-color:#d0d0d0;
+}
+input[type=radio] {
+    display:none;
+}
+ 
+input[type=radio] + label {
+	text-transform: uppercase;
+    display:inline-block;
+    margin:-2px;
+    padding: 15px;
+    margin-bottom: 0;
+    font-size: 16px;
+    line-height: 20px;
+    color: #333;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    background-color: transparent;
+	box-shadow: none;
+	border: 1px solid rgba(0,0,0,0.2);
+}
+/*input[type=radio] + label:nth-child(2){
+	border-right: 0;
+}
+input[type=radio] + label:last-child{
+	border-left: 0;
+}*/
+input[type=radio]:checked + label {
+    background-image: none;
+    outline: 0;
+    background: #E5E5E5;
+	box-shadow: none;
+	box-shadow: inset 3px 0 0 0 #FFC528,  inset -3px 0 0 0 #FFC528, inset 0 3px 0 0 #FFC528, inset 0 -3px 0 0 #FFC528;
+	border: 1px solid #FFC528;
+}
+.control-group h5{
+	margin-left: 50px;
+	font-size: 20px;
+	padding: 10px 0 20px;
+}
+.emb-position input[type=radio] + label{
+	background: #fff;
+	padding: 0;
+}
+.emb-position .position{
+	padding: 10px;
+}
+.position-img{
+	padding: 5px;
+}
+.position-popup{
+	float: right;
+	padding: 5px;
+	margin-top: -20px;
+	position: relative;
+}
+.position-popup span.icon{
+	font-size: 20px;
+	color: #999;
+}
+.position-popup a:hover span.icon{
+	color: #333;
+}
+.position-container{
+	width: 170px;
+	float: left;
+}
+.position-container .position-popup{
+	background: #fff;
+	width: 140px;
+	text-align: right;
+}
+.position-img.next{
+	padding: 0;
+}
+.position-img.next img{
+	padding: 0 0 10px 20px;
+}
+.control-group.sub-options{
+	padding-left: 50px;
+}
+.control-group.sub-options .control-label{
+	text-align: left;
+	font-size: 16px;
+}
+.control-group.sub-options input, .controls input, .control-group.sub-options textarea{
+	border-radius: 0;
+	padding: 15px 10px;
+	font-size: 16px;
+	width: 75%;
+}
+.controls.yes-no{
+	margin-bottom: 10px;
+}
+.btn.btn-primary.btn-large{
+	background: #FFC528;
+	border: none;
+	font-family: 'bebas_neueregular';
+	text-shadow: none;
+	font-size: 25px;
+	letter-spacing: 1px;
+	padding: 10px 40px;
+}
+
+/* --- Option Alerts --- */
+p.color-alert{
+	visibility: hidden;
+	clear: both;
+}
+p.lid-select-alert{
+	margin-left: 50px;
+	clear: both;
+}
+p.text-note{
+	margin: 10px 0 20px 50px;
+	padding-top: 20px;
+	clear: both;
+	width: 85%;
+}
+p.text-note strong, p.lid-select-alert strong, p.color-alert strong{
+	font-family: 'ProximaNova-Semibold';
+	font-size: 15px;
+	letter-spacing: 0;
+}
+p.color-alert.show{
+	visibility: visible;
+}
+
+.controls.ridlig{
+	float: left;
+}
+
+p.rigid-desc strong, p.lightened-desc strong{
+	font-family: 'ProximaNova-Semibold';
+}
+p.rigid-desc, p.lightened-desc{
+	display: none;
+	clear: both;
+}
+p.rigid-desc.show, p.lightened-desc.show, p.lid-select-alert.show{
+	display: block;
+}
+
+p.divider-option-1-desc strong, p.divider-option-2-desc strong{
+    font-family: 'ProximaNova-Semibold';
+}
+p.divider-option-1-desc, p.divider-option-2-desc{
+    display: none;
+    clear: both;
+}
+p.divider-option-1-desc.show, p.divider-option-2-desc.show, p.lid-select-alert.show{
+    display: block;
+}
+
+.controls small{
+	float: right;
+	text-align: right;
+	margin-right: 70px;
+	padding-top: 5px;
+	font-size: 13px;
+	color: #666;
+	font-style: italic;
+}
+.other-font{
+	display: none;
+}
+.other-font.show{
+	display: block;
+}
+#embroidery1update > .control-group{
+	margin-bottom: 0;
+}
+.script-note{
+	display: none;
+	clear: both;
+	float: right;
+	margin-left: 140px;
+	padding-top: 10px;
+	font-size: 13px;
+	color: #666;
+	font-style: italic;
+}
+.script-note.show{
+	display: block;
+}
+
+/* :MARKER: */
+
+input.qty {
+    /*padding: 4px;*/
+    padding: 4px 0px 4px 10px;
+    width: 40px;
+}
+
